@@ -3294,5 +3294,22 @@ a[aria-current="page"] span {
 
 }
 
+@media only screen and (max-width: 950px) {
 
+.content-desc
 
+  p {
+    font-size: 14px;
+    line-height: 1.2;
+}
+.text-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 5px 20px;
+}
+.text-content h3 {
+
+  font-size: 25px;
+
+}
+}
