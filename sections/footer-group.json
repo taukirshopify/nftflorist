@@ -13,16 +13,16 @@
             "alignment": "center"
           }
         },
+        "c49a5fce-7cf9-4a1b-9a74-8ef7f8359bdd": {
+          "type": "socialmedia",
+          "settings": {
+          }
+        },
         "4e94474a-2d69-4ddb-a3ab-0c761d388feb": {
           "type": "text",
           "settings": {
             "heading": "",
             "subtext": "<ul><li>Terms & Conditions<\/li><li>Privacy Policy<\/li><\/ul><p><\/p>"
-          }
-        },
-        "c49a5fce-7cf9-4a1b-9a74-8ef7f8359bdd": {
-          "type": "socialmedia",
-          "settings": {
           }
         },
         "ab6c4cac-5336-4fb6-89c8-65968eca714f": {
@@ -35,8 +35,8 @@
       },
       "block_order": [
         "8e77edcc-d017-4d6c-b228-d7f7ea431da6",
-        "4e94474a-2d69-4ddb-a3ab-0c761d388feb",
         "c49a5fce-7cf9-4a1b-9a74-8ef7f8359bdd",
+        "4e94474a-2d69-4ddb-a3ab-0c761d388feb",
         "ab6c4cac-5336-4fb6-89c8-65968eca714f"
       ],
       "custom_css": [
