@@ -1,0 +1,39 @@
+<section class="full-width-image">
+  <div class="container-fluid">
+    <div class="image-box">
+      <img src="{{ section.settings.image_box_full | img_url: 'master' }}" class="img-fluid">
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Image Box",
+    "settings": [
+       {
+          "type": "image_picker",
+          "id": "image_box_full",
+          "label": "Upload Image"
+        }
+    ],
+    "presets": [
+    {
+      "name": "Image Box"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+  .full-width-image {
+    max-width: 100%;
+    margin: 0 auto;
+}
+  img.img-fluid {
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

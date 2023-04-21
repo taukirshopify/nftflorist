@@ -1,0 +1,105 @@
+<section class="full-width">
+  <div class="container-fluid">
+    <div class="row {% if section.settings.reverse_layout == true %}reverse_row{% endif %}">
+      <div class="col-half">
+        <img src="{{ section.settings.image_box | img_url: 'master' }}" class="img-fluid">
+      </div>
+       <div class="col-half">
+         <div class="text-content">
+           <h3>{{ section.settings.content_heading }}</h3>
+           <div class="content-desc">
+             {{ section.settings.content_text }}
+           </div>
+         </div>
+       </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Content text Image",
+    "settings": [
+       {
+          "type": "image_picker",
+          "id": "image_box",
+          "label": "Upload Image"
+        },
+      {
+          "type": "text",
+          "id": "content_heading",
+          "label": "Heading Title"
+        },
+      {
+          "type": "richtext",
+          "id": "content_text",
+          "label": "Content"
+        },
+      {
+        "type": "checkbox",
+        "id": "reverse_layout",
+        "label": "Reverse Layout",
+        "default": false
+      }
+    ],
+    "presets": [
+    {
+      "name": "Content text Image"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+  .full-width {
+    max-width: 100%;
+    margin: 0 auto;
+}
+  .img-fluid {
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+}
+
+  .col-half {
+    max-width: 50%;
+    width: 100%;
+    flex: 0 0 50%;
+}
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+  .reverse_row {
+    flex-direction: row-reverse;
+}
+  .text-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ .text-content h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 128.49%;
+    text-transform: uppercase;
+    color: #2E2E2E;
+    font-family: var(--font-body-family);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+  .content-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128.49%;
+    color: #727272;
+}
+
+ 
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

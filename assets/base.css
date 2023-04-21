@@ -2309,11 +2309,121 @@ product-info .loading-overlay:not(.hidden) ~ *,
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
 }
-
+.header__menu-item span {
+    transition: text-decoration var(--duration-short) ease;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2E2E2E;
+}
+.header__menu-item.list-menu__item {
+    text-decoration: none !important;
+}
+.header__active-menu-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #E26E7D;
+    border: 0;
+    text-decoration: none !important;
+}
+#MainContent .rich-text__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128.49%;
+}
 @media screen and (max-width: 749px) {
   .header--has-app {
     grid-template-columns: auto 1fr auto;
   }
+  .bg_content h3 {
+    position: absolute;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: normal;
+    text-align: center;
+    color: #2e2e2e;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    width: 100%;
+    max-width: 600px;
+}
+  .container-fluid .row {
+    flex-wrap: wrap;
+}
+  .col-half {
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+}
+  .text-content {
+    width: 100%;
+    padding: 30px 15px;
+    text-align:center;
+}
+  .text-content h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128.49%;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    font-family: var(--font-body-family);
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+  .content-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 128.49%;
+    color: #727272;
+}
+  main#MainContent .rich-text__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 128.49%;
+}
+
+  footer.footer.color-inverse.gradient * {
+    font-weight: 400;
+    font-size: 14.8px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footer-block__details-content ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 6px;
+}
+  .footer-block__details-content.rte {
+    margin-bottom: 0px !important;
+}
+  .footer-block--newsletter {
+    margin-top: 0px;
+}
+  .footer-block__details-content.footer-block-image.center {
+    margin: 0px;
+}
+  .bg_content img {
+    width: 100%;
+    max-height: 50px;
+    object-fit: cover;
+}
 }
 
 @media screen and (min-width: 990px) {
