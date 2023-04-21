@@ -197,6 +197,8 @@ footer.footer.color-inverse.gradient {
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
                     </div>
+                    {%- when 'socialmedia' -%}
+                      {%- render 'social-icons' -%}
                 {%- endcase -%}
               </div>
             {%- endfor -%}
@@ -435,6 +437,13 @@ footer.footer.color-inverse.gradient {
           "label": "t:sections.footer.blocks.link_list.settings.menu.label",
           "info": "t:sections.footer.blocks.link_list.settings.menu.info"
         }
+      ]
+    },
+    {
+      "type": "socialmedia",
+      "name": "Social Media",
+      "settings": [
+   
       ]
     },
     {
