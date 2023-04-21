@@ -2314,6 +2314,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
+    text-transform: uppercase;
     line-height: 18px;
     color: #2E2E2E;
 }
@@ -2855,6 +2856,7 @@ details[open] > .header__submenu {
 
 .header__menu-item span {
   transition: text-decoration var(--duration-short) ease;
+  text-decoration: none !important;
 }
 
 .header__menu-item:hover span {
@@ -3256,4 +3258,24 @@ details-disclosure > details {
     0% { transform: rotate(0deg) translateX(1em) rotate(0deg) scale(1.2); }
     100% { transform: rotate(360deg) translateX(1em) rotate(-360deg) scale(1.2); }
   }
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  a#cart-icon-bubble {
+    display: flex !important;
+  }
+}
+a[aria-current="page"] span {
+  color: yellow;
+}
+
+@media only screen and (max-width: 2600px) and (min-width: 601px)  {
+  a#cart-icon-bubble {
+    margin-right: 2px;
+}
+
 }
