@@ -3268,9 +3268,22 @@ details-disclosure > details {
   a#cart-icon-bubble {
     display: flex !important;
   }
+
+  .footer-block__details-content ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 3px !important;
+    margin: 0;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
 }
 a[aria-current="page"] span {
-  color: yellow;
+  color: #E26E7D;
 }
 
 @media only screen and (max-width: 2600px) and (min-width: 601px)  {
@@ -3278,4 +3291,8 @@ a[aria-current="page"] span {
     margin-right: 2px;
 }
 
+
 }
+
+
+
