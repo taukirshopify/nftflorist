@@ -3313,3 +3313,11 @@ a[aria-current="page"] span {
 
 }
 }
+
+.header__icon .icon {
+  height: 6rem;
+  width: 2.3rem;
+  fill: none;
+  vertical-align: middle;
+  color: #DE5B6D;
+}
