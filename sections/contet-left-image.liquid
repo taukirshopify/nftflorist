@@ -1,7 +1,7 @@
 <section class="full-width">
   <div class="container-fluid">
     <div class="row {% if section.settings.reverse_layout == true %}reverse_row{% endif %}">
-      <div class="col-half">
+      <div class="col-half new-one-mobile">
         <img src="{{ section.settings.image_box | img_url: 'master' }}" class="img-fluid">
       </div>
        <div class="col-half">
@@ -49,7 +49,9 @@
   }
 {% endschema %}
 
-{% stylesheet %}
+
+<style>
+
   .full-width {
     max-width: 100%;
     margin: 0 auto;
@@ -98,8 +100,9 @@
     color: #727272;
 }
 
- 
-{% endstylesheet %}
+@media only screen and (max-width: 1300px) and (min-width: 800px)  {
+  .text-content {
 
-{% javascript %}
-{% endjavascript %}
+    padding: 20px;
+}
+</style>
