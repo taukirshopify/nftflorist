@@ -10,27 +10,18 @@
     "97f5211e-5c19-43fc-889e-157985c3a201": {
       "type": "faqquestion",
       "blocks": {
-        "5188501e-8e05-43d7-9657-4592da3108e1": {
-          "type": "faq",
+        "8c7d042d-6752-43c0-b9c2-b0cdf902e1ae": {
+          "type": "text",
           "settings": {
-            "question": "What is an NFT?",
-            "ans": "<p>•\tAn NFT (Non-Fungible Token) is a unique digital asset that is verified on a blockchain, a decentralized digital ledger that records transactions.  NFTs are one-of-a-kind and cannot be exchanged for other NFTs at a fixed value, hence the term \"non-fungible.\" Each NFT contains a digital signature that proves its authenticity, ownership, and scarcity. NFTs are often used to represent digital art, music, videos, and other forms of creative content, and can be bought, sold, and traded on digital marketplaces. The NFT market in 2022 was worth over $22 billion.<br\/>•\tThe industry has dramatically grown since 2020. NFTs are extremely popular!<br\/>•\tNFT sales hit $25 billion in 2021.<br\/>•\tThe NFT Market is projected to be worth $80 billion by 2025.<br\/>•\tThe most expensive collection of NFTs was sold at $91.8 million.<br\/>•\tNFT sales amount to approximately $1.8 billion every month. <br\/>•\tHalf of NFT's cost more than $200.<\/p>"
-          }
-        },
-        "7997b6b9-0fe0-400f-8480-ad0575f3ea06": {
-          "type": "faq",
-          "settings": {
-            "question": "How can I enjoy my bouquets from The NFTFlorist?",
-            "ans": "<p>Every bouquet from The NFT Florist may be downloaded from the attachment you receive via email. These can be used as screensavers or sent by Bluetooth to be displayed on a smart TV monitor, or any Wi-Fi enabled monitor such as a picture frame designed for that purpose. This allows you to always enjoy our unique digital art and remember this inexpensive gift to yourself or that you have received from a friend or loved one.<\/p>"
+            "faq-title": "What is an NFT?",
+            "faq-content": "<p>• NFT (Non-Fungible Token) is a unique digital asset that is verified on a blockchain, a decentralized digital ledger that records transactions.  NFTs are one-of-a-kind and cannot be exchanged for other NFTs at a fixed value, hence the term \"non-fungible.\" Each NFT contains a digital signature that proves its authenticity, ownership, and scarcity. NFTs are often used to represent digital art, music, videos, and other forms of creative content, and can be bought, sold, and traded on digital marketplaces. The NFT market in 2022 was worth over $22 billion.<br\/>•\tThe industry has dramatically grown since 2020. NFTs are extremely popular!<br\/>•\tNFT sales hit $25 billion in 2021.<br\/>•\tThe NFT Market is projected to be worth $80 billion by 2025.<br\/>•\tThe most expensive collection of NFTs was sold at $91.8 million.<br\/>•\tNFT sales amount to approximately $1.8 billion every month. <br\/>•\tHalf of NFT's cost more than $200.<\/p>"
           }
         }
       },
       "block_order": [
-        "5188501e-8e05-43d7-9657-4592da3108e1",
-        "7997b6b9-0fe0-400f-8480-ad0575f3ea06"
+        "8c7d042d-6752-43c0-b9c2-b0cdf902e1ae"
       ],
       "settings": {
-        "h3": "Frequently Asked Questions"
       }
     }
   },
