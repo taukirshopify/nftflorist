@@ -23,11 +23,19 @@
             "faq-title": "How can I enjoy my bouquets from The NFT Florist?",
             "faq-content": "<p>Every bouquet from The NFT Florist may be downloaded from the attachment you receive via email. These can be used as screensavers or sent by Bluetooth to be displayed on a smart TV monitor, or any Wi-Fi enabled monitor such as a picture frame designed for that purpose. This allows you to always enjoy our unique digital art and remember this inexpensive gift to yourself or that you have received from a friend or loved one.<\/p>"
           }
+        },
+        "da729e3c-d13c-44b5-bbdd-7721895a3587": {
+          "type": "text",
+          "settings": {
+            "faq-title": "How does The NFT Florist fight the extreme cost of fresh cut flowers?",
+            "faq-content": "<p>The vast majority of Fresh cut flowers are imported from foreign countries. This involves many expenses, including growing costs such as transportation, delivery, labor, harvest and floral preparation, seeds, water, fertilizers, insecticides, and many other expenses, required for final delivery to customers. Transportation costs are significant, as the flowers are often transported long distances via jets from the growing region to the point of sale, involving fuel, labor, and other shipping expenses. The flowers require constant specialized storage and handling to maintain their quality and freshness, which include refrigeration, packaging, and labor costs. Marketing and distribution costs include advertising, promotions, as well as the cost of distributing the flowers to retail stores or other outlets. Finally, fresh cut flowers have a limited shelf life and must be disposed of properly, leading to expenses associated with waste disposal or composting. The expenses associated with fresh cut flowers are significant and are largely influenced by factors such as the growing region, transportation costs, and market demand.  Overall, The NFT Florist combats the ridiculous high cost of imported fresh cut flowers by offering a cost-efficient beautiful alternative of NFT flowers that cut out all these listed costs and our flowers bloom forever.<\/p>"
+          }
         }
       },
       "block_order": [
         "8c7d042d-6752-43c0-b9c2-b0cdf902e1ae",
-        "ee533aaf-3088-4a43-b8ec-d8c5729e10ef"
+        "ee533aaf-3088-4a43-b8ec-d8c5729e10ef",
+        "da729e3c-d13c-44b5-bbdd-7721895a3587"
       ],
       "settings": {
       }
