@@ -78,6 +78,8 @@
         "68d0621d-3bd7-427d-b473-b0cbf1dcdb9d"
       ],
       "settings": {
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     }
   },
