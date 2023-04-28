@@ -12,7 +12,7 @@
   }
 {% endstyle %}
 
-<div class="faq page-width" data-section-id="{{ section.id }}">
+<div class="faq page-width faq-{{ section.id }}-padding" data-section-id="{{ section.id }}">
   {% for block in section.blocks %}
    <div class="tab">
             <input type="checkbox" id="tab-{{ section.id }}-{{forloop.index}}" class="tab-toggle">
