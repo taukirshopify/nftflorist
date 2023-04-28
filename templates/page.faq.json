@@ -51,6 +51,20 @@
             "faq-title": "How does The NFT Florist unite friends and families?",
             "faq-content": "<p>Bouquets from The NFT Florist unite friends and families by providing a unique and innovative way to gift floral bouquets. They may be sent with a personalized lengthy message, as well as a voice message! Our beautiful bouquets are easily sent and received online, making it possible to instantly gift our beautiful bouquets with loved ones who are far away or unable to receive physical flowers. Our bouquets warm the hearts of every recipient. This helps foster a sense of connection and closeness between friends and family members, especially when they are separated by distance or other circumstances. Additionally, our NFT bouquets can be customized and personalized, allowing for a special and meaningful gift that can be cherished and remembered for years to come. Overall, NFT flowers provide a new and exciting way to bring people together and celebrate important moments in life.<\/p>"
           }
+        },
+        "7b4f7319-449c-457c-8e48-951c2e610e32": {
+          "type": "text",
+          "settings": {
+            "faq-title": "Why are bouquets from The NFT Florist collectible?",
+            "faq-content": "<p>The NFT Florist bouquets are all limited-edition original collectable digital art. Each bouquet is unique and cannot be replicated. The nature of NFTs means that each bouquet has its own specific characteristics, such as color, design, and their limited-edition numbers which make them valuable and desirable to collectors. Additionally, the scarcity of certain NFT flowers, which are released in limited editions or as one-of-a-kind creations, may also add to their collectability. Instead of ending up in the trash as wilted flowers do, our NFT bouquets may be collected and traded on digital marketplaces, creating a new avenue for art and floral enthusiasts to engage with and appreciate these digital creations. Overall, the rarity, uniqueness, and artistic value of our NFT bouquets make them a collectible one-of-a-kind digital asset.<\/p>"
+          }
+        },
+        "68d0621d-3bd7-427d-b473-b0cbf1dcdb9d": {
+          "type": "text",
+          "settings": {
+            "faq-title": "What benefits do I get to be a Founding Member?",
+            "faq-content": "<p>First, it is FREE to join with no ongoing membership fees. As a Founding Member you will enjoy a range of exclusive benefits that are not available to the public. These benefits include access to the Whitelist (first access to purchase NFT’s rights) for select NFT collaborations, as well as discounts on products from ArtRKL and The NFT Florist. In the near future you will also be entitled to discounts from participating merchants, allowing you to save on a wide range of different products, amenities, and services. Additionally, you will receive invitations to live art events and openings, giving you the opportunity to be the first to experience some of the most exciting happenings in town. To make things even better, as a Founding Member, you will also receive exclusive Koin Karte discounts and promo's that are not available to the public, making your shopping experience even more rewarding. By becoming a Founding Member, you will have access to a host of exciting benefits that will enhance your shopping and entertainment experience. Many surprise benefits will be coming your way.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -59,7 +73,9 @@
         "da729e3c-d13c-44b5-bbdd-7721895a3587",
         "dc028cfd-95f7-4af2-ac16-7c49bb7e9f76",
         "b7646529-342d-4a70-a944-0acb13b45b2f",
-        "d89c8816-9276-4b41-8d85-b8273fc133af"
+        "d89c8816-9276-4b41-8d85-b8273fc133af",
+        "7b4f7319-449c-457c-8e48-951c2e610e32",
+        "68d0621d-3bd7-427d-b473-b0cbf1dcdb9d"
       ],
       "settings": {
       }
