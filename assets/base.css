@@ -2313,7 +2313,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
     transition: text-decoration var(--duration-short) ease;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 13px;
     text-transform: uppercase;
     line-height: 18px;
     color: #2E2E2E;
