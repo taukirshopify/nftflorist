@@ -46,7 +46,7 @@
     overflow: hidden;
     transition: all 0.4s;
     padding: 0 1em;
-    color: #1a1a1a;
+    color: #727272;
 }
 
 .faq .tab-toggle:checked ~ .tab-content {
