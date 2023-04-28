@@ -37,7 +37,7 @@
 }
 
 .faq .tab-toggle:checked ~ .tab-label {
-    background-color: #a4a4a4;
+    background-color: #faeee9;
 }
 
 .faq .tab-content {
