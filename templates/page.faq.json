@@ -65,6 +65,20 @@
             "faq-title": "What benefits do I get to be a Founding Member?",
             "faq-content": "<p>First, it is FREE to join with no ongoing membership fees. As a Founding Member you will enjoy a range of exclusive benefits that are not available to the public. These benefits include access to the Whitelist (first access to purchase NFT’s rights) for select NFT collaborations, as well as discounts on products from ArtRKL and The NFT Florist. In the near future you will also be entitled to discounts from participating merchants, allowing you to save on a wide range of different products, amenities, and services. Additionally, you will receive invitations to live art events and openings, giving you the opportunity to be the first to experience some of the most exciting happenings in town. To make things even better, as a Founding Member, you will also receive exclusive Koin Karte discounts and promo's that are not available to the public, making your shopping experience even more rewarding. By becoming a Founding Member, you will have access to a host of exciting benefits that will enhance your shopping and entertainment experience. Many surprise benefits will be coming your way.<\/p>"
           }
+        },
+        "688aa970-0be0-4f54-8c67-8885fa57e70a": {
+          "type": "text",
+          "settings": {
+            "faq-title": "Do I need a crypto wallet to own and hold my NFTs?",
+            "faq-content": "<p>It's not necessary to have a crypto wallet because your NFT is minted straight into our Escrow Wallet, where it is held by The NFT Florist and is registered in your name. You may transfer it at any time. <br\/>(We can email them an Escrow Certificate and number explaining they can transfer it at any time.)<\/p>"
+          }
+        },
+        "df7cb597-430e-436d-82bf-39d421678ee3": {
+          "type": "text",
+          "settings": {
+            "faq-title": "May I choose to pay for my NFTs using either my U.S. dollars (Credit Card, Debit Card, Apple Pay, etc.) or by using cryptocurrency?",
+            "faq-content": "<p>Yes, you may choose from various ways to pay including cryptocurrency or via a standard U.S. dollar-based payment method.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -75,7 +89,9 @@
         "b7646529-342d-4a70-a944-0acb13b45b2f",
         "d89c8816-9276-4b41-8d85-b8273fc133af",
         "7b4f7319-449c-457c-8e48-951c2e610e32",
-        "68d0621d-3bd7-427d-b473-b0cbf1dcdb9d"
+        "68d0621d-3bd7-427d-b473-b0cbf1dcdb9d",
+        "688aa970-0be0-4f54-8c67-8885fa57e70a",
+        "df7cb597-430e-436d-82bf-39d421678ee3"
       ],
       "settings": {
         "padding_top": 0,
