@@ -8,10 +8,12 @@
         </div>
       </div>
        <div class="col-third">
+         {% if section.settings.f_link %}<a href="{{ section.settings.f_link }}">{% endif %}
          <div class="bg_content">
             <img src="{{ section.settings.simage_box | img_url: 'master' }}" class="img-fluid">
             <h3 class="fade-in-text">{{ section.settings.s_content_heading }}</h3>
          </div>
+        {% if section.settings.f_link %}</a>{% endif %}
       </div>
        <div class="col-third">
          <div class="bg_content">
