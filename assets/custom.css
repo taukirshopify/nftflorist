@@ -66,9 +66,3 @@
     color: #000;
   } 
 }
-
-  .col-third {
-    max-width: 33.33%;
-    width: 100%;
-    flex: 0 0 33.33%;
-}
