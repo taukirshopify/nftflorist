@@ -11,14 +11,18 @@
       </div>
        <div class="col-third">
          <div class="bg_content">
+         {% if section.settings.s_link %}<a href="{{ section.settings.f_link }}">{% endif %}
             <img src="{{ section.settings.simage_box | img_url: 'master' }}" class="img-fluid">
             <h3 class="fade-in-text">{{ section.settings.s_content_heading }}</h3>
+        {% if section.settings.s_link %}</a>{% endif %}
          </div>
       </div>
        <div class="col-third">
          <div class="bg_content">
+         {% if section.settings.t_link %}<a href="{{ section.settings.f_link }}">{% endif %}
             <img src="{{ section.settings.timage_box | img_url: 'master' }}" class="img-fluid">
             <h3 class="fade-in-text">{{ section.settings.t_content_heading }}</h3>
+        {% if section.settings.t_link %}</a>{% endif %}
          </div>
       </div>
     </div>
