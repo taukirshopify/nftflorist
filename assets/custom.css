@@ -60,7 +60,8 @@
               
 }
 
-
-.gs3-prodtitle {
-  font-size: calc(var(--font-heading-scale) * 3rem);
+@media only screen and (min-width: 750px) {
+  .gs3-prodtitle {
+    font-size: calc(var(--font-heading-scale) * 3rem);
+  } 
 }
