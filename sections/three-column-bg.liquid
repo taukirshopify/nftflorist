@@ -3,17 +3,17 @@
     <div class="row">
       <div class="col-third">
         <div class="bg_content">
+         {% if section.settings.f_link %}<a href="{{ section.settings.f_link }}">{% endif %}
           <img src="{{ section.settings.fimage_box | img_url: 'master' }}" class="img-fluid">
           <h3 class="fade-in-text">{{ section.settings.f_content_heading }}</h3>
+        {% if section.settings.f_link %}</a>{% endif %}
         </div>
       </div>
        <div class="col-third">
-         {% if section.settings.f_link != empty %}<a href="{{ section.settings.f_link }}">{% endif %}
          <div class="bg_content">
             <img src="{{ section.settings.simage_box | img_url: 'master' }}" class="img-fluid">
             <h3 class="fade-in-text">{{ section.settings.s_content_heading }}</h3>
          </div>
-        {% if section.settings.f_link != empty %}</a>{% endif %}
       </div>
        <div class="col-third">
          <div class="bg_content">
