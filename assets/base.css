@@ -2364,6 +2364,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
     width: 100%;
     flex: 0 0 100%;
 }
+  
   .text-content {
     width: 100%;
     padding: 30px 15px;
