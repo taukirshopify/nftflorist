@@ -148,6 +148,7 @@
     },
     "a35863df-278b-4bcd-b4ff-c30e8612889a": {
       "type": "image-box",
+      "disabled": true,
       "settings": {
         "image_box_full": "shopify:\/\/shop_images\/Rectangle_4.jpg"
       }
