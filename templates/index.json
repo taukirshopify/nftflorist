@@ -269,6 +269,7 @@
     },
     "aac46cb5-3716-45b2-96c2-d4788558208c": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16995105833124__aac46cb5-3716-45b2-96c2-d4788558208c-1682061051dedefc97-1": {
           "type": "text",
