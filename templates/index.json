@@ -12,7 +12,7 @@
         "e9b2cda1-a260-4f76-adab-4d4ea178e366": {
           "type": "button",
           "settings": {
-            "button_label": "Read More",
+            "button_label": "Learn More",
             "button_link": "shopify:\/\/pages\/about",
             "button_style_secondary": false,
             "button_label_2": "",
