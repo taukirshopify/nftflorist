@@ -70,5 +70,5 @@
 .rich-text__buttons a {
   border: rgb(var(--color-foreground)) !important;
   background-color: #fff;
-  color: rgb(var(--color-foreground)) !important;
+  color: rgb(var(--color-accent-2)) !important;
 }
