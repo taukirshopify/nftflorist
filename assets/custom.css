@@ -67,7 +67,7 @@
   } 
 }
 
-.rich-text__buttons a {
+.product-form__submit, .rich-text__buttons a {
   border: 2px solid #E26E7D !important;
   background-color: #fff;
   color: #E26E7D !important;
