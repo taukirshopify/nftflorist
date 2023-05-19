@@ -213,6 +213,7 @@
     },
     "12bcaa72-6316-43e2-afac-17fb9761ed0f": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16995105833124__12bcaa72-6316-43e2-afac-17fb9761ed0f-1682061051dedefc97-1": {
           "type": "text",
