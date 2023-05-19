@@ -66,3 +66,9 @@
     color: #000;
   } 
 }
+
+.rich-text__buttons a {
+  border: rgb(var(--color-foreground));
+  background-color: 
+  color: 
+}
