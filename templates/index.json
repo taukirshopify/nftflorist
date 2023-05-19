@@ -233,6 +233,7 @@
     },
     "23a1eb14-10fe-4fbb-9e0b-5247bc5c9737": {
       "type": "contet-left-image",
+      "disabled": true,
       "settings": {
         "image_box": "shopify:\/\/shop_images\/Flower_35.jpg",
         "content_heading": "Vitae sit massa pretium",
@@ -242,6 +243,7 @@
     },
     "710ed93c-a901-4257-a190-c31a748cac74": {
       "type": "contet-left-image",
+      "disabled": true,
       "settings": {
         "image_box": "shopify:\/\/shop_images\/Flower_36.jpg",
         "content_heading": "Vitae sit massa pretium",
