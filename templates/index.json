@@ -108,13 +108,32 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "0df3092c-e25c-492e-881d-8b919f392fc6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Flower6.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--18791163101492__d08e2bd5-d8ed-4353-98b2-22a6b65772f6-1684505431bac765bc-0",
         "template--18791163101492__d08e2bd5-d8ed-4353-98b2-22a6b65772f6-1684505431bac765bc-1",
         "2d193d49-43f1-492e-b755-33bdae786871",
-        "62747cf5-fe62-4661-a25e-78c49e8bdb52"
+        "62747cf5-fe62-4661-a25e-78c49e8bdb52",
+        "0df3092c-e25c-492e-881d-8b919f392fc6"
       ],
       "settings": {
         "layout": "grid",
