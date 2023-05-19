@@ -68,7 +68,7 @@
 }
 
 .rich-text__buttons a {
-  border: #E26E7D !important;
+  border: 2px solid #E26E7D !important;
   background-color: #fff;
   color: #E26E7D !important;
 }
