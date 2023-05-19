@@ -291,12 +291,14 @@
     },
     "0c14b7ad-848b-466c-ae40-5aa5d7558611": {
       "type": "image-box",
+      "disabled": true,
       "settings": {
         "image_box_full": "shopify:\/\/shop_images\/Rectangle_9.jpg"
       }
     },
     "84471ee1-a367-4dba-a38f-350b9b4b0c38": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16995105833124__84471ee1-a367-4dba-a38f-350b9b4b0c38-1682061051dedefc97-1": {
           "type": "text",
