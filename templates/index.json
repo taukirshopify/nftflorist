@@ -286,6 +286,33 @@
         "image_box_full": "shopify:\/\/shop_images\/image-section-2.jpg",
         "section_title": "Occasional Bouquet Gifts"
       }
+    },
+    "47bb4380-d5cb-414c-9f07-722601ee3888": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "nft-bouquets",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -301,6 +328,7 @@
     "aac46cb5-3716-45b2-96c2-d4788558208c",
     "0c14b7ad-848b-466c-ae40-5aa5d7558611",
     "84471ee1-a367-4dba-a38f-350b9b4b0c38",
-    "8c5d975d-6ea6-4165-83d3-b596523d27b0"
+    "8c5d975d-6ea6-4165-83d3-b596523d27b0",
+    "47bb4380-d5cb-414c-9f07-722601ee3888"
   ]
 }
