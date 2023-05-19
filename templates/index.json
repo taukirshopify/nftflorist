@@ -256,6 +256,40 @@
         "padding_bottom": 36
       }
     },
+    "eef1d430-61e3-4142-bc50-c21d1699e0bd": {
+      "type": "image-box",
+      "settings": {
+        "image_box_full": "shopify:\/\/shop_images\/image-section-4.jpg",
+        "section_title": "THE ARTRKL CURATED COLLECTION"
+      }
+    },
+    "a5a41073-12f8-4249-bd2e-5430d81d78fa": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "nft-bouquets",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "23a1eb14-10fe-4fbb-9e0b-5247bc5c9737": {
       "type": "contet-left-image",
       "disabled": true,
@@ -359,6 +393,8 @@
     "47bb4380-d5cb-414c-9f07-722601ee3888",
     "66985c85-0701-4b2c-bd90-ccf91ed57dc1",
     "06b15bb5-6b70-41b0-bc84-6df21b633c66",
+    "eef1d430-61e3-4142-bc50-c21d1699e0bd",
+    "a5a41073-12f8-4249-bd2e-5430d81d78fa",
     "23a1eb14-10fe-4fbb-9e0b-5247bc5c9737",
     "710ed93c-a901-4257-a190-c31a748cac74",
     "e4681933-f31b-40ed-a25a-e354095a5cfb",
