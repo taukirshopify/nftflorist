@@ -150,7 +150,8 @@
       "type": "image-box",
       "disabled": true,
       "settings": {
-        "image_box_full": "shopify:\/\/shop_images\/Rectangle_4.jpg"
+        "image_box_full": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+        "section_title": ""
       }
     },
     "7cc04fb1-3c15-45a1-9307-28906685e342": {
@@ -179,7 +180,8 @@
     "26004ae3-0f37-435a-a87d-af3215c021b9": {
       "type": "image-box",
       "settings": {
-        "image_box_full": "shopify:\/\/shop_images\/image-section-1.jpg"
+        "image_box_full": "shopify:\/\/shop_images\/image-section-1.jpg",
+        "section_title": "Our Elegant Bouquet Gifts"
       }
     },
     "3c140cd6-dbae-4acf-b36d-328b7c39644d": {
@@ -296,7 +298,8 @@
       "type": "image-box",
       "disabled": true,
       "settings": {
-        "image_box_full": "shopify:\/\/shop_images\/Rectangle_9.jpg"
+        "image_box_full": "shopify:\/\/shop_images\/Rectangle_9.jpg",
+        "section_title": ""
       }
     },
     "84471ee1-a367-4dba-a38f-350b9b4b0c38": {
