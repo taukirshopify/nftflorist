@@ -154,29 +154,6 @@
         "section_title": ""
       }
     },
-    "7cc04fb1-3c15-45a1-9307-28906685e342": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16995105833124__7cc04fb1-3c15-45a1-9307-28906685e342-1681988800a46e7e37-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Vitae sit massa pretium id molestie erat vel mi aliquam. Dui ultrices ultrices faucibus rutrum varius risus. Viverra at accumsan pulvinar porttitor lectus in. Viverra vitae diam eu nunc. Ante sed diam nisl dolor aliquam in senectus. Neque adipiscing sapien ut facilisi turpis ullamcorper neque. Ac et turpis feugiat laoreet metus. Laoreet sed nunc platea .<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16995105833124__7cc04fb1-3c15-45a1-9307-28906685e342-1681988800a46e7e37-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "26004ae3-0f37-435a-a87d-af3215c021b9": {
       "type": "image-box",
       "settings": {
@@ -209,29 +186,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "12bcaa72-6316-43e2-afac-17fb9761ed0f": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16995105833124__12bcaa72-6316-43e2-afac-17fb9761ed0f-1682061051dedefc97-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Vitae sit massa pretium id molestie erat vel mi aliquam. Dui ultrices ultrices faucibus rutrum varius risus. Viverra at accumsan pulvinar porttitor lectus in. Viverra vitae diam eu nunc. Ante sed diam nisl dolor aliquam in senectus. Neque adipiscing sapien ut facilisi turpis ullamcorper neque. Ac et turpis feugiat laoreet metus. Laoreet sed nunc platea .<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16995105833124__12bcaa72-6316-43e2-afac-17fb9761ed0f-1682061051dedefc97-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 100
       }
     },
     "23a1eb14-10fe-4fbb-9e0b-5247bc5c9737": {
@@ -325,22 +279,28 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "8c5d975d-6ea6-4165-83d3-b596523d27b0": {
+      "type": "image-box",
+      "settings": {
+        "image_box_full": "shopify:\/\/shop_images\/image-section-2.jpg",
+        "section_title": "Occasional Bouquet Gifts"
+      }
     }
   },
   "order": [
     "52614d73-9d5f-414d-b571-2c3e7ada6301",
     "d08e2bd5-d8ed-4353-98b2-22a6b65772f6",
     "a35863df-278b-4bcd-b4ff-c30e8612889a",
-    "7cc04fb1-3c15-45a1-9307-28906685e342",
     "26004ae3-0f37-435a-a87d-af3215c021b9",
     "3c140cd6-dbae-4acf-b36d-328b7c39644d",
-    "12bcaa72-6316-43e2-afac-17fb9761ed0f",
     "23a1eb14-10fe-4fbb-9e0b-5247bc5c9737",
     "710ed93c-a901-4257-a190-c31a748cac74",
     "e4681933-f31b-40ed-a25a-e354095a5cfb",
     "21615d23-7209-49b7-aa6a-734e6bfd0f8a",
     "aac46cb5-3716-45b2-96c2-d4788558208c",
     "0c14b7ad-848b-466c-ae40-5aa5d7558611",
-    "84471ee1-a367-4dba-a38f-350b9b4b0c38"
+    "84471ee1-a367-4dba-a38f-350b9b4b0c38",
+    "8c5d975d-6ea6-4165-83d3-b596523d27b0"
   ]
 }
