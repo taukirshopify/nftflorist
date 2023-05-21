@@ -1,3 +1,30 @@
+    <div class="aboutmewapper">
+     <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+              <div class="image-wrapper">
+                {{ section.settings.image | image_url: width: 3840 | image_tag:
+                    loading: 'lazy',
+                    height: height,
+                    sizes: "100vw",
+                    widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                  }}
+              </div>
+          </div>
+          <div class="col-md-7">
+            <div class="inner-text-content">
+              {{ section.settings.richtext }}
+            </div>
+          </div>
+        </div>
+        <div class="row">
+         <div class="bottom-text">
+            {{ section.settings.text-2 }}
+         </div>
+        </div>
+     </div>
+    </div>
+
 {% schema %}
     {
         "name": "About me",
@@ -8,21 +35,17 @@
             "id": "img",
             "label": "Bannner image"
          },
+   
          {
-            "type": "text",
-            "id": "h1",
-            "label": "Title",
-            "default": "WHAT ARE THOSE?",
-        
-            "placeholder": "WHAT ARE THOSE?"
+            "type": "richtext",
+            "id": "richtext",
+            "label": "Description"
          },
+          
          {
-            "type": "text",
-            "id": "p",
-            "label": "Description",
-            "default": "The way forward for the creative director in fashion presents multiple options, all situated between the pattern-cutter and",
-        
-            "placeholder": "The way forward for the creative director in fashion presents multiple options, all situated between the pattern-cutter and"
+            "type": "richtext",
+            "id": "text-2",
+            "label": "Description o2 "
          }
         ],
         "presets": [
