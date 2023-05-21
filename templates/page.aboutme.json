@@ -2,13 +2,23 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "378253e0-1d49-480c-a848-234d99b80edc": {
+      "type": "about",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Letter-from-the-publisher-homepage-image-min1_1.png",
+        "richtext": "",
+        "text-2": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "378253e0-1d49-480c-a848-234d99b80edc"
   ]
 }
