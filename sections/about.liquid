@@ -1,8 +1,36 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+    {
+        "name": "About me",
+        "class": "aboutme",
+        "settings": [
+         {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Bannner image"
+         },
+         {
+            "type": "text",
+            "id": "h1",
+            "label": "Title",
+            "default": "WHAT ARE THOSE?",
+        
+            "placeholder": "WHAT ARE THOSE?"
+         },
+         {
+            "type": "text",
+            "id": "p",
+            "label": "Description",
+            "default": "The way forward for the creative director in fashion presents multiple options, all situated between the pattern-cutter and",
+        
+            "placeholder": "The way forward for the creative director in fashion presents multiple options, all situated between the pattern-cutter and"
+         }
+        ],
+        "presets": [
+            {
+              "name": "About me"
+            }
+            ]
+    }
 {% endschema %}
 
 {% stylesheet %}
