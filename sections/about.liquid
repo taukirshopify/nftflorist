@@ -4,7 +4,7 @@
      <div class="container">
         <div class="row">
           <div class="col-md-5">
-              <div class="image-wrapper">
+              <div class="image-wrapper bottom-text-wrapper">
                 {{ section.settings.img | image_url: width: 3840 | image_tag:
                     loading: 'lazy',
                     height: height,
@@ -14,7 +14,7 @@
               </div>
           </div>
           <div class="col-md-7 ">
-            <div class="inner-text-content">
+            <div class="inner-text-content bottom-text-wrapper">
               {{ section.settings.richtext }}
             </div>
           </div>
