@@ -10,6 +10,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/image_4-2.png",
             "image_width": 200,
+            "image_link": "\/",
             "alignment": "center"
           }
         },
