@@ -67,7 +67,7 @@
   } 
 }
 
-.product-form__submit, .rich-text__buttons a, .collection__view-all a:not(.link) {
+.product-form__submit, .rich-text__buttons a, .collection__view-all a:not(.link), .quick-add__submit {
   border: 1px solid rgba(var(--color-foreground),.75) !important;
   background-color: #fff;
   color: rgba(var(--color-foreground),.75) !important;
