@@ -6,7 +6,7 @@
       "type": "three-column-bg",
       "settings": {
         "fimage_box": "shopify:\/\/shop_images\/Flower8.jpg",
-        "f_content_heading": "FREE Membership<br>\n<ul style=\"\">\n<li>Seamless and easy<\/li>\n<li>NFT's Registered on blockchain<\/li>\n<li>Original Art<\/li>\n<\/ul>",
+        "f_content_heading": "FREE Membership<br>\n<ul style=\"list-style: none;\">\n<li>Seamless and easy<\/li>\n<li>NFT's Registered on blockchain<\/li>\n<li>Original Art<\/li>\n<\/ul>",
         "f_link": "\/account\/register",
         "simage_box": "shopify:\/\/shop_images\/Flower12.jpg",
         "s_content_heading": "6 NFT Bouquets for $30",
