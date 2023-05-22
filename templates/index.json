@@ -258,6 +258,7 @@
     },
     "eef1d430-61e3-4142-bc50-c21d1699e0bd": {
       "type": "image-box",
+      "disabled": true,
       "settings": {
         "image_box_full": "shopify:\/\/shop_images\/image-section-4.jpg",
         "section_title": "THE ARTRKL CURATED COLLECTION"
@@ -265,6 +266,7 @@
     },
     "a5a41073-12f8-4249-bd2e-5430d81d78fa": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
