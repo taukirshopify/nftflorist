@@ -2307,7 +2307,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   display: grid;
   grid-template-areas: 'left-icons heading icons';
   grid-template-columns: 1fr 2fr 1fr;
-  align-items: center;
+  /* align-items: center; */
 }
 .header__menu-item span {
     transition: text-decoration var(--duration-short) ease;

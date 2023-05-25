@@ -1,7 +1,7 @@
 <section class="full-width-box">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-third">
+    <div class="row ">
+      <div class="col-third  p-0 m-0">
         <div class="bg_content">
          {% if section.settings.f_link %}<a href="{{ section.settings.f_link }}">{% endif %}
           <img src="{{ section.settings.fimage_box | img_url: 'master' }}" class="img-fluid">
@@ -9,7 +9,7 @@
         {% if section.settings.f_link %}</a>{% endif %}
         </div>
       </div>
-       <div class="col-third">
+       <div class="col-third p-0 m-0">
          <div class="bg_content">
          {% if section.settings.s_link %}<a href="{{ section.settings.s_link }}">{% endif %}
             <img src="{{ section.settings.simage_box | img_url: 'master' }}" class="img-fluid">
@@ -17,7 +17,7 @@
         {% if section.settings.s_link %}</a>{% endif %}
          </div>
       </div>
-       <div class="col-third">
+       <div class="col-third p-0 m-0">
          <div class="bg_content">
          {% if section.settings.t_link %}<a href="{{ section.settings.t_link }}">{% endif %}
             <img src="{{ section.settings.timage_box | img_url: 'master' }}" class="img-fluid">
