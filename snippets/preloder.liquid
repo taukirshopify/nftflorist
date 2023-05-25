@@ -2,16 +2,17 @@
 
 {%if  request.page_type  == "index" %}
 
-<audio controls autoplay class="auton">
-  {% if settings.video01 != blank %}
-    <source src="{{ settings.video01 }}" type="audio/ogg">
-  {% endif %}
-  {% if settings.video02 != blank %}
-  <source src="{{ settings.video02 }}" type="audio/mpeg">
-{% endif %}
-  Your browser does not support the audio element.
-</audio>
+
   <div class="preloader-wrapper  ">
+    <audio controls autoplay class="auton">
+      {% if settings.video01 != blank %}
+        <source src="{{ settings.video01 }}" type="audio/ogg">
+      {% endif %}
+      {% if settings.video02 != blank %}
+      <source src="{{ settings.video02 }}" type="audio/mpeg">
+    {% endif %}
+      Your browser does not support the audio element.
+    </audio>
 
     <div class="preloader-logo fade-in">
       <img src="{{ settings.Preloder | img_url:'' }}" alt="">
