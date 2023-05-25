@@ -159,7 +159,7 @@
       "type": "image-box",
       "settings": {
         "image_box_full": "shopify:\/\/shop_images\/image-section-1.jpg",
-        "section_title": "Our Elegant Bouquet Gifts"
+        "section_title": "Occasional Bouquets"
       }
     },
     "3c140cd6-dbae-4acf-b36d-328b7c39644d": {
@@ -193,7 +193,7 @@
       "type": "image-box",
       "settings": {
         "image_box_full": "shopify:\/\/shop_images\/image-section-2.jpg",
-        "section_title": "Occasional Bouquet Gifts"
+        "section_title": "Classic Bouquets"
       }
     },
     "47bb4380-d5cb-414c-9f07-722601ee3888": {
@@ -227,7 +227,7 @@
       "type": "image-box",
       "settings": {
         "image_box_full": "shopify:\/\/shop_images\/image-section-3.jpg",
-        "section_title": "The ARTRKL Curated Collection"
+        "section_title": "ARTRKL Curated Bouquets"
       }
     },
     "06b15bb5-6b70-41b0-bc84-6df21b633c66": {
