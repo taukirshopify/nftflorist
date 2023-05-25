@@ -3,6 +3,8 @@
     "logo": "shopify:\/\/shop_images\/nft-florist-newLogo_1.png",
     "logo_width": 400,
     "favicon": "shopify:\/\/shop_images\/nft-florist-newLogo_1.png",
+    "Preloder": "shopify:\/\/shop_images\/nft-florist-newLogo_1.png",
+    "video01": "https:\/\/www.w3resource.com\/html-css-exercise\/basic\/beach.ogg",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
