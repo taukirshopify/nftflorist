@@ -36,6 +36,7 @@
     },
     "d08e2bd5-d8ed-4353-98b2-22a6b65772f6": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--18791163101492__d08e2bd5-d8ed-4353-98b2-22a6b65772f6-1684505431bac765bc-0": {
           "type": "slide",
