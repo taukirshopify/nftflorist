@@ -2326,7 +2326,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
-    color: #E26E7D;
+    color: #822523;
     border: 0;
     text-decoration: none !important;
 }
@@ -3284,7 +3284,7 @@ details-disclosure > details {
   }
 }
 a[aria-current="page"] span {
-  color: #E26E7D;
+  color: #822523;
 }
 
 @media only screen and (max-width: 2600px) and (min-width: 601px)  {
