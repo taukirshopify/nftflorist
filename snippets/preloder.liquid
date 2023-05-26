@@ -112,7 +112,7 @@
     }
     .preloader-logo {
         display: inline-block;
-        max-width: 250px;
+        {% comment %} max-width: 250px; {% endcomment %}
     }
     .preloader-logo  img{
      width: 100%;
@@ -214,7 +214,7 @@ details[open] > .search-modal {
 
 
   
-        $('.preloader-wrapper')
+$('.preloader-wrapper')
          
             .delay(5000)
             .fadeOut(1000);
