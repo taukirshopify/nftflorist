@@ -1,1 +1,45 @@
-{"sections":{"main":{"type":"main-login","settings":{"padding_top":36,"padding_bottom":36}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-login",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17468d01-39ba-4adb-a748-fca9c4dd10f6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18791163461940__17468d01-39ba-4adb-a748-fca9c4dd10f6-168540112839a7ab9c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why do you need to login to make a purchase?",
+            "heading_size": "h1"
+          }
+        },
+        "template--18791163461940__17468d01-39ba-4adb-a748-fca9c4dd10f6-168540112839a7ab9c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We require our customers to create an account so they can keep track of their NFT purchases, as well as view them, and transfer them.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18791163461940__17468d01-39ba-4adb-a748-fca9c4dd10f6-168540112839a7ab9c-0",
+        "template--18791163461940__17468d01-39ba-4adb-a748-fca9c4dd10f6-168540112839a7ab9c-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17468d01-39ba-4adb-a748-fca9c4dd10f6"
+  ]
+}
