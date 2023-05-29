@@ -12,15 +12,16 @@
       "blocks": {
         "template--18791163461940__17468d01-39ba-4adb-a748-fca9c4dd10f6-168540112839a7ab9c-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "Why do you need to make an account to make a purchase?",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "template--18791163461940__17468d01-39ba-4adb-a748-fca9c4dd10f6-168540112839a7ab9c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We require our customers to create an account so they can keep track of their NFT purchases, as well as view them, and transfer them.<\/p>"
+            "text": "<p><strong>Why do you need to make an account to make a purchase?<\/strong><\/p><p><\/p><p>We require our customers to create an account so they can keep track of their NFT purchases, as well as view them, and transfer them.<\/p>"
           }
         }
       },
