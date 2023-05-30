@@ -13,7 +13,10 @@
         "s_link": "shopify:\/\/collections\/deal-of-the-day",
         "timage_box": "shopify:\/\/shop_images\/header-ad_1.gif",
         "t_content_heading": "Shop Now!",
-        "t_link": "shopify:\/\/collections\/nft-bouquets"
+        "t_link": "shopify:\/\/collections\/nft-bouquets",
+        "fourth_image_box": "shopify:\/\/shop_images\/header-ad_1.gif",
+        "fourth_content_heading": "",
+        "fourth_link": ""
       }
     },
     "announcement-bar": {
