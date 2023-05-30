@@ -1,7 +1,7 @@
 <section class="full-width-box">
   <div class="container-fluid">
     <div class="row ">
-      <div class="col-third  p-0 m-0">
+      <div class="col-quarter  p-0 m-0">
         <div class="bg_content">
          {% if section.settings.f_link %}<a href="{{ section.settings.f_link }}">{% endif %}
           <img src="{{ section.settings.fimage_box | img_url: 'master' }}" class="img-fluid">
@@ -9,7 +9,7 @@
         {% if section.settings.f_link %}</a>{% endif %}
         </div>
       </div>
-       <div class="col-third p-0 m-0">
+       <div class="col-quarter p-0 m-0">
          <div class="bg_content">
          {% if section.settings.s_link %}<a href="{{ section.settings.s_link }}">{% endif %}
             <img src="{{ section.settings.simage_box | img_url: 'master' }}" class="img-fluid">
@@ -17,12 +17,20 @@
         {% if section.settings.s_link %}</a>{% endif %}
          </div>
       </div>
-       <div class="col-third p-0 m-0">
+       <div class="col-quarter p-0 m-0">
          <div class="bg_content">
          {% if section.settings.t_link %}<a href="{{ section.settings.t_link }}">{% endif %}
             <img src="{{ section.settings.timage_box | img_url: 'master' }}" class="img-fluid">
             <h3 class="fade-in-text">{{ section.settings.t_content_heading }}</h3>
         {% if section.settings.t_link %}</a>{% endif %}
+         </div>
+      </div>
+       <div class="col-quarter p-0 m-0">
+         <div class="bg_content">
+         {% if section.settings.fourth_link %}<a href="{{ section.settings.fourth_link }}">{% endif %}
+            <img src="{{ section.settings.fourth_image_box | img_url: 'master' }}" class="img-fluid">
+            <h3 class="fade-in-text">{{ section.settings.fourth_content_heading }}</h3>
+        {% if section.settings.fourth_link %}</a>{% endif %}
          </div>
       </div>
     </div>
@@ -76,11 +84,26 @@
         "type": "url",
         "id": "t_link",
         "label": "Third Box Link"
+      },
+       {
+          "type": "image_picker",
+          "id": "fourth_image_box",
+          "label": "Fourth Box Image Upload "
+        },
+      {
+          "type": "text",
+          "id": "fourth_content_heading",
+          "label": "Fourth Box Title"
+        },
+      {
+        "type": "url",
+        "id": "fourth_link",
+        "label": "Fourth Box Link"
       }
     ],
     "presets": [
     {
-      "name": "Third Column BG Image"
+      "name": "Four Column BG Image"
     }
   ]
   }
@@ -107,6 +130,12 @@
     max-width: 33.33%;
     width: 100%;
     flex: 0 0 33.33%;
+}
+
+  .col-quarter {
+    max-width: 25%;
+    width: 100%;
+    flex: 0 0 25%;
 }
   
 .row {
