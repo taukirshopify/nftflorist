@@ -29,7 +29,7 @@
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
       heello
-      {%- for line_item in order.line_items -%}
+      {%- for line_item in customer.orders -%}
         
         <p>{{ line_item.title }}</p>
       {%- endfor -%}
