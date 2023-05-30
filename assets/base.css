@@ -3321,7 +3321,7 @@ a[aria-current="page"] span {
   width: 2.3rem;
   fill: none;
   vertical-align: middle;
-  color: #822523;
+  color: #822523 !important;
 }
 
 
