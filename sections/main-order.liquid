@@ -64,6 +64,7 @@
                     <a href="{{ line_item.url }}">{{ line_item.title }}</a>
                   {%- else -%}
                     <p>{{ line_item.title }}</p>
+                      <p>{{ line_item.image | img_url:'' }}</p>
                   {%- endif -%}
                   {%- assign property_size = line_item.properties | size -%}
                   {%- unless line_item.selling_plan_allocation == null and property_size == 0 -%}
