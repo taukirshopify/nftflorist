@@ -28,7 +28,9 @@
   <div>
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
-
+      {%- for line_item in order.line_items -%}
+        <p>{{ line_item.title }}</p>
+      {%- endfor -%}
       {% paginate customer.orders by 20 %}
         {%- if customer.orders.size > 0 -%}
           <table role="table" class="order-history">
