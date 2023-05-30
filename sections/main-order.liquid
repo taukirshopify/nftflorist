@@ -62,6 +62,7 @@
                 <div>
                   {%- if line_item.url != blank -%}
                     <a href="{{ line_item.url }}">{{ line_item.title }}</a>
+                   <p>{{ line_item.image | img_url:'' }}</p>
                   {%- else -%}
                     <p>{{ line_item.title }}</p>
                       <p>{{ line_item.image | img_url:'' }}</p>
