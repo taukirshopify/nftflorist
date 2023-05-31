@@ -217,13 +217,24 @@ details[open] > .search-modal {
 
 
 <script>
-
-
- 
-$('.preloader-wrapper')
+  $(document).ready(function() {
+  $(window).load(function() {
+        function Preloader() {
+              $('.preloader-wrapper')
          
             .delay(5000)
             .fadeOut(1000); 
+           }
+        if ( ! sessionStorage.getItem( 'doNotShow' ) ) {
+            sessionStorage.setItem( 'doNotShow', 'true' );
+            Preloader();
+        } else {
+           $ ('.loader, .preloader').hide();
+        }
+
+     });
+});
+
 
 
 </script>
