@@ -13,7 +13,16 @@
     }
   }
 {%- endstyle -%}
+<section id="get-detials">
+  {%- for line_item in order.line_items -%}
+ <div class="col-lg-4">
+  <img src="{{ line_item.image | img_url:'' }}" alt="">
+  <a href="{{ line_item.url }}">{{ line_item.title }}</a>
 
+
+ </div>
+{%- endfor -%}
+</section>
 <div class="customer order section-{{ section.id }}-padding">
   <svg style="display:none">
     <symbol id="icon-discount" viewBox="0 0 12 12">
