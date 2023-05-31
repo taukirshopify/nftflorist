@@ -156,7 +156,9 @@
 </div>
 
                           <script>
+                             (function() {
  {%- for order in customer.orders -%}
+  
                             fetch('{{ order.customer_url }}').then(function (response) {
 	// The API call was successful!
 	return response.text();
@@ -172,6 +174,7 @@
 });
 
                             {%  endfor %}
+                            })();
                           </script>
 
 {% schema %}
