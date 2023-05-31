@@ -229,6 +229,12 @@ details[open] > .search-modal {
             sessionStorage.setItem( 'doNotShow', 'true' );
             Preloader();
         } else {
+           if(now-setupTime > 24*60*60*1000) {
+               localStorage.clear()
+              sessionStorage.setItem( 'doNotShow', 'true' );
+            Preloader();
+           }
+          
            $('.preloader-wrapper').hide();
         }
 
