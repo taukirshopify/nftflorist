@@ -229,15 +229,15 @@ const date = new Date();
             sessionStorage.setItem( 'doNotShow', 'true' );
             Preloader();
         } else {
-           if(date > 24*60*60*1000) {
-               localStorage.clear()
-              sessionStorage.setItem( 'doNotShow', 'true' );
-            Preloader();
-           }
-          else{
+          //  if(now-setupTime > 24*60*60*1000) {
+          //      localStorage.clear()
+          //     sessionStorage.setItem( 'doNotShow', 'true' );
+          //   Preloader();
+          //  }
+          // else{
           
            $('.preloader-wrapper').hide();
-        }
+        // }
         }
 
      
