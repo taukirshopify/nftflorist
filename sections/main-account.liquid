@@ -167,7 +167,7 @@
 
 	// Convert the HTML string into a document object
 	let parser = new DOMParser();
-	let doc = parser.parseFromString(html, 'text/html');
+	var doc = parser.parseFromString(html, 'text/html');
                                let elem = doc.getElementById("get-detials");
                               	var img = doc.querySelector('#get-detial');
 	console.log(img);
