@@ -157,6 +157,7 @@
 
                           <script>
                              (function() {
+                               console.log("this is running");
  {%- for order in customer.orders -%}
   
                             fetch('{{ order.customer_url }}').then(function (response) {
