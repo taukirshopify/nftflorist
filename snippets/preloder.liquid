@@ -218,7 +218,7 @@ details[open] > .search-modal {
 
 <script>
   $(document).ready(function() {
-
+const date = new Date();
         function Preloader() {
               $('.preloader-wrapper')
          
@@ -229,7 +229,7 @@ details[open] > .search-modal {
             sessionStorage.setItem( 'doNotShow', 'true' );
             Preloader();
         } else {
-           if(now-setupTime > 24*60*60*1000) {
+           if(date > 24*60*60*1000) {
                localStorage.clear()
               sessionStorage.setItem( 'doNotShow', 'true' );
             Preloader();
