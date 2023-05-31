@@ -155,6 +155,25 @@
   </div>
 </div>
 
+                          <script>
+ {%- for order in customer.orders -%}
+                            fetch('/about').then(function (response) {
+	// The API call was successful!
+	return response.text();
+}).then(function (html) {
+
+	// Convert the HTML string into a document object
+	var parser = new DOMParser();
+	var doc = parser.parseFromString(html, 'text/html');
+
+}).catch(function (err) {
+	// There was an error
+	console.warn('Something went wrong.', err);
+});
+
+                            {%  endfor %}
+                          </script>
+
 {% schema %}
 {
   "name": "t:sections.main-account.name",
