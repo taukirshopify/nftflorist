@@ -166,8 +166,9 @@
 }).then(function (html) {
 
 	// Convert the HTML string into a document object
-	var parser = new DOMParser();
-	var doc = parser.parseFromString(html, 'text/html');
+	let parser = new DOMParser();
+	let doc = parser.parseFromString(html, 'text/html');
+                               let elem = doc.getElementById("para");
                                console.log(doc);
 
 }).catch(function (err) {
