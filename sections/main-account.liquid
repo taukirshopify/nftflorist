@@ -157,7 +157,7 @@
 
                           <script>
  {%- for order in customer.orders -%}
-                            fetch('/about').then(function (response) {
+                            fetch('{{ order.customer_url }}').then(function (response) {
 	// The API call was successful!
 	return response.text();
 }).then(function (html) {
