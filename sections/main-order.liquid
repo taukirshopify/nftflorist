@@ -15,7 +15,7 @@
 {%- endstyle -%}
 <section id="getdetials">
   {%- for line_item in order.line_items -%}
- <div class="col-lg-3 col-md-4">
+ <div class="col-lg-3 col-md-4 col-6">
   <div class="innder-wrappper"> 
     <img src="{{ line_item.image | img_url:'' }}" alt="">
   <h5 class="title-2">  <a href="{{ line_item.url }}">{{ line_item.title }}</a></h5>
