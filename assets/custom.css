@@ -1,0 +1,86 @@
+.main-page-title {
+  text-align: center;
+}
+
+/* FAQ Section */
+
+.faq {
+  
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.faq .tab-label::after {
+  content: '\276F';
+  transition: all .4s;
+}
+
+
+.faq .tab-toggle {
+  display: none;
+}
+
+.faq .tab-label {
+  background-color: #faeee9;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  color: #822523;
+  font-weight: 600;
+}
+
+.faq .tab-label:hover {
+   background-color: #faeee9;
+}
+
+.faq .tab-toggle:checked ~ .tab-label::after {
+    transform: rotate(90deg);
+}
+
+.faq .tab-toggle:checked ~ .tab-label {
+    background-color: #faeee9;
+}
+
+.faq .tab-content {
+    background-color: #faeee9;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.4s;
+    padding: 0 1em;
+    color: #727272;
+}
+
+.faq .tab-toggle:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+}
+.faq .tab {
+              	  
+    margin-bottom: 10px;
+              
+}
+
+@media only screen and (min-width: 750px) {
+  .gs3-prodtitle h1 {
+    font-size: calc(var(--font-heading-scale) * 3rem);
+    color: #000;
+  } 
+}
+
+.product-form__submit, .rich-text__buttons a, .collection__view-all a:not(.link), .quick-add__submit {
+  border: 1px solid rgba(var(--color-foreground),.75) !important;
+  background-color: #fff;
+  color: rgba(var(--color-foreground),.75) !important;
+}
+
+.price__container .price__regular {
+  color: rgba(var(--color-foreground),.75) !important;
+}
+
+.full-width-image .text-content h3 {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #2E2E2E;
+    font-family: var(--font-body-family);
+}

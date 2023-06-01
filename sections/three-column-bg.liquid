@@ -1,0 +1,176 @@
+<section class="full-width-box">
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-third  p-0 m-0">
+        <div class="bg_content">
+         {% if section.settings.f_link %}<a href="{{ section.settings.f_link }}">{% endif %}
+          <img src="{{ section.settings.fimage_box | img_url: 'master' }}" class="img-fluid">
+          <h3 class="fade-in-text">{{ section.settings.f_content_heading }}</h3>
+        {% if section.settings.f_link %}</a>{% endif %}
+        </div>
+      </div>
+       <div class="col-third p-0 m-0">
+         <div class="bg_content">
+         {% if section.settings.s_link %}<a href="{{ section.settings.s_link }}">{% endif %}
+            <img src="{{ section.settings.simage_box | img_url: 'master' }}" class="img-fluid">
+            <h3 class="fade-in-text">{{ section.settings.s_content_heading }}</h3>
+        {% if section.settings.s_link %}</a>{% endif %}
+         </div>
+      </div>
+       <div class="col-third p-0 m-0">
+         <div class="bg_content">
+         {% if section.settings.t_link %}<a href="{{ section.settings.t_link }}">{% endif %}
+            <img src="{{ section.settings.timage_box | img_url: 'master' }}" class="img-fluid">
+            <h3 class="fade-in-text">{{ section.settings.t_content_heading }}</h3>
+        {% if section.settings.t_link %}</a>{% endif %}
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Three Column BG Image",
+    "settings": [
+       {
+          "type": "image_picker",
+          "id": "fimage_box",
+          "label": "First Box Image Upload "
+        },
+      {
+          "type": "textarea",
+          "id": "f_content_heading",
+          "label": "First Box Title"
+        },
+      {
+        "type": "url",
+        "id": "f_link",
+        "label": "First Box Link"
+      },
+       {
+          "type": "image_picker",
+          "id": "simage_box",
+          "label": "Second Box Image Upload "
+        },
+      {
+          "type": "text",
+          "id": "s_content_heading",
+          "label": "Second Box Title"
+        },
+      {
+        "type": "url",
+        "id": "s_link",
+        "label": "Second Box Link"
+      },
+       {
+          "type": "image_picker",
+          "id": "timage_box",
+          "label": "Third Box Image Upload "
+        },
+      {
+          "type": "text",
+          "id": "t_content_heading",
+          "label": "Third Box Title"
+        },
+      {
+        "type": "url",
+        "id": "t_link",
+        "label": "Third Box Link"
+      }
+    ],
+    "presets": [
+    {
+      "name": "Third Column BG Image"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+  .full-width-box {
+    max-width: 100%;
+    margin: 0 auto;
+}
+  .img-fluid {
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+}
+
+  .col-half {
+    max-width: 50%;
+    width: 100%;
+    flex: 0 0 50%;
+}
+
+  .col-third {
+    max-width: 33.33%;
+    width: 100%;
+    flex: 0 0 33.33%;
+}
+  
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+   .bg_content {
+    position: relative;
+}
+
+  .bg_content h3 {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    width: 100%;
+    max-width: 600px;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+  .bg_content img {
+    width: 100%;
+    max-height: 315px;
+    object-fit: cover;
+    /* filter: brightness(.6); */
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
