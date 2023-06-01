@@ -1,1 +1,25 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":24,"padding_bottom":0}},"378253e0-1d49-480c-a848-234d99b80edc":{"type":"about","settings":{"padding_top":0,"padding_bottom":0,"img":"shopify:\/\/shop_images\/Letter-from-the-publisher-homepage-image-min1_1.png","richtext":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged<\/p><p><\/p><p><\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged<\/p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged<\/p>","text-2":""}}},"order":["main","378253e0-1d49-480c-a848-234d99b80edc"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "378253e0-1d49-480c-a848-234d99b80edc": {
+      "type": "about",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "img": "shopify:\/\/shop_images\/Letter-from-the-publisher-homepage-image-min1_1.png",
+        "richtext": "<p>Hey, I’m Rebecca Katherine Levenson, the Founder of the NFT Florist and ArtRKL. My weekly grocery haul always consists of a bouquet of fresh flowers, but within two days they are wilted and beyond saving. About a year ago, I envisioned having a beautiful flower bouquet, or a few, that would never wilt, and thus the NFT Florist was born. Our products and processes are a fabulous solution for someone who loves fresh flowers. While our bouquets are stunningly realistic, they are not photographs of flowers—instead, they are pieces of original, collectible art created by our team of talented digital artists.At The NFT Florist, Our Flowers Bloom Forever. When you purchase an NFT bouquet, you are immediately established in a community that merges the NFT and digital art communities. Beyond that, we are inclusive among environmental species and their natural habitats, and rather than harming the planet with expensive and unhealthy pesticides, preservatives, and fertilizers w, our flowers are delivered instantly as giftable, digital art to your account and can be traded on the blockchain. We have made the buying, sending, delivery, and transfer process as easy as possible so that anyone can become a patron, even with zero knowledge of NFTs.We are interested in building a community of passionate creatives to bridge the gap between tangible assets and the world of digital, collectible art. Through this, we strive to offer low-cost, low-risk, high-quality products that last a lifetime.Please let me know if you have any edits. This is as concise, understandable, non-redundant, and reader friendly as possible. We want to be as eloquent as possible, and many questions can be answered in the FAQ.Thanks!<\/p>",
+        "text-2": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "378253e0-1d49-480c-a848-234d99b80edc"
+  ]
+}
