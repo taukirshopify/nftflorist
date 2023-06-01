@@ -19,20 +19,16 @@
 			<div class="container">
                <h2 class="customer__title"> Contact us </h2>
                 <div class="control-group">
-                    <label for="firstname">Recipients Name </label>
-                  <input id="firstname" type="text" name="firstname" />
+                    {% comment %} <label for="firstname">Recipients Name </label> {% endcomment %}
+                  <input id="firstname" type="text" name="firstname" placeholder="Name" />
                  
                 </div>
               
-                <div class="control-group">
-                    <label for="lastname">Last Name</label>
-                  <input id="lastname" type="text" name="lastname"  />
-                 
-                </div>
+
               
                 <div class="control-group">
-                    <label for="email">Email Address</label>
-                  <input id="email" type="text" name="email"  />
+                    {% comment %} <label for="email">Email Address</label> {% endcomment %}
+                  <input id="email" type="text" name="email" placeholder="Enter your email address" />
                  
                 </div>
 
@@ -147,5 +143,11 @@ a.link:hover {background-color: #0085a6; color: #fff; text-decoration:none;}
 
 .center {text-align:center !important;}
 
-  
+.control-group input {
+    display: block;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-bottom: 1px solid #000;
+}
 </style>
