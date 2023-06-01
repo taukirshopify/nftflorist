@@ -1,1 +1,50 @@
-{"name":"t:sections.header.name","type":"header","sections":{"5cace7ae-fb62-4855-ab7d-f52675d53dce":{"type":"three-column-bg","settings":{"fimage_box":"shopify:\/\/shop_images\/Flower8.jpg","f_content_heading":"<ul style=\"list-style: none;\">\n<li style=\"line-height: 1.8em; text-decoration: underline;\">FREE Membership<\/li>\n<li style=\"line-height: 1.8em\">• Seamless and easy<\/li>\n<li style=\"line-height: 1.8em\">• NFT's Registered on blockchain<\/li>\n<li style=\"line-height: 1.8em\">• Original Art<\/li>\n<\/ul>","f_link":"\/account\/register","simage_box":"shopify:\/\/shop_images\/Flower12.jpg","s_content_heading":"6 NFT Bouquets for $30","s_link":"shopify:\/\/collections\/deal-of-the-day","timage_box":"shopify:\/\/shop_images\/header-ad_1.gif","t_content_heading":"Shop Now!","t_link":"shopify:\/\/collections\/nft-bouquets","fourth_image_box":"shopify:\/\/shop_images\/flower-bouquet-new_1.gif","fourth_content_heading":"Shop Now!","fourth_link":"shopify:\/\/collections\/nft-bouquets"}},"announcement-bar":{"type":"announcement-bar","settings":{}},"header":{"type":"header","settings":{"logo_position":"top-center","menu":"main-menu","menu_type_desktop":"mega","sticky_header_type":"on-scroll-up","show_line_separator":true,"color_scheme":"background-1","enable_country_selector":false,"enable_language_selector":false,"mobile_logo_position":"center","margin_bottom":0,"padding_top":20,"padding_bottom":20}}},"order":["5cace7ae-fb62-4855-ab7d-f52675d53dce","announcement-bar","header"]}
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "5cace7ae-fb62-4855-ab7d-f52675d53dce": {
+      "type": "three-column-bg",
+      "settings": {
+        "fimage_box": "shopify:\/\/shop_images\/Flower8.jpg",
+        "f_content_heading": "<ul style=\"list-style: none;\">\n<li style=\"line-height: 1.8em; text-decoration: underline;\">Introductory Offer \/ Membership<\/li>\n<li style=\"line-height: 1.8em\">• 6 NFT bouquets for $30<\/li>\n<li style=\"line-height: 1.8em\">• To elevate your gift giving game<\/li>\n<li style=\"line-height: 1.8em\">• JOIN NOW<\/li>\n<\/ul>",
+        "f_link": "\/account\/register",
+        "simage_box": "shopify:\/\/shop_images\/Flower12.jpg",
+        "s_content_heading": "<ul style=\"list-style: none;\">\n<li style=\"line-height: 1.8em; text-decoration: underline;\">FREE Membership<\/li>\n<li style=\"line-height: 1.8em\">• All bouquets are registered NFTs<\/li>\n<li style=\"line-height: 1.8em\">• One-of-a-kind digital art<\/li>\n<li style=\"line-height: 1.8em\">• Limited edition collectables<\/li>\n<li style=\"line-height: 1.8em\">• Over 140 choices<\/li>\n<li style=\"line-height: 1.8em\">• Stunning & inexpensive giftable(s)<\/li>\n<\/ul>",
+        "s_link": "shopify:\/\/collections\/deal-of-the-day",
+        "timage_box": "shopify:\/\/shop_images\/header-ad_1.gif",
+        "t_content_heading": "Shop Now!",
+        "t_link": "shopify:\/\/collections\/nft-bouquets",
+        "fourth_image_box": "shopify:\/\/shop_images\/flower-bouquet-new_1.gif",
+        "fourth_content_heading": "Shop Now!",
+        "fourth_link": "shopify:\/\/collections\/nft-bouquets"
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "top-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "5cace7ae-fb62-4855-ab7d-f52675d53dce",
+    "announcement-bar",
+    "header"
+  ]
+}
