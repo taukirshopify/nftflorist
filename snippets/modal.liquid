@@ -1,6 +1,10 @@
-{% comment %} <h2>Modal window with title and button [close]</h2>
-
-<p><a href="#modal-10" class="link">Open Modal 0</a></p> {% endcomment %}
+<style>
+    .control-group input {
+        display: block;
+        width: 100%;
+        height: 40px;
+    }
+</style>
 <div data-ml-modal id="modal-10">
 	<a href="#!" class="modal-overlay"></a>
 	<div class="modal-dialog modal-dialog-lg">
@@ -8,21 +12,23 @@
 		<h3>CSS Modal 1</h3>
 		<div class="modal-content newspaper">
 			<div class="container">
-                <h2>Label slide down effect</h2>
               
                 <div class="control-group">
+                    <label for="firstname">Recipients Name </label>
                   <input id="firstname" type="text" name="firstname" placeholder="Name" />
-                  <label for="firstname">Recipients Name </label>
+                 
                 </div>
               
                 <div class="control-group">
+                    <label for="lastname">Last Name</label>
                   <input id="lastname" type="text" name="lastname" placeholder="Enter your last name" />
-                  <label for="lastname">Last Name</label>
+                 
                 </div>
               
                 <div class="control-group">
+                    <label for="email">Email Address</label>
                   <input id="email" type="text" name="email" placeholder="Enter your email address" />
-                  <label for="email">Email Address</label>
+                 
                 </div>
               </div>
 		</div>
@@ -130,54 +136,7 @@ a.link:hover {background-color: #0085a6; color: #fff; text-decoration:none;}
 
 /* General*/
 
-*, *:before, *:after {
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-			box-sizing: border-box;
-}
-body {
-	font-family: 'Roboto', sans-serif;
-	color: #333;
-  font-size:1.125em;
-	-webkit-font-smoothing: antialiased;
-	line-height: 1.42857143;
-  padding:20px;
-}
-a {
-  color:#0085a6;
-  text-decoration: none;
-  outline: 0;
-  -webkit-transition  all .3s ease-in-out;
-  -moz-transition  all .3s ease-in-out;
-  -o-transition  all .3s ease-in-out;
-  transition all .3s ease-in-out;
-}
-a:hover {
-  color:#0085a6;
-  text-decoration: none;
-}
 .center {text-align:center !important;}
-.btn {
-    display: inline-block;
-    margin-bottom: 0;
-    font-weight: normal;
-    text-align: center;
-    vertical-align: middle;
-    touch-action: manipulation;
-    cursor: pointer;
-    background-image: none;
-    border: 2px solid transparent;
-    white-space: normal;
-    padding: 3px 14px;
-    font-size: 18px;
-    border-radius: 3px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-.btn-default {border-color: #0085a6;}
-a.btn-default:hover {background-color:#0085a6; color:#fff;}
-pre {overflow:auto;font-size:1em;}
+
   
 </style>
