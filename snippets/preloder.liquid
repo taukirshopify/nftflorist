@@ -217,13 +217,32 @@ details[open] > .search-modal {
 
 
 <script>
-
-
- 
-$('.preloader-wrapper')
+  $(document).ready(function() {
+const date = new Date();
+        function Preloader() {
+              $('.preloader-wrapper')
          
             .delay(5000)
             .fadeOut(1000); 
+           }
+        if ( ! sessionStorage.getItem( 'doNotShow' ) ) {
+            sessionStorage.setItem( 'doNotShow', 'true' );
+            Preloader();
+        } else {
+          //  if(now-setupTime > 24*60*60*1000) {
+          //      localStorage.clear()
+          //     sessionStorage.setItem( 'doNotShow', 'true' );
+          //   Preloader();
+          //  }
+          // else{
+          
+           $('.preloader-wrapper').hide();
+        // }
+        }
+
+     
+});
+
 
 
 </script>

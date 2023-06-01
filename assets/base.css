@@ -2307,13 +2307,13 @@ product-info .loading-overlay:not(.hidden) ~ *,
   display: grid;
   grid-template-areas: 'left-icons heading icons';
   grid-template-columns: 1fr 2fr 1fr;
-  align-items: center;
+  /* align-items: center; */
 }
 .header__menu-item span {
     transition: text-decoration var(--duration-short) ease;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 13px;
     text-transform: uppercase;
     line-height: 18px;
     color: #2E2E2E;
@@ -2326,7 +2326,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
-    color: #E26E7D;
+    color: #822523;
     border: 0;
     text-decoration: none !important;
 }
@@ -2364,6 +2364,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
     width: 100%;
     flex: 0 0 100%;
 }
+  
   .text-content {
     width: 100%;
     padding: 30px 15px;
@@ -3283,7 +3284,7 @@ details-disclosure > details {
   }
 }
 a[aria-current="page"] span {
-  color: #E26E7D;
+  color: #822523;
 }
 
 @media only screen and (max-width: 2600px) and (min-width: 601px)  {
@@ -3320,7 +3321,7 @@ a[aria-current="page"] span {
   width: 2.3rem;
   fill: none;
   vertical-align: middle;
-  color: #DE5B6D;
+  color: #822523 !important;
 }
 
 

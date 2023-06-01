@@ -13,7 +13,18 @@
     }
   }
 {%- endstyle -%}
+<section class="proudct-wrapper">
+ <div class="container">
+     <div class="row">
 
+
+         <div class="col-12 "><h2 class="customer__title">My NFT's</h2></div>
+     </div>
+   <div class="row" id="acountitem">
+
+   </div>
+ </div>
+</section>
 <div class="customer account section-{{ section.id }}-padding">
   <div>
     <h1 class="customer__title">{{ 'customer.account.title' | t }}</h1>
@@ -28,9 +39,6 @@
   <div>
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
-      {%- for line_item in order.line_items -%}
-        <p>{{ line_item.title }}</p>
-      {%- endfor -%}
 
       {% paginate customer.orders by 20 %}
         {%- if customer.orders.size > 0 -%}
@@ -62,7 +70,7 @@
                       href="{{ order.customer_url }}"
                       aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}"
                     >
-                      {{ order.name }}
+                      {{ order.name }}   {{ order.title }}
                     </a>
                   </td>
                   <td headers="RowOrder ColumnDate" role="cell" data-label="{{ 'customer.orders.date' | t }}">
@@ -153,10 +161,67 @@
   </div>
 </div>
 
+                            <script>
+                             (function() {
+                               console.log("this is running");
+ {%- for order in customer.orders -%}
+  
+                            fetch('{{ order.customer_url }}').then(function (response) {
+	// The API call was successful!
+	return response.text();
+}).then(function (html) {
+
+	// Convert the HTML string into a document object
+	let parser = new DOMParser();
+	var doc = parser.parseFromString(html, 'text/html');
+                               let elem = doc.getElementById("getdetials").innerHTML;
+                              	var img = doc.querySelector('#getdetial');
+	console.log(img);
+
+                               console.log(elem);
+                               // document.getElementById("acountitem").insertAdjacentHTML("afterend",  elem );
+                               document.getElementById("acountitem").innerHTML += elem;
 
 
+}).catch(function (err) {
+	// There was an error
+	console.warn('Something went wrong.', err);
+});
 
+                            {%  endfor %}
+                            })();
+                          </script>
 
+                          <style>
+
+                            .innder-wrappper img{
+ width:100%;
+                            margin:10px 0;
+}
+         .proudct-wrapper {
+    padding: 20px; display:block;
+           
+}          
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+  display:block;
+}        
+
+                            a.btn {
+    text-decoration: none;
+    color: #acacac;
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 10px 16px;
+                              font-size: 14px;
+}
+                            h5.title-2 {
+    padding: 10px 0;
+    margin: 0;
+}
+                          </style>
 {% schema %}
 {
   "name": "t:sections.main-account.name",

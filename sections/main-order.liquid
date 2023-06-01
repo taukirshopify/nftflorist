@@ -13,7 +13,19 @@
     }
   }
 {%- endstyle -%}
-
+<section id="getdetials">
+  {%- for line_item in order.line_items -%}
+ <div class="col-lg-3 col-md-4 col-6">
+  <div class="innder-wrappper"> 
+    <img src="{{ line_item.image | img_url:'' }}" alt="">
+  <h5 class="title-2">  <a href="{{ line_item.url }}">{{ line_item.title }}</a></h5>
+  <a  href= "#" class="btn">Transfer</a>
+      <a  href= "#" class="btn">Gift </a>
+  </div>
+ 
+ </div>
+{%- endfor -%}
+</section>
 <div class="customer order section-{{ section.id }}-padding">
   <svg style="display:none">
     <symbol id="icon-discount" viewBox="0 0 12 12">
@@ -62,8 +74,10 @@
                 <div>
                   {%- if line_item.url != blank -%}
                     <a href="{{ line_item.url }}">{{ line_item.title }}</a>
+                   <p>{{ line_item.image | img_url:'' }}</p>
                   {%- else -%}
                     <p>{{ line_item.title }}</p>
+                      <p>{{ line_item.image | img_url:'' }}</p>
                   {%- endif -%}
                   {%- assign property_size = line_item.properties | size -%}
                   {%- unless line_item.selling_plan_allocation == null and property_size == 0 -%}

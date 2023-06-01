@@ -61,9 +61,18 @@ $ gulp distroy
 
 shopify theme dev --store nftflorist
 
+<<<<<<< HEAD
 shopify login --store nftflorist.myshopify.com
 
 the-chinatown-marketplace.myshopify.com
 
 
 password : floral
+=======
+
+
+
+<!-- 
+shopify theme dev --store babyphat-com -->
+
+>>>>>>> b3cdbd30106aefba993e60837ef1ec5ccda6f21c

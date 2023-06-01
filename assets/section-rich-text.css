@@ -31,18 +31,19 @@
   }
 
   .rich-text__blocks {
-    max-width: 50rem;
+    /* max-width: 50rem; */
   }
 }
 
 @media screen and (min-width: 990px) {
   .rich-text__blocks {
-    max-width: 78rem;
+    /* max-width: 78rem; */
   }
 }
 
 .rich-text__blocks * {
   overflow-wrap: break-word;
+  text-align: left;
 }
 
 .rich-text__blocks > * {
