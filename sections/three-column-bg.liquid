@@ -5,16 +5,20 @@
         <div class="bg_content">
          {% if section.settings.f_link %}<a href="{{ section.settings.f_link }}">{% endif %}
           <img src="{{ section.settings.fimage_box | img_url: 'master' }}" class="img-fluid">
-          <h3 class="fade-in-text">{{ section.settings.f_content_heading }}</h3>
+          <h3 class="fade-in-text">{{ section.settings.f_content_heading }}
+          <a href="/account/login" class="button button--primary">Join Now</a>
+        </h3>
         {% if section.settings.f_link %}</a>{% endif %}
-<div class="rich-text__buttons"><a href="/account/login" class="button button--primary">Join Now</a></div>
+
         </div>
       </div>
        <div class="col-quarter p-0 m-0">
          <div class="bg_content">
          {% if section.settings.s_link %}<a href="{{ section.settings.s_link }}">{% endif %}
             <img src="{{ section.settings.simage_box | img_url: 'master' }}" class="img-fluid">
-            <h3 class="fade-in-text">{{ section.settings.s_content_heading }}</h3>
+            <h3 class="fade-in-text">{{ section.settings.s_content_heading }}
+            <a href="/account/login" class="button button--primary">Join Now</a>
+          </h3>
         {% if section.settings.s_link %}</a>{% endif %}
          </div>
       </div>
@@ -37,6 +41,15 @@
     </div>
   </div>
 </section>
+
+
+<style>
+.bg_content a {
+ text-decoration:none;
+}
+.bg_content ul li {
+color: #fff;}
+</style>
 {% schema %}
   {
     "name": "Four Column BG Image",
