@@ -86,6 +86,13 @@
             "faq-title": "What is the difference between a Member and a Founding Member?",
             "faq-content": "<p>We offer two membership levels: Member and Founding Member. While both levels provide access to exclusive discounts, there are additional benefits specifically tailored to Founding Members.<\/p><p><strong>Member Benefits:<\/strong><\/p><ol><li>Discounts: Members receive discounted prices on all our products and services.<\/li><li>Membership Updates: Members will receive regular updates, special offers, and promotions via email.<\/li><\/ol><p><strong>Founding Member Benefits:<\/strong><\/p><ol><li>Enhanced Discounts: Founding Members enjoy higher discounts on all purchases, providing even greater savings.<\/li><li>Exclusive Founding Member NFT: Upon joining as a Founding Member, you will receive a complimentary Founding Member NFT, a limited edition digital collectible as our token of appreciation, and it acts as your Founding Membership card.<\/li><li>Additional Benefits: Founding Members will receive exclusive perks and privileges, such as priority access to new product launches, early event registration, and special Founding Member-only offers.<\/li><\/ol>"
           }
+        },
+        "2475cf0d-b655-4d46-a084-73e2caba3ba4": {
+          "type": "text",
+          "settings": {
+            "faq-title": "How to Become a Founding Member",
+            "faq-content": "<p>To become a Founding Member, you must take advantage of our limited-time Introductory Offer. Simply purchase the bundle offer of 6 NFT bouquets for $30, and you will automatically be upgraded to the Founding Member level, unlocking all the additional benefits<br\/> mentioned above.We believe that the Founding Member status offers a unique opportunity to be part of our community from the very beginning and enjoy exclusive benefits reserved only for our earliest<br\/> supporters.Should you have any further questions or require additional clarification regarding the membership levels and benefits, please don’t hesitate to reach out to our customer support<br\/> team. We are here to assist you.Thank you for considering our membership program, and we look forward to welcoming you as a valued member or Founding Member of our community!<\/p>"
+          }
         }
       },
       "block_order": [
@@ -99,7 +106,8 @@
         "68d0621d-3bd7-427d-b473-b0cbf1dcdb9d",
         "688aa970-0be0-4f54-8c67-8885fa57e70a",
         "df7cb597-430e-436d-82bf-39d421678ee3",
-        "1b908458-390f-4425-83c5-c00aef633287"
+        "1b908458-390f-4425-83c5-c00aef633287",
+        "2475cf0d-b655-4d46-a084-73e2caba3ba4"
       ],
       "settings": {
         "padding_top": 0,
