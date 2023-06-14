@@ -2,6 +2,8 @@
 <script>
   $(document).ready(function() {
 const date = new Date();
+
+      var x = document.getElementById("myAudio"); 
         function Preloader() {
               $('.preloader-wrapper')
          
@@ -10,6 +12,7 @@ const date = new Date();
            }
         if ( ! sessionStorage.getItem( 'doNotShow' ) ) {
             sessionStorage.setItem( 'doNotShow', 'true' );
+            x.play(); 
             Preloader();
         } else {
           //  if(now-setupTime > 24*60*60*1000) {
@@ -18,7 +21,7 @@ const date = new Date();
           //   Preloader();
           //  }
           // else{
-          var x = document.getElementById("myAudio"); 
+        
            x.pause();
            $('.preloader-wrapper').hide();
         // }
@@ -36,7 +39,7 @@ const date = new Date();
 
 
   <div class="preloader-wrapper  ">
-    <audio controls autoplay  id="myAudio">
+    <audio id="myAudio">
       {% if settings.video01 != blank %}
         <source src="{{ settings.video01 }}" type="audio/ogg">
       {% endif %}
