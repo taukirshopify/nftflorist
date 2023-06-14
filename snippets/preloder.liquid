@@ -1,38 +1,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-<script>
-  $(document).ready(function() {
-const date = new Date();
 
-      var x = document.getElementById("myAudio"); 
-        function Preloader() {
-              $('.preloader-wrapper')
-         
-            .delay(5000)
-            .fadeOut(1000); 
-           }
-        if ( ! sessionStorage.getItem( 'doNotShow' ) ) {
-            sessionStorage.setItem( 'doNotShow', 'true' );
-            x.play(); 
-            Preloader();
-        } else {
-          //  if(now-setupTime > 24*60*60*1000) {
-          //      localStorage.clear()
-          //     sessionStorage.setItem( 'doNotShow', 'true' );
-          //   Preloader();
-          //  }
-          // else{
-        
-           x.pause();
-           $('.preloader-wrapper').hide();
-        // }
-        }
-
-     
-});
-
-
-
-</script>
 
 
 {%if  request.page_type  == "index" %}
@@ -251,6 +218,41 @@ details[open] > .search-modal {
 </style>
 
 
+<script>
+  $(document).ready(function() {
+const date = new Date();
 
+      var x = document.getElementById("myAudio"); 
+        function Preloader() {
+              $('.preloader-wrapper')
+         
+            .delay(5000)
+            .fadeOut(1000); 
+           }
+        if ( ! sessionStorage.getItem( 'doNotShow' ) ) {
+            sessionStorage.setItem( 'doNotShow', 'true' );
+            x.play(); 
+            Preloader();
+        } else {
+          //  if(now-setupTime > 24*60*60*1000) {
+          //      localStorage.clear()
+          //     sessionStorage.setItem( 'doNotShow', 'true' );
+          //   Preloader();
+          //  }
+          // else{
+        
+           x.pause();
+           $('.preloader-wrapper').hide();
+        // }
+        }
+
+     
+});
+
+
+
+</script>
 
 {% endif %}
+
+
