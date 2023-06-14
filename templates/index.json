@@ -322,69 +322,12 @@
         "reverse_layout": true
       }
     },
-    "aac46cb5-3716-45b2-96c2-d4788558208c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16995105833124__aac46cb5-3716-45b2-96c2-d4788558208c-1682061051dedefc97-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Vitae sit massa pretium id molestie erat vel mi aliquam. Dui ultrices ultrices faucibus rutrum varius risus. Viverra at accumsan pulvinar porttitor lectus in. Viverra vitae diam eu nunc. Ante sed diam nisl dolor aliquam in senectus. Neque adipiscing sapien ut facilisi turpis ullamcorper neque. Ac et turpis feugiat laoreet metus. Laoreet sed nunc platea .<\/p>"
-          }
-        },
-        "571f07ac-ff74-4c59-9369-04dcfe1ce3f1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16995105833124__aac46cb5-3716-45b2-96c2-d4788558208c-1682061051dedefc97-1",
-        "571f07ac-ff74-4c59-9369-04dcfe1ce3f1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "0c14b7ad-848b-466c-ae40-5aa5d7558611": {
       "type": "image-box",
       "disabled": true,
       "settings": {
         "image_box_full": "shopify:\/\/shop_images\/Rectangle_9.jpg",
         "section_title": ""
-      }
-    },
-    "84471ee1-a367-4dba-a38f-350b9b4b0c38": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16995105833124__84471ee1-a367-4dba-a38f-350b9b4b0c38-1682061051dedefc97-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Vitae sit massa pretium id molestie erat vel mi aliquam. Dui ultrices ultrices faucibus rutrum varius risus. Viverra at accumsan pulvinar porttitor lectus in. Viverra vitae diam eu nunc. Ante sed diam nisl dolor aliquam in senectus. Neque adipiscing sapien ut facilisi turpis ullamcorper neque. Ac et turpis feugiat laoreet metus. Laoreet sed nunc platea .<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16995105833124__84471ee1-a367-4dba-a38f-350b9b4b0c38-1682061051dedefc97-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 100
       }
     }
   },
@@ -404,8 +347,6 @@
     "710ed93c-a901-4257-a190-c31a748cac74",
     "e4681933-f31b-40ed-a25a-e354095a5cfb",
     "21615d23-7209-49b7-aa6a-734e6bfd0f8a",
-    "aac46cb5-3716-45b2-96c2-d4788558208c",
-    "0c14b7ad-848b-466c-ae40-5aa5d7558611",
-    "84471ee1-a367-4dba-a38f-350b9b4b0c38"
+    "0c14b7ad-848b-466c-ae40-5aa5d7558611"
   ]
 }
