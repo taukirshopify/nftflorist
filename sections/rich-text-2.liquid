@@ -51,6 +51,16 @@
   </div>
 </div>
 
+{% comment %} {
+  "type": "range",
+  "id": "wordcount",
+  "min": 0,
+  "max": 840,
+  "step": 15,
+  "unit": "px",
+  "label": "How meany word will be show",
+  "default": 300
+}, {% endcomment %}
 {% schema %}
 {
   "name": "t:sections.rich-text.name",
@@ -60,17 +70,15 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "wordcount",
+      "label": "How meany word will be show",
+      "default": "805",
+      "placeholder": "805"
+    },
     
-                    {
-                      "type": "range",
-                      "id": "wordcount",
-                      "min": 0,
-                      "max": 840,
-                      "step": 15,
-                      "unit": "px",
-                      "label": "How meany word will be show",
-                      "default": 300
-                    },
+                   
     {
       "type": "select",
       "id": "desktop_content_position",
