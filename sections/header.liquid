@@ -174,7 +174,9 @@
 
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }}p-0 m-0 overflow-hidden container-fluid{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}">
-    <a href="/account/login" class="d-none d-lg-block text-decoration-none header-btn" style="color: #000;font-weight: 700;font-size: 13px;text-transform: uppercase;">Member Login</a>
+    <div class="d-none d-lg-block">
+      <a href="/account/login" class="text-decoration-none header-btn" style="color: #000;font-weight: 700;font-size: 13px;text-transform: uppercase;">Member Login</a>
+    </div>
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
