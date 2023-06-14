@@ -416,14 +416,19 @@
     }
     read-more button {
 
-      color: #841415;
+      padding: 0 3rem;
       text-decoration: none;
       text-underline-offset: 3px;
       cursor: pointer;
       display: block;
-      border:1px solid red;
+      font-size: 1.5rem;
+      letter-spacing: .1rem;
+      line-height: calc(1 + .2 / var(--font-body-scale));
       padding:10px 20px;
       margin: 0 auto;
+      border: 1px solid rgba(var(--color-foreground),.75)!important;
+    background-color: #fff;
+    color: rgba(var(--color-foreground),.75)!important;
     }
     read-more button:focus,
     read-more button:hover {
