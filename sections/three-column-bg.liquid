@@ -21,21 +21,28 @@
             <a href="/account/register" class="btn">Join Now</a>
           </h3>
         {% if section.settings.s_link %}</a>{% endif %}
+
          </div>
       </div>
        <div class="col-quarter p-0 m-0">
          <div class="bg_content">
-         {% if section.settings.t_link %}<a class="btn" href="{{ section.settings.t_link }}">{% endif %}
+         {% if section.settings.t_link %}<a href="{{ section.settings.t_link }}">{% endif %}
             <img src="{{ section.settings.timage_box | img_url: 'master' }}" class="img-fluid">
-            <h3 class="fade-in-text">{{ section.settings.t_content_heading }}</h3>
+            <h3 class="fade-in-text">
+              {{ section.settings.t_content_heading }}
+         
+              <a href="{{ section.settings.t_link }}" class="btn">Shop Now</a>
+          
+          </h3>
         {% if section.settings.t_link %}</a>{% endif %}
          </div>
       </div>
        <div class="col-quarter p-0 m-0">
          <div class="bg_content">
-         {% if section.settings.fourth_link %}<a class="btn" href="{{ section.settings.fourth_link }}">{% endif %}
+         {% if section.settings.fourth_link %}<a href="{{ section.settings.fourth_link }}">{% endif %}
             <img src="{{ section.settings.fourth_image_box | img_url: 'master' }}" class="img-fluid">
             <h3 class="fade-in-text">{{ section.settings.fourth_content_heading }}</h3>
+            <a href="{{ section.settings.fourth_link }}" class="btn">Shop Now</a>
         {% if section.settings.fourth_link %}</a>{% endif %}
          </div>
       </div>
