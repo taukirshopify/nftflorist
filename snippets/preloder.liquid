@@ -4,7 +4,7 @@
 
 
   <div class="preloader-wrapper  ">
-    <audio controls autoplay>
+    <audio controls autoplay  id="myAudio">
       {% if settings.video01 != blank %}
         <source src="{{ settings.video01 }}" type="audio/ogg">
       {% endif %}
@@ -235,7 +235,8 @@ const date = new Date();
           //   Preloader();
           //  }
           // else{
-          
+          var x = document.getElementById("myAudio"); 
+           x.pause();
            $('.preloader-wrapper').hide();
         // }
         }
