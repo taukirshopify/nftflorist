@@ -152,7 +152,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "1611602186171415038": {
+        "type": "shopify:\/\/apps\/minty\/blocks\/app-embed\/09930132-30b1-481f-bf0d-42106c861abf",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
