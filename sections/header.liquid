@@ -179,7 +179,7 @@ border-color: #822523;}
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }}p-0 m-0 overflow-hidden container-fluid{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}">
     <div class="d-none d-lg-block">
       <a href="/account/login" class="text-decoration-none header-btn" style="color: #000;font-weight: 700;font-size: 13px;text-transform: uppercase;">Member Login</a>
-      <a style="" href="/account/register" class="text-decoration-none header-btn" style="color: #000;font-weight: 700;font-size: 13px;text-transform: uppercase;">Join for Free</a>
+      <a href="/account/register" class="text-decoration-none header-btn" style="color: #000;font-weight: 700 !important;font-size: 13px;text-transform: uppercase;">Join for Free</a>
     </div>
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
