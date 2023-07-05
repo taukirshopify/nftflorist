@@ -43,7 +43,7 @@
 
 .rich-text__blocks * {
   overflow-wrap: break-word;
-  text-align: left;
+  text-align: justify;
 }
 
 .rich-text__blocks > * {
