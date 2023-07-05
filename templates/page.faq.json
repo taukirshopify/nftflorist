@@ -93,6 +93,13 @@
             "faq-title": "How to Become a Founding Member",
             "faq-content": "<p>To become a Founding Member, you must take advantage of our limited-time Introductory Offer. Simply purchase the bundle offer of 6 NFT bouquets for $30, and you will automatically be upgraded to the Founding Member level, unlocking all the additional benefits<br\/> mentioned above.We believe that the Founding Member status offers a unique opportunity to be part of our community from the very beginning and enjoy exclusive benefits reserved only for our earliest<br\/> supporters.Should you have any further questions or require additional clarification regarding the membership levels and benefits, please don’t hesitate to reach out to our customer support<br\/> team. We are here to assist you.Thank you for considering our membership program, and we look forward to welcoming you as a valued member or Founding Member of our community!<\/p>"
           }
+        },
+        "78a75333-fba6-443c-9509-376783b94deb": {
+          "type": "text",
+          "settings": {
+            "faq-title": "May I buy the 6 NFTs on the introductory offer and send them later….whenever I want to?",
+            "faq-content": "<p>Yes! You’ll be immediately issued a credit for 6 NFT bouquets. When you decide to send one out, you’ll pay for your order using your credits. We realize you may have a family member you may want to honor with an “I love you” bouquet this week and a “thank you” bouquet to a friend or a customer next week.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -107,7 +114,8 @@
         "688aa970-0be0-4f54-8c67-8885fa57e70a",
         "df7cb597-430e-436d-82bf-39d421678ee3",
         "1b908458-390f-4425-83c5-c00aef633287",
-        "2475cf0d-b655-4d46-a084-73e2caba3ba4"
+        "2475cf0d-b655-4d46-a084-73e2caba3ba4",
+        "78a75333-fba6-443c-9509-376783b94deb"
       ],
       "settings": {
         "padding_top": 0,
