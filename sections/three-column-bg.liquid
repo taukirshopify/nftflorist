@@ -29,7 +29,7 @@
          <div class="bg_content">
          
             <img src="{{ section.settings.timage_box | img_url: 'master' }}" class="img-fluid">
-            <h3 class="fade-in-text">
+            <h3 class="fade-in-text keepPosition">
               {% if section.settings.t_link %}<a  class="d-block color-reset" href="{{ section.settings.t_link }}">{% endif %}
               {{ section.settings.t_content_heading }}
               {% if section.settings.t_link %}</a>{% endif %}
@@ -45,7 +45,7 @@
          <div class="bg_content">
         
             <img src="{{ section.settings.fourth_image_box | img_url: 'master' }}" class="img-fluid">
-            <h3 class="fade-in-text">
+            <h3 class="fade-in-text keepPosition">
               {% if section.settings.fourth_link %}<a class="d-block color-reset" href="{{ section.settings.fourth_link }}">{% endif %}
               {{ section.settings.fourth_content_heading }}
               {% if section.settings.fourth_link %}</a>{% endif %}
@@ -215,7 +215,6 @@ color: #fff;}
 @media only screen and (max-width:1200px){
   .bg_content h3{
     font-size: 1.8rem;
-    
   }
 }
   @media only screen and (max-width:991px){
@@ -225,6 +224,10 @@ color: #fff;}
     transform: translateY(0);
     
   }
+   .bg_content h3.keepPosition{
+     top: 50%;
+    transform: translateY(-50%);
+   }
 }
 a.btn {
     border: 1px  solid #ddd;
