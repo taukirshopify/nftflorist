@@ -6,10 +6,10 @@
       "type": "three-column-bg",
       "settings": {
         "fimage_box": "shopify:\/\/shop_images\/Flower8.jpg",
-        "f_content_heading": "<ul style=\"list-style: none;\">\n<li style=\"line-height: 1.8em; text-decoration: underline;\">Introductory Offer \/ Membership<\/li>\n<li style=\"line-height: 1.8em\">• 6 NFT bouquets for $30<\/li>\n<li style=\"line-height: 1.8em\">• To elevate your gift giving game<\/li>\n<\/ul>",
+        "f_content_heading": "<p>All bouquets are registered NFTs<br\/> <br\/>One-of-a-kind <br\/>digital art <br\/><br\/>Limited edition collectibles <br\/><\/p>",
         "f_link": "\/account\/register",
         "simage_box": "shopify:\/\/shop_images\/Flower12.jpg",
-        "s_content_heading": "<ul style=\"list-style: none;\">\n<li style=\"line-height: 1.8em; text-decoration: underline;\">Attributes<\/li>\n<li style=\"line-height: 1.8em\">• All bouquets are registered NFTs<\/li>\n<li style=\"line-height: 1.8em\">• One-of-a-kind digital art<\/li>\n<li style=\"line-height: 1.8em\">• Limited edition collectables<\/li>\n<li style=\"line-height: 1.8em\">• Over 140 choices<\/li>\n<li style=\"line-height: 1.8em\">• Stunning & inexpensive giftable(s)<\/li>\n<\/ul>",
+        "s_content_heading": "<p>Attributes<\/p><p>• All bouquets are registered NFTs<\/p><p>• One-of-a-kind digital art<\/p><p>• Limited edition collectables<\/p><p>• Over 140 choices<\/p><p>• Stunning & inexpensive giftable(s)<\/p>",
         "s_link": "shopify:\/\/collections\/nft-bouquets",
         "timage_box": "shopify:\/\/shop_images\/header-ad_1.gif",
         "t_content_heading": "",
