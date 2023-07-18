@@ -6,7 +6,7 @@
         <div class="bg_content">
          {% if section.settings.f_link %}<a href="{{ section.settings.f_link }}">{% endif %}
           <img src="{{ section.settings.fimage_box | img_url: 'master' }}" class="img-fluid">
-          <h3 class="fade-in-text">{{ section.settings.f_content_heading }}
+          <h3 class="fadeIn">{{ section.settings.f_content_heading }}
         </h3>
 
         {% if section.settings.f_link %}</a>{% endif %}
@@ -18,7 +18,7 @@
          <div class="bg_content">
          {% if section.settings.s_link %}<a href="{{ section.settings.s_link }}">{% endif %}
             <img src="{{ section.settings.simage_box | img_url: 'master' }}" class="img-fluid">
-            <h3 class="fade-in-text">{{ section.settings.s_content_heading }}
+            <h3 class="fadeIn">{{ section.settings.s_content_heading }}
           </h3>
         {% if section.settings.s_link %}</a>{% endif %}
             <a href="/account/register" class="btn four-column__btn">JOIN NOW FOR FREE</a>
@@ -29,7 +29,7 @@
          <div class="bg_content">
          
             <img src="{{ section.settings.timage_box | img_url: 'master' }}" class="img-fluid">
-            <h3 class="fade-in-text keepPosition">
+            <h3 class="fadeIn keepPosition">
               {% if section.settings.t_link %}<a  class="d-block color-reset" href="{{ section.settings.t_link }}">{% endif %}
               {{ section.settings.t_content_heading }}
               {% if section.settings.t_link %}</a>{% endif %}
@@ -45,7 +45,7 @@
          <div class="bg_content">
         
             <img src="{{ section.settings.fourth_image_box | img_url: 'master' }}" class="img-fluid">
-            <h3 class="fade-in-text keepPosition">
+            <h3 class="fadeIn keepPosition">
               {% if section.settings.fourth_link %}<a class="d-block color-reset" href="{{ section.settings.fourth_link }}">{% endif %}
               {{ section.settings.fourth_content_heading }}
               {% if section.settings.fourth_link %}</a>{% endif %}
@@ -186,8 +186,11 @@ color: #fff;}
    .bg_content {
     position: relative;
 }
-
+.bg_content:hover h3.fadeIn{
+  opacity: 1;
+}
 .bg_content h3 {
+  transition: opacity .4s ease;
   opacity: 0;
       display: flex;
     flex-direction: column;
@@ -275,7 +278,7 @@ a.d-block.color-reset:hover {
     }
   }
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
@@ -298,7 +301,7 @@ a.d-block.color-reset:hover {
 @-ms-keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
-}
+} */
 </style>
 {% javascript %}
 {% endjavascript %}
