@@ -19,9 +19,9 @@
          {% if section.settings.s_link %}<a href="{{ section.settings.s_link }}">{% endif %}
             <img src="{{ section.settings.simage_box | img_url: 'master' }}" class="img-fluid">
             <h3 class="fade-in-text">{{ section.settings.s_content_heading }}
-            <a href="/account/register" class="btn four-column__btn">JOIN NOW FOR FREE</a>
           </h3>
         {% if section.settings.s_link %}</a>{% endif %}
+            <a href="/account/register" class="btn four-column__btn">JOIN NOW FOR FREE</a>
 
          </div>
       </div>
@@ -34,9 +34,10 @@
               {{ section.settings.t_content_heading }}
               {% if section.settings.t_link %}</a>{% endif %}
          
-              <a  href="{{ section.settings.t_link }}" class="btn four-column__btn">SHOP NOW</a>
           
           </h3>
+          <a  href="{{ section.settings.t_link }}" class="btn four-column__btn">SHOP NOW</a>
+
       
          </div>
       </div>
@@ -48,10 +49,9 @@
               {% if section.settings.fourth_link %}<a class="d-block color-reset" href="{{ section.settings.fourth_link }}">{% endif %}
               {{ section.settings.fourth_content_heading }}
               {% if section.settings.fourth_link %}</a>{% endif %}
-              <a href="{{ section.settings.fourth_link }}" class="btn four-column__btn">SHOP NOW</a>
             </h3>
-           
-        
+          <a href="{{ section.settings.fourth_link }}" class="btn four-column__btn">SHOP NOW</a>
+
          </div>
       </div>
     </div>
@@ -235,9 +235,14 @@ a.d-block.color-reset:hover {
     /*filter: brightness(.6);*/
 }
 
-  .four-column__btn{
-    margin-top: 2rem;
-    white-space: nowrap;
+  a.four-column__btn{
+    position: absolute;
+    margin: 0;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
 @keyframes fadeIn {
