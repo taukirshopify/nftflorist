@@ -2577,8 +2577,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header__icons .shopify-app-block {
-  max-width: 4.4rem;
-  max-height: 4.4rem;
+  max-width: 3.5rem;
+  max-height: 3.5rem;
   overflow: hidden;
 }
 
