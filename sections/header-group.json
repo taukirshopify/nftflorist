@@ -4,6 +4,7 @@
   "sections": {
     "5cace7ae-fb62-4855-ab7d-f52675d53dce": {
       "type": "three-column-bg",
+      "disabled": true,
       "settings": {
         "fimage_box": "shopify:\/\/shop_images\/Flower8.jpg",
         "f_content_heading": "<p>Introductory Offer<\/p><p>6 NFT Bouquets for only $30<\/p><p>Elevate your gift giving game<\/p>",
@@ -27,6 +28,18 @@
     "header": {
       "type": "header",
       "settings": {
+        "logo_position": "top-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20,
         "f_content_heading": "",
         "f_link": "",
         "s_content_heading": "",
