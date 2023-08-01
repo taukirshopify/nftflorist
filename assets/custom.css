@@ -3,13 +3,10 @@ img {
   -webkit-touch-callout: none;
 }
 
-.header-btn:hover {
+.header-btn:hover, .quick-add__submit:hover {
 color: #822523 !important;
 }
 
-button:hover {
-  color: #822523 !important;
-}
 
 .page-width > .rte {
     text-align: justify;
