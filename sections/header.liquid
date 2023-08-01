@@ -176,6 +176,244 @@ border-color: #822523;}
   endfor
 -%}
 
+{% if template == 'index' %}
+<section class="full-width-box">
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-quarter  p-0 m-0">
+        <div class="bg_content">
+         {% if section.settings.f_link %}<a href="{{ section.settings.f_link }}">{% endif %}
+          <img src="{{ section.settings.fimage_box | img_url: 'master' }}" class="img-fluid">
+          <h3 class="fadeIn">{{ section.settings.f_content_heading }}
+        </h3>
+
+        {% if section.settings.f_link %}</a>{% endif %}
+        <a href="/account/register" class="btn four-column__btn">JOIN NOW FOR FREE</a>
+
+        </div>
+      </div>
+       <div class="col-quarter p-0 m-0">
+         <div class="bg_content">
+         {% if section.settings.s_link %}<a href="{{ section.settings.s_link }}">{% endif %}
+            <img src="{{ section.settings.simage_box | img_url: 'master' }}" class="img-fluid">
+            <h3 class="fadeIn">{{ section.settings.s_content_heading }}
+          </h3>
+        {% if section.settings.s_link %}</a>{% endif %}
+            <a href="/account/register" class="btn four-column__btn">JOIN NOW FOR FREE</a>
+
+         </div>
+      </div>
+       <div class="col-quarter p-0 m-0">
+         <div class="bg_content">
+         
+            <img src="{{ section.settings.timage_box | img_url: 'master' }}" class="img-fluid">
+            <h3 class="fadeIn keepPosition">
+              {% if section.settings.t_link %}<a  class="d-block color-reset" href="{{ section.settings.t_link }}">{% endif %}
+              {{ section.settings.t_content_heading }}
+              {% if section.settings.t_link %}</a>{% endif %}
+         
+          
+          </h3>
+          <a  href="{{ section.settings.t_link }}" class="btn four-column__btn">SHOP NOW</a>
+
+      
+         </div>
+      </div>
+       <div class="col-quarter p-0 m-0">
+         <div class="bg_content">
+        
+            <img src="{{ section.settings.fourth_image_box | img_url: 'master' }}" class="img-fluid">
+            <h3 class="fadeIn keepPosition">
+              {% if section.settings.fourth_link %}<a class="d-block color-reset" href="{{ section.settings.fourth_link }}">{% endif %}
+              {{ section.settings.fourth_content_heading }}
+              {% if section.settings.fourth_link %}</a>{% endif %}
+            </h3>
+          <a href="{{ section.settings.fourth_link }}" class="btn four-column__btn">SHOP NOW</a>
+
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.bg_content a {
+ text-decoration:none;
+ color: white;
+  display:flex;
+  flex-direction:column;
+  gap:2rem;
+  font-weight:900;
+}
+  .bg_content a p {
+    margin: 0;
+  }
+.bg_content ul li {
+color: #fff;}
+
+  .full-width-box {
+    max-width: 100%;
+    margin: 0 auto;
+}
+  .img-fluid {
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+}
+
+  .col-half {
+    max-width: 50%;
+    width: 100%;
+    flex: 0 0 50%;
+}
+
+  .col-third {
+    max-width: 33.33%;
+    width: 100%;
+    flex: 0 0 33.33%;
+}
+
+  .col-quarter {
+    max-width: 25%;
+    width: 100%;
+    flex: 0 0 25%;
+}
+  .color-reset{
+    color:#fff;
+  }
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+   .bg_content {
+    position: relative;
+}
+.bg_content:hover h3.fadeIn, .bg_content:hover a.four-column__btn{
+  opacity: 1;
+}
+
+.bg_content h3 {
+  transition: opacity .4s ease;
+  opacity: 0;
+      display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 600px;
+    
+    padding: 0 2rem;
+
+}
+@media only screen and (max-width:1200px){
+  .bg_content h3{
+    font-size: 1.8rem;
+  }
+}
+  @media only screen and (max-width:991px){
+  .bg_content h3{
+        font-size: 1.6rem;
+    top: 0;
+    transform: translateY(0);
+    
+  }
+   .bg_content h3.keepPosition{
+     top: 50%;
+    transform: translateY(-50%);
+   }
+}
+a.btn {
+    border: 1px  solid #ddd;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+a.btn:hover{
+  border-color: #822523;
+  color: #822523;
+}
+a.d-block.color-reset {
+    color: #fff;
+}
+a.d-block.color-reset:hover {
+    color: #fff;
+}
+  .bg_content img {
+    width: 100%;
+    max-height: 315px;
+    object-fit: cover;
+}
+  .bg_content:hover img{
+        filter: brightness(.8);
+
+  }
+
+  a.four-column__btn{
+    position: absolute;
+    margin: 0;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+        text-align: center;
+  width: 65%;
+    opacity: 0;
+    transition: opacity .4s ease;
+    font-size: 1.5rem;
+  }
+@media only screen and (max-width:1300px){
+  a.four-column__btn{
+    width: 85%;
+  }
+}
+  @media only screen and (max-width:991px){
+    a.four-column__btn{
+          font-size: 1.5rem;
+    width: 92%;
+    padding: 5px 0;
+    }
+  }
+
+/* @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+} */
+</style>
+{% endif %}
+
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }}p-0 m-0 overflow-hidden container-fluid{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}">
     <div class="d-none d-lg-block">
@@ -1037,6 +1275,69 @@ border-color: #822523;}
       "default": 20
     }
   ],
+    "name": "Four Column BG Image",
+    "settings": [
+       {
+          "type": "image_picker",
+          "id": "fimage_box",
+          "label": "First Box Image Upload "
+        },
+      {
+          "type": "richtext",
+          "id": "f_content_heading",
+          "label": "First Box Title"
+        },
+      {
+        "type": "url",
+        "id": "f_link",
+        "label": "First Box Link"
+      },
+       {
+          "type": "image_picker",
+          "id": "simage_box",
+          "label": "Second Box Image Upload "
+        },
+      {
+          "type": "richtext",
+          "id": "s_content_heading",
+          "label": "Second Box Title"
+        },
+      {
+        "type": "url",
+        "id": "s_link",
+        "label": "Second Box Link"
+      },
+       {
+          "type": "image_picker",
+          "id": "timage_box",
+          "label": "Third Box Image Upload "
+        },
+      {
+          "type": "text",
+          "id": "t_content_heading",
+          "label": "Third Box Title"
+        },
+      {
+        "type": "url",
+        "id": "t_link",
+        "label": "Third Box Link"
+      },
+       {
+          "type": "image_picker",
+          "id": "fourth_image_box",
+          "label": "Fourth Box Image Upload "
+        },
+      {
+          "type": "text",
+          "id": "fourth_content_heading",
+          "label": "Fourth Box Title"
+        },
+      {
+        "type": "url",
+        "id": "fourth_link",
+        "label": "Fourth Box Link"
+      }
+    ],
   "blocks": [
     {
       "type": "@app"
