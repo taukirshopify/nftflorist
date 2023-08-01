@@ -3,7 +3,7 @@ img {
   -webkit-touch-callout: none;
 }
 
-.header-btn:hover, .quick-add__submit:hover, .button:focus, .button:hover {
+.header-btn:hover, .quick-add__submit:hover, .button:focus, .button:hover, a:hover {
 color: #822523 !important;
 }
 
