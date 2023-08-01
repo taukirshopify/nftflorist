@@ -72,82 +72,7 @@
   }
 .bg_content ul li {
 color: #fff;}
-</style>
-{% endif %}
-{% schema %}
-  {
-    "name": "Four Column BG Image",
-    "settings": [
-       {
-          "type": "image_picker",
-          "id": "fimage_box",
-          "label": "First Box Image Upload "
-        },
-      {
-          "type": "richtext",
-          "id": "f_content_heading",
-          "label": "First Box Title"
-        },
-      {
-        "type": "url",
-        "id": "f_link",
-        "label": "First Box Link"
-      },
-       {
-          "type": "image_picker",
-          "id": "simage_box",
-          "label": "Second Box Image Upload "
-        },
-      {
-          "type": "richtext",
-          "id": "s_content_heading",
-          "label": "Second Box Title"
-        },
-      {
-        "type": "url",
-        "id": "s_link",
-        "label": "Second Box Link"
-      },
-       {
-          "type": "image_picker",
-          "id": "timage_box",
-          "label": "Third Box Image Upload "
-        },
-      {
-          "type": "text",
-          "id": "t_content_heading",
-          "label": "Third Box Title"
-        },
-      {
-        "type": "url",
-        "id": "t_link",
-        "label": "Third Box Link"
-      },
-       {
-          "type": "image_picker",
-          "id": "fourth_image_box",
-          "label": "Fourth Box Image Upload "
-        },
-      {
-          "type": "text",
-          "id": "fourth_content_heading",
-          "label": "Fourth Box Title"
-        },
-      {
-        "type": "url",
-        "id": "fourth_link",
-        "label": "Fourth Box Link"
-      }
-    ],
-    "presets": [
-    {
-      "name": "Four Column BG Image"
-    }
-  ]
-  }
-{% endschema %}
 
-<style>
   .full-width-box {
     max-width: 100%;
     margin: 0 auto;
@@ -309,3 +234,76 @@ a.d-block.color-reset:hover {
   100% { opacity: 1; }
 } */
 </style>
+{% endif %}
+{% schema %}
+  {
+    "name": "Four Column BG Image",
+    "settings": [
+       {
+          "type": "image_picker",
+          "id": "fimage_box",
+          "label": "First Box Image Upload "
+        },
+      {
+          "type": "richtext",
+          "id": "f_content_heading",
+          "label": "First Box Title"
+        },
+      {
+        "type": "url",
+        "id": "f_link",
+        "label": "First Box Link"
+      },
+       {
+          "type": "image_picker",
+          "id": "simage_box",
+          "label": "Second Box Image Upload "
+        },
+      {
+          "type": "richtext",
+          "id": "s_content_heading",
+          "label": "Second Box Title"
+        },
+      {
+        "type": "url",
+        "id": "s_link",
+        "label": "Second Box Link"
+      },
+       {
+          "type": "image_picker",
+          "id": "timage_box",
+          "label": "Third Box Image Upload "
+        },
+      {
+          "type": "text",
+          "id": "t_content_heading",
+          "label": "Third Box Title"
+        },
+      {
+        "type": "url",
+        "id": "t_link",
+        "label": "Third Box Link"
+      },
+       {
+          "type": "image_picker",
+          "id": "fourth_image_box",
+          "label": "Fourth Box Image Upload "
+        },
+      {
+          "type": "text",
+          "id": "fourth_content_heading",
+          "label": "Fourth Box Title"
+        },
+      {
+        "type": "url",
+        "id": "fourth_link",
+        "label": "Fourth Box Link"
+      }
+    ],
+    "presets": [
+    {
+      "name": "Four Column BG Image"
+    }
+  ]
+  }
+{% endschema %}
