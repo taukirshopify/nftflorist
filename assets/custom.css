@@ -11,6 +11,7 @@ img {
     max-width: 500px;
     width: 100%;
     height: 225px;
+    margin: 15px 0;
 }
 
 .member-card-header {
@@ -25,7 +26,7 @@ img {
 }
 
 .member-card-body {
-    padding: 5px;
+        padding: 25px 5px 0 5px;
 }
 
 .header-btn:hover, .quick-add__submit:hover, .button:focus, .collection__view-all > a:hover, .collection__view-all > a:focus, .collection__view-all > a:active {
