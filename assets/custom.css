@@ -28,6 +28,12 @@ img {
         padding: 25px 5px 0 5px;
 }
 
+.founder-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+
 .header-btn:hover, .quick-add__submit:hover, .button:focus, .collection__view-all > a:hover, .collection__view-all > a:focus, .collection__view-all > a:active {
 color: #822523 !important;
 border-color: #822523 !important;
