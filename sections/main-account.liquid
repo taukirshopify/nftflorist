@@ -36,6 +36,7 @@
     <h1 class="customer__title">{{ 'customer.account.title' | t }}</h1>
     <div class="member-card">
       <h3>Customer ID: {{ customer.id }}</h3>
+      <h3>Member Status: {{ customer.tags }}</h3>
     </div>
     <a href="{{ routes.account_logout_url }}">
       <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" fill="none" viewBox="0 0 18 19">
