@@ -205,8 +205,10 @@ border-color: #822523;}
       </div>
        <div class="col-quarter p-0 m-0">
          <div class="bg_content">
-         
-            <img src="{{ section.settings.timage_box | img_url: 'master' }}" class="img-fluid">
+           <video playsinline loop autoplay>
+              <source src="https://cdn.shopify.com/videos/c/o/v/cfa387fe60ef42bfb871814c50d02c6d.mp4" type="video /mpeg">
+           </video>
+            <!-- <img src="{{ section.settings.timage_box | img_url: 'master' }}" class="img-fluid"> -->
             <h3 class="fadeIn keepPosition">
               {% if section.settings.t_link %}<a  class="d-block color-reset" href="{{ section.settings.t_link }}">{% endif %}
               {{ section.settings.t_content_heading }}
