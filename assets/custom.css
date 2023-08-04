@@ -18,6 +18,7 @@ img {
   background-color: rgba(130, 37, 35, 1);
   top: 0;
   width: 100%;
+  text-align: center;
 }
 
 .header-btn:hover, .quick-add__submit:hover, .button:focus, .collection__view-all > a:hover, .collection__view-all > a:focus, .collection__view-all > a:active {
