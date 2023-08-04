@@ -40,6 +40,7 @@
           <h3>Member ID: {{ customer.id }}</h3>
           <h3>Member Status: {% for tag in customer.tags %}{% if tag == 'founding-member' %}Founding Member{% endif %}{% endfor %}</h3>
         </div>
+        {% render 'icon-founder-crown' %}
       </div>
     <a href="{{ routes.account_logout_url }}">
       <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" fill="none" viewBox="0 0 18 19">
