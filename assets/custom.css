@@ -10,7 +10,6 @@ img {
     border-radius: 15px;
     max-width: 500px;
     width: 100%;
-    padding: 5px;
 }
 
 .member-card-header {
@@ -20,6 +19,10 @@ img {
   top: 0;
   width: 100%;
   text-align: center;
+}
+
+.member-card-body {
+    padding: 5px;
 }
 
 .header-btn:hover, .quick-add__submit:hover, .button:focus, .collection__view-all > a:hover, .collection__view-all > a:focus, .collection__view-all > a:active {
