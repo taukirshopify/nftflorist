@@ -3,6 +3,15 @@ img {
   -webkit-touch-callout: none;
 }
 
+.member-card {
+    background-color: ;
+    border: 3px solid #822523;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 100%;
+    padding: 5px;
+}
+
 .header-btn:hover, .quick-add__submit:hover, .button:focus, .collection__view-all > a:hover, .collection__view-all > a:focus, .collection__view-all > a:active {
 color: #822523 !important;
 border-color: #822523 !important;
