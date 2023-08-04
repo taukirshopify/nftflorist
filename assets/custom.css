@@ -12,6 +12,12 @@ img {
     padding: 5px;
 }
 
+.member-card-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 .header-btn:hover, .quick-add__submit:hover, .button:focus, .collection__view-all > a:hover, .collection__view-all > a:focus, .collection__view-all > a:active {
 color: #822523 !important;
 border-color: #822523 !important;
