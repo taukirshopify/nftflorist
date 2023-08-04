@@ -223,8 +223,11 @@ border-color: #822523;}
       </div>
        <div class="col-quarter p-0 m-0">
          <div class="bg_content">
-        
-            <img src="{{ section.settings.fourth_image_box | img_url: 'master' }}" class="img-fluid">
+
+           <video style="width: 100%;" playsinline loop autoplay muted>
+              <source src="https://cdn.shopify.com/videos/c/o/v/8270257510294169a89484c42ad4d1eb.mp4" type="video/mp4">
+           </video>
+            <!-- <img src="{{ section.settings.fourth_image_box | img_url: 'master' }}" class="img-fluid"> -->
             <h3 class="fadeIn keepPosition">
               {% if section.settings.fourth_link %}<a class="d-block color-reset" href="{{ section.settings.fourth_link }}">{% endif %}
               {{ section.settings.fourth_content_heading }}
