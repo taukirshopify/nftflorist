@@ -15,7 +15,7 @@ img {
 .member-card-header {
   position: absolute;
   background-color: rgba(130, 37, 35, 1);
-  border-radius: 15px;
+  border-radius: 10px;
   top: 0;
   width: 100%;
   text-align: center;
