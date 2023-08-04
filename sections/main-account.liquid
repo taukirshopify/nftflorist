@@ -36,7 +36,7 @@
     <h1 class="customer__title">{{ 'customer.account.title' | t }}</h1>
     <div class="member-card">
       <h3>Customer ID: {{ customer.id }}</h3>
-      <h3>Member Status: {% if customer.tags == 'founding-member' %}Founding Member{% endif %}</h3>
+      <h3>Member Status: {% for tag in customer.tags %}{% if tag == 'founding-member' %}Founding Member{% endif %}{% endfor %}</h3>
     </div>
     <a href="{{ routes.account_logout_url }}">
       <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" fill="none" viewBox="0 0 18 19">
