@@ -79,7 +79,7 @@
         e.preventDefault();
         const name = $("#firstname").val()
         const email = $("#email").val()
-        const text = $("[name='comment']").val()
+        const message = $("[name='comment']").val()
         let error = false;
         if(name.length <= 0) {
           error = true;
@@ -93,7 +93,15 @@
           error = true;
           $("[name='comment']").css("border-color","red")
         }
+        const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${message}`
+        console.log(url)
+        return;
         if(error) return;
+        $.ajax({
+          url: url,
+          success: ()=>{
+          },
+        });
       })
     });
     
