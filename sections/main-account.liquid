@@ -194,6 +194,9 @@
                                console.log(elem);
                                // document.getElementById("acountitem").insertAdjacentHTML("afterend",  elem );
                                document.getElementById("acountitem").innerHTML += elem;
+                              $("trigger").on("click",()=>{
+                                console.log("hi");
+                              })
 
 
 }).catch(function (err) {
