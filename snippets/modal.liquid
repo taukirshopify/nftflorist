@@ -95,17 +95,21 @@
         }
         const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}`
         if(error) return;
-        
-        $.ajax({
-          url: url,
-          success: ()=>{
-            console.log("done")
-          },
-           error: function(e){
-             console.log(e)
-            alert('error!');
-          }
-        });
+        fetch(url).then((e)=>{
+          console.log(e)
+        }).catch(err=>{
+          console.log(err)
+        })
+        // $.ajax({
+        //   url: url,
+        //   success: ()=>{
+        //     console.log("done")
+        //   },
+        //    error: function(e){
+        //      console.log(e)
+        //     alert('error!');
+        //   }
+        // });
       })
     });
     
