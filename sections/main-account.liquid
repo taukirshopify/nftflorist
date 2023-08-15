@@ -178,7 +178,7 @@
                              (function() {
                                console.log("this is running");
  {%- for order in customer.orders -%}
-  <script>console.log({{order.customer_url|json}})</script>
+  console.log({{order.customer_url|json}})
                               fetch('{{ order.customer_url }}').then(function (response) {
 	// The API call was successful!
 	return response.text();
