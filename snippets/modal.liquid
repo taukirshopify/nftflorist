@@ -101,7 +101,8 @@
           success: ()=>{
             console.log("done")
           },
-           error: function(){
+           error: function(e){
+             console.log(e)
             alert('error!');
           }
         });
