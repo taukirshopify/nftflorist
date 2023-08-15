@@ -71,6 +71,12 @@
         $('.close_btn').click(function() {
             $('.modal_content').css('display', 'none');
         })
+      $(".submit-gift").click((e)=>{
+        e.preventDefault();
+        const name = $("#firstname").val()
+        const email = $("#email").val()
+        const text = $("[name='comment']").val()
+      })
     });
     
   </script>
