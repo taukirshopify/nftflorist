@@ -1,69 +1,55 @@
 <style>
-    .control-group input {
-        display: block;
-        width: 100%;
-        height: 40px;
-    }
-    .control-group input:focus-visible{
+  .control-group input {
+      display: block;
+      width: 100%;
+      height: 40px;
+  }
+  .control-group input:focus-visible{
 
-        outline: none;
-        outline-offset: 0;
-        box-shadow: none;
-    }
-    .control-group textarea:focus-visible{
+      outline: none;
+      outline-offset: 0;
+      box-shadow: none;
+  }
+  .control-group textarea:focus-visible{
 
-        outline: none;
-        outline-offset: 0;
-        box-shadow: none;
-    }
+      outline: none;
+      outline-offset: 0;
+      box-shadow: none;
+  }
 </style>
 <div data-ml-modal id="modal-10">
-	<a href="#!" class="modal-overlay"></a>
-	<div class="modal-dialog modal-dialog-lg">
-	
-		<div class="modal-content newspaper">
-			<div class="container">
-               <h2 class="customer__title text-center">Gift Your NFT Bouquet</h2>
-              <div class="inputs__container">
-                <div class="control-group">
-                    {% comment %} <label for="firstname">Recipients Name </label> {% endcomment %}
-                  <input id="firstname" type="text" name="firstname" placeholder="Recipients Name" />
-                 
-                </div>
-              
+  <a href="#!" class="modal-overlay"></a>
+  <div class="modal-dialog modal-dialog-lg">
+    <div class="modal-content newspaper">
+      <div class="container">
+        <h2 class="customer__title text-center">Gift Your NFT Bouquet</h2>
+        <div class="inputs__container">
+          <div class="control-group">
+            {% comment %} <label for="firstname">Recipients Name </label> {% endcomment %}
+            <input id="firstname" type="text" name="firstname" placeholder="Recipients Name">
+          </div>
 
-              
-                <div class="control-group">
-                    {% comment %} <label for="email">Email Address</label> {% endcomment %}
-                  <input id="email" type="text" name="email" placeholder="Recipients Email Address" />
-                 
-                </div>
-                <div class="control-group">
-                    {% comment %} <label for="email">Email Address</label> {% endcomment %}
-                    <textarea name="comment" form="usrform" placeholder="Message..."></textarea>
+          <div class="control-group">
+            {% comment %} <label for="email">Email Address</label> {% endcomment %}
+            <input id="email" type="text" name="email" placeholder="Recipients Email Address">
+          </div>
+          <div class="control-group">
+            {% comment %} <label for="email">Email Address</label> {% endcomment %}
+            <textarea name="comment" form="usrform" placeholder="Message..."></textarea>
+          </div>
+        </div>
 
-                 
-                </div>
-              </div>
-
-
-                <p class="center">
-                    
-                    
-                    <a href="#!"  class="btn btn-default submit-gift">submit</a>
-                    <a href="#!" class="btn btn-default">Close</a>
-            
-            
-            </p>
-              </div>
-		</div>
-      
-	</div>
+        <p class="center">
+          <a href="#!" class="btn btn-default submit-gift">submit</a>
+          <a href="#!" class="btn btn-default">Close</a>
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
-
-
 <script>
+  
     
     $(document).ready(function() {
         $('button').click(function() {
@@ -107,116 +93,117 @@
       })
     });
     
-  </script>
+
+</script>
 
 <style>
-   /* Modals
-----------------------------------------------*/
+     /* Modals
+  ----------------------------------------------*/
 
 
-[data-ml-modal] {
-	position:fixed;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
-	overflow-x:hidden;
-	overflow-y:auto;
-	-webkit-overflow-scrolling:touch;
-	z-index:999;
-	width:0;
-	height:0;
-	opacity:0;
-}
-[data-ml-modal]:target {
-	width:auto;
-	height:auto;
-	opacity:1;
-	-webkit-transition:  opacity 1s ease;
-	transition: opacity 1s ease;
-}
-[data-ml-modal]:target .modal-overlay {
-	position:fixed;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
-	cursor:pointer;
-	background-color:#000;
-	background-color:rgba(0, 0, 0, 0.7);
-	z-index:1;
-}
-[data-ml-modal] .modal-dialog {
-	border-radius:6px;
-	box-shadow:0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
-	position:relative;
-	width: 90%;
-	max-width:500px;
-	max-height:70%;
-	margin:10% auto;
-	overflow-x:hidden;
-	overflow-y:auto;
-	z-index:2;
-}
-.modal-dialog-lg {max-width:520px !important;}
+  [data-ml-modal] {
+  	position:fixed;
+  	top:0;
+  	bottom:0;
+  	left:0;
+  	right:0;
+  	overflow-x:hidden;
+  	overflow-y:auto;
+  	-webkit-overflow-scrolling:touch;
+  	z-index:999;
+  	width:0;
+  	height:0;
+  	opacity:0;
+  }
+  [data-ml-modal]:target {
+  	width:auto;
+  	height:auto;
+  	opacity:1;
+  	-webkit-transition:  opacity 1s ease;
+  	transition: opacity 1s ease;
+  }
+  [data-ml-modal]:target .modal-overlay {
+  	position:fixed;
+  	top:0;
+  	bottom:0;
+  	left:0;
+  	right:0;
+  	cursor:pointer;
+  	background-color:#000;
+  	background-color:rgba(0, 0, 0, 0.7);
+  	z-index:1;
+  }
+  [data-ml-modal] .modal-dialog {
+  	border-radius:6px;
+  	box-shadow:0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+  	position:relative;
+  	width: 90%;
+  	max-width:500px;
+  	max-height:70%;
+  	margin:10% auto;
+  	overflow-x:hidden;
+  	overflow-y:auto;
+  	z-index:2;
+  }
+  .modal-dialog-lg {max-width:520px !important;}
 
-[data-ml-modal] .modal-dialog > h3 {
-	background-color:#eee;
-	border-bottom:1px solid #b3b3b3;
-	font-size:24px;
-	font-weight: 400;
-	margin:0;
-	padding:0.8em 56px .8em 27px; 
-}
-[data-ml-modal] .modal-content {background:#fff; padding:30px 27px;}
-[data-ml-modal] .modal-close {
-  	position:absolute;
-	top:13px;
-	right:13px;
-	color:#0085a6;
-	background-color:#fff;
-	border-radius:50%;
-	height:40px;
-	width:40px;
-	font-size:30px;
-	line-height:37px;
-	text-align:center;
-	-webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-[data-ml-modal] .modal-close:hover {background-color:#0085a6; color:#fff; cursor:pointer;}
-[data-ml-modal] p:first-child, [data-ml-modal] p:last-child {margin:0;}
-@media (max-width:767px) {
-	[data-ml-modal] .modal-dialog {margin:20% auto;}
-}
-/* End Modals ------------------------------*/
+  [data-ml-modal] .modal-dialog > h3 {
+  	background-color:#eee;
+  	border-bottom:1px solid #b3b3b3;
+  	font-size:24px;
+  	font-weight: 400;
+  	margin:0;
+  	padding:0.8em 56px .8em 27px;
+  }
+  [data-ml-modal] .modal-content {background:#fff; padding:30px 27px;}
+  [data-ml-modal] .modal-close {
+    	position:absolute;
+  	top:13px;
+  	right:13px;
+  	color:#0085a6;
+  	background-color:#fff;
+  	border-radius:50%;
+  	height:40px;
+  	width:40px;
+  	font-size:30px;
+  	line-height:37px;
+  	text-align:center;
+  	-webkit-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+  }
+  [data-ml-modal] .modal-close:hover {background-color:#0085a6; color:#fff; cursor:pointer;}
+  [data-ml-modal] p:first-child, [data-ml-modal] p:last-child {margin:0;}
+  @media (max-width:767px) {
+  	[data-ml-modal] .modal-dialog {margin:20% auto;}
+  }
+  /* End Modals ------------------------------*/
 
-/* General*/
+  /* General*/
 
-.center {text-align:center !important;}
+  .center {text-align:center !important;}
 
-.control-group input {
-    display: block;
-    width: 100%;
-    height: 40px;
-    border-radius: 15px;
-    border: 1px solid #000;
-    padding: 13px;
-}
-.control-group textarea {
-    display: block;
-    width: 100%;
-    padding: 13px;
-    border-radius: 15px;
-    color: rgb(var(--color-foreground));
-    
-}
-.control-group {
-    margin: 11px 0px;
-}
-a.btn.btn-default {
-    color: #fff;
-    background: #000;
-    text-transform: capitalize;
-}
+  .control-group input {
+      display: block;
+      width: 100%;
+      height: 40px;
+      border-radius: 15px;
+      border: 1px solid #000;
+      padding: 13px;
+  }
+  .control-group textarea {
+      display: block;
+      width: 100%;
+      padding: 13px;
+      border-radius: 15px;
+      color: rgb(var(--color-foreground));
+
+  }
+  .control-group {
+      margin: 11px 0px;
+  }
+  a.btn.btn-default {
+      color: #fff;
+      background: #000;
+      text-transform: capitalize;
+  }
 </style>
