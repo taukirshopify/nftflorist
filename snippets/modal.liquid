@@ -95,7 +95,9 @@
         }
         const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}`
         if(error) return;
-        fetch(url).then((e)=>{
+        fetch(url,{
+          mode: "no-cors" 
+        }).then((e)=>{
           console.log(e)
         }).catch(err=>{
           console.log(err)
