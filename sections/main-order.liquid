@@ -19,11 +19,11 @@
   <div class="innder-wrappper"> 
     <img src="{{ line_item.image | img_url:'' }}" alt="">
   <h5 class="title-2">  <a href="{{ line_item.url }}">{{ line_item.title }}</a></h5>
-  <a  href= "#" class="btn">Transfer</a>
+  <a data-successhide="{{ line_item.id }}" href= "#" class="btn">Transfer</a>
   
   
  
-      <a href="#modal-10" data-image="{{ line_item.image | img_url:''  }}" class="btn link trigger">Gift </a>
+      <a href="#modal-10" data-lineid="{{ line_item }}"  data-image="{{ line_item.image | img_url:''  }}" class="btn link trigger">Gift </a>
   </div>
  
  </div>
