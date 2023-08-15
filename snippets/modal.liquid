@@ -86,6 +86,7 @@
         fetch(url,{
           mode: "no-cors" 
         }).then((e)=>{
+          console.log("success");
           $(".inputs__container").hide()
           $(".submit-gift").hide()
         }).catch(err=>{
