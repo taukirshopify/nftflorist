@@ -72,6 +72,10 @@
             $('.modal_content').css('display', 'none');
         })
       $(".submit-gift").click((e)=>{
+        function isEmail(email) {
+  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  return regex.test(email);
+}
         e.preventDefault();
         const name = $("#firstname").val()
         const email = $("#email").val()
@@ -81,7 +85,7 @@
           error = true;
           $("#firstname").css("border-color","red")
         }
-        if(email.length <= 0) {
+        if(!isEmail(email)) {
           error = true;
           $("#email").css("border-color","red")
         }
