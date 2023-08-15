@@ -197,6 +197,7 @@
                               $(".trigger").on("click",(e)=>{
                                 const lineItemClicked = $(e.currentTarget);
                                 $(".submit-gift").attr("data-image",lineItemClicked.attr("data-image"))
+                                $(".submit-gift").attr("data-lineid",lineItemClicked.attr("data-lineid"))
                               })
 
 
