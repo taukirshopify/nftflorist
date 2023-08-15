@@ -16,6 +16,9 @@
       outline-offset: 0;
       box-shadow: none;
   }
+  .modal__success{
+    display:none;
+  }
 </style>
 <div data-ml-modal id="modal-10">
   <a href="#!" class="modal-overlay"></a>
@@ -92,6 +95,7 @@
           console.log("success");
           $(".inputs__container").hide()
           $(".submit-gift").hide()
+          $(".modal__success").show()
         }).catch(err=>{
           console.log(err)
       })
