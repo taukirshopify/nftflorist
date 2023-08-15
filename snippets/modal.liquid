@@ -93,13 +93,13 @@
           error = true;
           $("[name='comment']").css("border-color","red")
         }
-        const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${message}`
-        console.log(url)
-        return;
+        const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}`
         if(error) return;
+        
         $.ajax({
           url: url,
           success: ()=>{
+            console.log("done")
           },
         });
       })
