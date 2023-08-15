@@ -87,7 +87,9 @@
           error = true;
           $("[name='comment']").css("border-color","red")
         }
-        const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}`
+        const bouquetImage = $(".submit-gift").attr("data-image");
+        console.log(bouquetImage)
+        const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}`
         if(error) return;
         fetch(url,{
           mode: "no-cors" 
