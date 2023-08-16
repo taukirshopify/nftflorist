@@ -39,6 +39,9 @@ color: #822523 !important;
 border-color: #822523 !important;
 }
 
+.product-form__submit {
+  color: #822523 !important;
+}
 
 .page-width > .rte {
     text-align: justify;
