@@ -39,7 +39,7 @@ color: #822523 !important;
 border-color: #822523 !important;
 }
 
-.product-form__submit {
+.product-form__submit:hover {
   color: #822523 !important;
 }
 
