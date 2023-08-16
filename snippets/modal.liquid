@@ -91,7 +91,7 @@
           error = true;
           $("[name='comment']").css("border-color","red")
         }
-        const withHttp = url => !/^https?:\/\//i.test(url) ? `http://${url}` : url;
+        const withHttp = url => !/^https?:\/\//i.test(url) ? `http:${url}` : url;
         let bouquetImage = withHttp($(".submit-gift").attr("data-image"));
   
 
