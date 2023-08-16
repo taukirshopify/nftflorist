@@ -91,7 +91,10 @@
           error = true;
           $("[name='comment']").css("border-color","red")
         }
-        const bouquetImage = $(".submit-gift").attr("data-image");
+        let bouquetImage = $(".submit-gift").attr("data-image");
+        if (!/^https?:\/\//i.test(bouquetImage)) {
+            bouquetImage = 'http://' + url;
+        }
         console.log(bouquetImage)
         const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}`
         if(error) return;
