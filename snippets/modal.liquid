@@ -78,6 +78,7 @@
         const email = $("#email").val()
         const message = $("[name='comment']").val()
         let error = false;
+        
         if(name.length <= 0) {
           error = true;
           $("#firstname").css("border-color","red")
@@ -90,12 +91,14 @@
           error = true;
           $("[name='comment']").css("border-color","red")
         }
-        let bouquetImage = $(".submit-gift").attr("data-image");
-        if (!/^https?:\/\//i.test(bouquetImage)) {
-            bouquetImage = 'http://' + url;
-        }
+        const withHttp = url => !/^https?:\/\//i.test(url) ? `http://${url}` : url;
+        let bouquetImage = withHttp($(".submit-gift").attr("data-image"));
+  
+
         console.log(bouquetImage)
+        return
         const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}`
+        console.log(error)
         if(error) return;
         console.log("no error")
         fetch(url,{
