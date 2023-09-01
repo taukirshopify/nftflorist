@@ -1,5 +1,15 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 
+<script>
+  var maxLength = 1000;
+    
+  $('#gs3-textarea-msg').keyup(function() {
+    var length = $(this).val().length;
+    var length = maxLength-length;
+    $('#chars').text(length);
+  });
+</script>
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
