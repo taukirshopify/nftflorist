@@ -48,7 +48,7 @@
           <h3><strong>Member ID:</strong> {{ customer.id }}</h3>
           <h3><strong>Member Status:</strong> {% for tag in customer.tags %}{% if tag == 'founding-member' %}Founding Member{% endif %}{% endfor %}</h3>
           {% for tag in customer.tags %}{% assign testTag = tag | slice: 0  %}{% echo testTag %}{% if testTag == "2" %}{% assign yearTag = tag %}{% endif %}{% endfor %}
-          <h3><strong>Member Since:</strong> {% for tag in customer.tags %}{% assign yearTag = tag | slice: 2  %}{% if yearTag == "2" %}{% echo yearTag %}{% endif %}{% endfor %}</h3>
+          <h3><strong>Member Since:</strong> {% for tag in customer.tags %}{% assign yearTag = tag | slice: 2  %}{% if yearTag == "2" %}{% echo tag %}{% endif %}{% endfor %}</h3>
         </div>
         {% render 'icon-founder-crown' %}
       </div>
