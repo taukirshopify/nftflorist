@@ -47,6 +47,7 @@
         <div class="member-card-body">
           <h3><strong>Member ID:</strong> {{ customer.id }}</h3>
           <h3><strong>Member Status:</strong> {% for tag in customer.tags %}{% if tag == 'founding-member' %}Founding Member{% endif %}{% endfor %}</h3>
+          <h3><strong>Member Since:</strong> {% for tag in customer.tags %}{% if tag.size == 4 %}{{ tag }}{% endif %}{% endfor %}</h3>
         </div>
         {% render 'icon-founder-crown' %}
       </div>
