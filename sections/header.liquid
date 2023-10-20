@@ -911,6 +911,9 @@ a.d-block.color-reset:hover {
           </div>
         </details>
       </details-modal>
+       <a href="/account" class="header__icon header__icon--cart link ">
+        {{ 'account-u.svg' | asset_url | img_tag: 'account' }}
+      </a>
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset display-b" id="cart-icon-bubble">
         {{ 'cart-icon2.svg' | asset_url | img_tag: 'cart' }}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
@@ -922,9 +925,6 @@ a.d-block.color-reset:hover {
             <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
           </div>
         {%- endif -%}
-      </a>
-       <a href="/account" class="header__icon header__icon--cart link ">
-        {{ 'account-u.svg' | asset_url | img_tag: 'account' }}
       </a>
     </div>
   </header>
