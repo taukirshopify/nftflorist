@@ -108,6 +108,8 @@
           mode: "no-cors" 
         }).then((e)=>{
           console.log(e);
+          if(!response.ok)     throw new Error('Server error');
+
 
           $(".inputs__container").hide()
           $(".submit-gift").hide()
