@@ -1,6 +1,6 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 <script>
-  console.log({{customer.metafields.custom.current_nft_s_owned.value | json}})
+  console.log({{customer.metafields.custom.current_nft_s_owned.value["clientItems"] | json}})
 </script>
 <script>
   var maxLength = 1000;
