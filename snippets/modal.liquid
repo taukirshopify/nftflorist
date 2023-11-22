@@ -108,7 +108,7 @@
           mode: "no-cors" 
         }).then((e)=>{
           console.log(e);
-          if(!response.ok)     throw new Error('Server error');
+          if(!e.ok)     throw new Error('Server error');
 
 
           $(".inputs__container").hide()
