@@ -39,6 +39,11 @@
         {% endcomment %}
       </div>
       <div class="row" id="acountitem">
+        {% for item in customer.metafields.custom.current_nft_s_owned.value["clientItems"] %}
+          <script>
+            console.log({{ item | json }})
+          </script>
+        {% endfor %}
         <div class="col-lg-3 col-md-4 col-6">
           <div class="innder-wrappper">
             <img src="//thenftflorist.com/cdn/shop/files/5-_CuratedCollection_-1.jpg?v=1695834208" alt="">
