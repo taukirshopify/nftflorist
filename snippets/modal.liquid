@@ -93,11 +93,12 @@
           error = true;
           $("[name='comment']").css("border-color","red")
         }
+        const customerId = $("[data-customerid]").attr("data-customerid")
         const withHttp = url => !/^https?:\/\//i.test(url) ? `http:${url}` : url;
         let bouquetImage = withHttp($(".submit-gift").attr("data-image"));
   
         // const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}`
-        const url = `https://2538-105-103-109-106.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}`
+        const url = `https://2538-105-103-109-106.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&customerId=${customerId}&item=${itemid}`
         console.log(error)
         if(error) return;
         console.log("no error")
@@ -109,7 +110,6 @@
           $(".submit-gift").hide()
           $(".modal__success").show()
           const transferToBeHidden =$(".submit-gift").attr("data-lineid")
-          console.log(transferToBeHidden)
           $(`[data-hideonsuccess='${transferToBeHidden}']`).hide()
         }).catch(err=>{
           $(".modal__fail").show()
