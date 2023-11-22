@@ -101,13 +101,13 @@
         
         // const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}`
         const url = `https://2538-105-103-109-106.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&customerId=${customerId}&item=${itemToBeGifted}`
-       console.log(url);
         return;
         if(error) return;
         console.log("no error")
         fetch(url,{
           mode: "no-cors" 
         }).then((e)=>{
+          return;
           console.log("success");
           $(".inputs__container").hide()
           $(".submit-gift").hide()
