@@ -39,26 +39,26 @@
         {% endcomment %}
       </div>
       <div class="row" id="acountitem">
-        {% for item in customer.metafields.custom.current_nft_s_owned.value["clientItems"] %}
+        {% for item in customer.metafields.custom.current_nft_s_owned.value.clientItems %}
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="innder-wrappper">
+              <img src="{{ item.imageUrl }}" alt="">
+              <h5 class="title-2"><a href="/products/artrkl?variant=46801563320628">ArtRKL</a></h5>
+              <a style="display:none;" data-hideonsuccess="{{ item.variantId }}" href="#" class="btn">Transfer</a>
+
+              <a
+                href="#modal-10"
+                data-lineid="{{ item.variantId }}"
+                data-image="{{ item.imageUrl }}"
+                class="btn link trigger"
+                >Gift
+              </a>
+            </div>
+          </div>
           <script>
             console.log({{ item | json }})
           </script>
         {% endfor %}
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="innder-wrappper">
-            <img src="//thenftflorist.com/cdn/shop/files/5-_CuratedCollection_-1.jpg?v=1695834208" alt="">
-            <h5 class="title-2"><a href="/products/artrkl?variant=46801563320628">ArtRKL</a></h5>
-            <a style="display:none;" data-hideonsuccess="14329543065908" href="#" class="btn">Transfer</a>
-
-            <a
-              href="#modal-10"
-              data-lineid="14329543065908"
-              data-image="//thenftflorist.com/cdn/shop/files/5-_CuratedCollection_-1.jpg?v=1695834208"
-              class="btn link trigger"
-              >Gift
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </section>
