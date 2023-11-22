@@ -63,9 +63,8 @@
     
     $(document).ready(function() {
         $("a[href='#modal-10']").click(function() {
-          console.log("hi");
+          $(".submit-gift").attr("data-lineid",$(this).attr("data-lineid"));
             $('.modal_content').css('display', 'block');
-          console.log(this);
         })
         $('.close_btn').click(function() {
             $('.modal_content').css('display', 'none');
@@ -96,11 +95,13 @@
         }
         const customerId = $("[data-customerid]").attr("data-customerid")
         const itemToBeGifted = $(".submit-gift").attr("data-lineid");
+        if(!itemToBeGifted) return;
         const withHttp = url => !/^https?:\/\//i.test(url) ? `http:${url}` : url;
         let bouquetImage = withHttp($(".submit-gift").attr("data-image"));
         
         // const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}`
         const url = `https://2538-105-103-109-106.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&customerId=${customerId}&item=${itemToBeGifted}`
+       console.log(url);
         return;
         if(error) return;
         console.log("no error")
