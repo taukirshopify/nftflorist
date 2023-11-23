@@ -95,7 +95,7 @@
           $("[name='comment']").css("border-color","red")
         }
         const from = $("[data-customerid]").attr("data-customerid")
-        const fromEmail = $("[data-customeremail]").attr("[data-customeremail]")
+        const fromEmail = $("[data-customeremail]").attr("data-customeremail")
         const itemToBeGifted = $(".submit-gift").attr("data-lineid");
         if(!itemToBeGifted) return;
         const withHttp = url => !/^https?:\/\//i.test(url) ? `http:${url}` : url;
