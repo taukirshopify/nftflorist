@@ -23,10 +23,8 @@
     display:none;
   }
 </style>
-<script>
-  console.log({{customer.email|json}})
-</script>
-<div data-customerid="{{ customer.id }}" data-ml-modal id="modal-10">
+
+<div data-customerid="{{ customer.id }}" data-customeremail="{{ customer.email }}" data-ml-modal id="modal-10">
   <a href="#!" class="modal-overlay"></a>
   <div class="modal-dialog modal-dialog-lg">
     <div class="modal-content newspaper">
