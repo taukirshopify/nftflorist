@@ -104,9 +104,7 @@
         // const url = `https://3180-105-103-109-106.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}`
         if(error) return;
         console.log("no error")
-        fetch(url,{
-          mode: "no-cors" 
-        }).then((e)=>{
+        fetch(url).then((e)=>{
           console.log(e);
           
           // if(!e.ok)     throw new Error('Server error');
