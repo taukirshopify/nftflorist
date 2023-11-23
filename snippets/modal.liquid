@@ -105,6 +105,8 @@
         const url = `https://cf8b-197-205-144-70.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
         if(error) return;
         console.log("no error")
+        console.log(url);
+        return;
         fetch(url).then((e)=>{
           return;
           console.log(e);
