@@ -1,5 +1,6 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 <script>
+  console.log({{customer|json}})
   {% if customer %}
     window.location.href = "/account"
   {% endif %}}
