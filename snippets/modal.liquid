@@ -107,7 +107,7 @@
         fetch(url).then((e)=>{
           console.log(e);
           
-          // if(!e.ok)     throw new Error('Server error');
+          if(!e.ok)     throw new Error('Server error');
 
 
           $(".inputs__container").hide()
