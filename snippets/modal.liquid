@@ -107,7 +107,6 @@
         console.log("no error")
         fetch(url).then((e)=>{
           return;
-          console.log(e);
           
           if(!e.ok)     throw new Error('Server error');
 
@@ -117,6 +116,7 @@
           $(".modal__success").show()
           const transferToBeHidden =$(".submit-gift").attr("data-lineid")
           $(`[data-hideonsuccess='${transferToBeHidden}']`).hide()
+          window.location.reload()
         }).catch(err=>{
           $(".modal__fail").show()
           console.log(err)
