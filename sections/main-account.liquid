@@ -23,7 +23,7 @@
     }
   }
 {%- endstyle -%}
-{%- if customer.orders.size > 0 -%}
+
   <section class="proudct-wrapper">
     <div class="container">
       <div class="row">
@@ -63,6 +63,7 @@
       </div>
     </div>
   </section>
+  {%- if customer.orders.size > 0 -%}
 {%- endif -%}
 
 <div class="customer account section-{{ section.id }}-padding container">
