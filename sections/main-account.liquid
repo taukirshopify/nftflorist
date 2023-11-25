@@ -5,8 +5,8 @@
    const giftedEmail = window.localStorage.getItem("giftedEmail");
   if(gifterEmail)
   {
-        // const url = `https://sendgrid.thenftflorist.com/validateGift?gifterEmail=${gifterEmail}&giftedEmail=${giftedEmail}`
-        const url = `https://9411-197-205-38-9.ngrok-free.app/validateGift?gifterEmail=${gifterEmail}&giftedEmail=${giftedEmail}`
+        const url = `https://sendgrid.thenftflorist.com/validateGift?gifterEmail=${gifterEmail}&giftedEmail=${giftedEmail}`
+        // const url = `https://9411-197-205-38-9.ngrok-free.app/validateGift?gifterEmail=${gifterEmail}&giftedEmail=${giftedEmail}`
     console.log("sending")
         fetch(url).then((e)=>{
           console.log(e);
