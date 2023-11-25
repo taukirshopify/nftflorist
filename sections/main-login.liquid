@@ -10,7 +10,9 @@
         fetch(url).then((e)=>{
           console.log(e);
           console.log(e.status)
+          if(e.status === 400) throw new Error("shouldnt even make a request"); 
         }).catch(err=>{
+          window.localStorage.removeItem("gifter")
           console.log(err)
       })
   }
