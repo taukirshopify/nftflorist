@@ -140,12 +140,16 @@
       </span>
     {%- endif -%}
     <input type="hidden" name="customer[accepts_marketing]" value="1">
-    <button type="button">
+    <button type="button" id="register-button">
       {{ 'customer.register.submit' | t }}
     </button>
   {%- endform -%}
 </div>
-
+<script>
+  document.getElemenetById("register-button").addEventListener("click",()=>{
+    console.log("click");
+  })
+</script>
 {% schema %}
 {
   "name": "t:sections.main-register.name",
