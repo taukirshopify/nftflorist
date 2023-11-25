@@ -2,9 +2,8 @@
 <script>
   const urlParams = new URLSearchParams(window.location.search);
   // Getting the value of 'clientGIfter'
-  const clientGIfterValue = urlParams.get('clientGIfter');
-  console.log(clientGIfterValue);
-  console.log("hii")
+  const gifter = urlParams.get('gifter');
+  window.localStorage.setItem("gifter",gifter)
   {% if customer %}
     window.location.href = "/account"
   {% endif %}
