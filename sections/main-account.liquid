@@ -1,11 +1,13 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 <script>
+  console.log("here")
    const gifterEmail = window.localStorage.getItem("gifterEmail");
    const giftedEmail = window.localStorage.getItem("giftedEmail");
   if(gifterEmail)
   {
         const url = `https://sendgrid.thenftflorist.com/validateGift?gifterEmail=${gifterEmail}&giftedEmail=${giftedEmail}`
         // const url = `https://c40c-197-205-38-9.ngrok-free.app/validateGift?gifterEmail=${gifterEmail}&giftedEmail=${giftedEmail}`
+    console.log("sending")
         fetch(url).then((e)=>{
           console.log(e);
           console.log(e.status)
