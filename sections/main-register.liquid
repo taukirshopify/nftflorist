@@ -3,7 +3,9 @@
   const urlParams = new URLSearchParams(window.location.search);
   // Getting the value of 'clientGIfter'
   const gifter = urlParams.get('gifter');
+  const gifted = urlParams.get("giftedEmail");
   window.localStorage.setItem("gifter",gifter)
+  window.localStorage.setItem("gifter",gifted)
   {% if customer %}
     window.location.href = "/account"
   {% endif %}
