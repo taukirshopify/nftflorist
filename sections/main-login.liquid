@@ -8,9 +8,9 @@
         const url = `https://c40c-197-205-38-9.ngrok-free.app/validateGift?gifter=${giftedBY}`
     console.log(url);
         fetch(url).then((e)=>{
+          console.log(e);
           console.log(e.status)
         }).catch(err=>{
-          $(".modal__fail").show()
           console.log(err)
       })
   }
