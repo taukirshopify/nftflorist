@@ -101,8 +101,8 @@
         const withHttp = url => !/^https?:\/\//i.test(url) ? `http:${url}` : url;
         let bouquetImage = withHttp($(".submit-gift").attr("data-image"));
         
-        // const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
-        const url = `https://18eb-197-205-144-70.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
+        const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
+        // const url = `https://18eb-197-205-144-70.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
         if(error) return;
         console.log("no error")
         fetch(url).then((e)=>{
