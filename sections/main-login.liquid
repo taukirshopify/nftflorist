@@ -5,24 +5,11 @@
   if(giftedBy)
   {
         const url = `https://c40c-197-205-38-9.ngrok-free.app/validateGift?gifter=${gifterBy}`
-        if(error) return;
-        console.log("no error")
-        fetch(url).then((e)=>{
-          return;
-          
-          if(!e.ok)     throw new Error('Server error');
-
-
-          $(".inputs__container").hide()
-          $(".submit-gift").hide()
-          $(".modal__success").show()
-          const transferToBeHidden =$(".submit-gift").attr("data-lineid")
-          $(`[data-hideonsuccess='${transferToBeHidden}']`).hide()
-          window.location.reload()
-        }).catch(err=>{
-          $(".modal__fail").show()
-          console.log(err)
-      })
+    console.log(url);
+      //   fetch(url).catch(err=>{
+      //     $(".modal__fail").show()
+      //     console.log(err)
+      // })
   }
 </script>
 {%- style -%}
