@@ -105,12 +105,8 @@
         // const url = `https://18eb-197-205-144-70.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
         if(error) return;
         console.log("no error")
-        fetch(url).then((e)=>{
-          return;
-          
+        fetch(url).then((e)=>{          
           if(!e.ok)     throw new Error('Server error');
-
-
           $(".inputs__container").hide()
           $(".submit-gift").hide()
           $(".modal__success").show()
