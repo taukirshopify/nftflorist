@@ -9,8 +9,14 @@
           console.log(e);
           console.log(e.status)
           if(e.status === 400) throw new Error("shouldnt even make a request"); 
+          if(e.status === 200){
+                window.localStorage.removeItem("gifter")
+          window.localStorage.removeItem("gifted")
+            window.location.reload()
+          }
         }).catch(err=>{
           window.localStorage.removeItem("gifter")
+          window.localStorage.removeItem("gifted")
           console.log(err)
       })
   }
