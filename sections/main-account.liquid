@@ -1,7 +1,6 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 <script>
-  <script>
-const gifter = window.localStorage.getItem("gifter");
+   const gifter = window.localStorage.getItem("gifter");
    const gifted = window.localStorage.getItem("gifted");
   if(gifter)
   {
@@ -10,12 +9,17 @@ const gifter = window.localStorage.getItem("gifter");
           console.log(e);
           console.log(e.status)
           if(e.status === 400) throw new Error("shouldnt even make a request"); 
+          if(e.status === 200){
+                window.localStorage.removeItem("gifter")
+          window.localStorage.removeItem("gifted")
+            window.location.reload()
+          }
         }).catch(err=>{
           window.localStorage.removeItem("gifter")
+          window.localStorage.removeItem("gifted")
           console.log(err)
       })
   }
-</script>
 </script>
 <script>
   var maxLength = 1000;
