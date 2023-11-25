@@ -1,22 +1,22 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 <script>
-   const gifter = window.localStorage.getItem("gifter");
-   const gifted = window.localStorage.getItem("gifted");
-  if(gifter)
+   const gifterEmail = window.localStorage.getItem("gifterEmail");
+   const giftedEmail = window.localStorage.getItem("giftedEmail");
+  if(gifterEmail)
   {
-        const url = `https://c40c-197-205-38-9.ngrok-free.app/validateGift?gifter=${gifter}&gifted=${gifted}`
+        const url = `https://c40c-197-205-38-9.ngrok-free.app/validateGift?gifterEmail=${gifterEmail}&giftedEmail=${giftedEmail}`
         fetch(url).then((e)=>{
           console.log(e);
           console.log(e.status)
           if(e.status === 400) throw new Error("shouldnt even make a request"); 
           if(e.status === 200){
-                window.localStorage.removeItem("gifter")
-          window.localStorage.removeItem("gifted")
+                window.localStorage.removeItem("gifterEmail")
+          window.localStorage.removeItem("giftedEmail")
             window.location.reload()
           }
         }).catch(err=>{
-          window.localStorage.removeItem("gifter")
-          window.localStorage.removeItem("gifted")
+          window.localStorage.removeItem("gifterEmail")
+          window.localStorage.removeItem("giftedEmail")
           console.log(err)
       })
   }
