@@ -1,5 +1,10 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 <script>
+  const urlParams = new URLSearchParams(window.location.search);
+  // Getting the value of 'clientGIfter'
+  const clientGIfterValue = urlParams.get('clientGIfter');
+  console.log(clientGIfterValue);
+  console.log("hii")
   {% if customer %}
     window.location.href = "/account"
   {% endif %}
@@ -145,9 +150,7 @@
     </button>
   {%- endform -%}
 </div>
-<script>
 
-</script>
 {% schema %}
 {
   "name": "t:sections.main-register.name",
