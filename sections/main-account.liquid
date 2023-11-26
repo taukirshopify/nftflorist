@@ -87,7 +87,15 @@
             <div class="innder-wrappper" style="position:relative;">
               <img width="350" height="350" src="{{ item.item.imageUrl }}" alt="">
               <h5 class="title-2"><a href="{{ item.item.url }}">{{ item.item.name }}</a></h5>
-            <span style="position:absolute;left:0;top:0">PENDING</span>
+            <span style="
+                  position: absolute;
+                  font-size: 2rem;
+                  top: 50%;
+                  left: 50%;
+                  z-index: 3;
+                  filter: contrast(1);
+                  transform: translate(-50%,-50%);
+              ">PENDING</span>
             </div>
           </div>
 
