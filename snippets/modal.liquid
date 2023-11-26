@@ -112,6 +112,18 @@
           $(".modal__success").show()
           const transferToBeHidden =$(".submit-gift").attr("data-lineid")
           $(`[data-hideonsuccess='${transferToBeHidden}']`).hide()
+          function reloadWithoutHash() {
+              // Check if there's a hash in the URL
+              if (window.location.hash) {
+                // Set the URL without the hash using history.replaceState
+                history.replaceState({}, document.title, window.location.pathname + window.location.search);
+              }
+              // Reload the page
+              location.reload();
+            }
+            
+            // Call the function to reload without the hash
+            reloadWithoutHash();
           window.location.reload()
         }).catch(err=>{
           $(".modal__fail").show()
