@@ -20,8 +20,8 @@ SOFTWARE.
 {% endcomment %}
 
 <script>
-  $(window).on("load", function () {
-    Shopify.AjaxifyCart = (function ($) {
+  window.addEventListener("load", (event) => {
+     Shopify.AjaxifyCart = (function ($) {
 
       const Config = {
         labels: {
@@ -398,6 +398,9 @@ SOFTWARE.
     }) (jQuery);
 
   Shopify.AjaxifyCart.init();
+});
+  // $(window).on("load", function () {
 
-  });
+
+  // });
 </script>
