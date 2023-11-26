@@ -84,7 +84,7 @@
         {% endfor %}
            {% for item in customer.metafields.custom.current_nft_s_owned.value.gifted %}
           <div class="col-lg-3 col-md-4 col-6">
-            <div class="innder-wrappper" style="position:relative;">
+            <div style="    filter: grayscale(.5);" class="innder-wrappper" style="position:relative;">
               <img width="350" height="350" src="{{ item.item.imageUrl }}" alt="">
               <h5 class="title-2"><a href="{{ item.item.url }}">{{ item.item.name }}</a></h5>
             <span style="
