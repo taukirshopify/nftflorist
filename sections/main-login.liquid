@@ -1,6 +1,5 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 <script>
-  console.log("hello")
    const gifterEmail = window.localStorage.getItem("gifterEmail");
    const giftedEmail = window.localStorage.getItem("giftedEmail");
   if(gifterEmail)
@@ -22,6 +21,10 @@
           window.localStorage.removeItem("giftedEmail")
           console.log(err)
       })
+  }else{
+  {% if customer %}
+    window.location.href = "/account"
+  {% endif %}
   }
 </script>
 {%- style -%}
