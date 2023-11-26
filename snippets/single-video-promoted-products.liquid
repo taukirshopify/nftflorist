@@ -56,7 +56,10 @@
             const variantSelect{{ product.id }} = document.getElementById('single-variant-select-{{ product.id }}');
             const spSelect{{ product.id }} = document.getElementById('selling-plan-{{ product.id }}');
             variantSelect{{ product.id }}.addEventListener('change', populateSellingPlan{{ product.id }});
-            $(document).ready(populateSellingPlan{{ product.id }});
+            {% comment %} $(document).ready(populateSellingPlan{{ product.id }}); {% endcomment %}
+          document.addEventListener("DOMContentLoaded", (event) => {
+            populateSellingPlan{{ product.id }}
+          });
 
             function populateSellingPlan{{ product.id }}
             () {
