@@ -85,8 +85,9 @@
            {% for item in customer.metafields.custom.current_nft_s_owned.value.gifted %}
           <div class="col-lg-3 col-md-4 col-6">
             <div style="    filter: grayscale(.5);" class="innder-wrappper" style="position:relative;">
-              <img style="opacity:.7" width="350" height="350" src="{{ item.item.imageUrl }}" alt="">
-              <h5 class="title-2"><a href="{{ item.item.url }}">{{ item.item.name }}</a></h5>
+             <div style="position:relative;">
+                <img style="opacity:.7" width="350" height="350" src="{{ item.item.imageUrl }}" alt="">
+
             <span style="
                   position: absolute;
                   font-size: 2.6rem;
@@ -100,6 +101,8 @@
               font-weight:bold;
               text-align:center;
               ">PENDING<br>TRANSFER</span>
+             </div>
+                            <h5 class="title-2"><a href="{{ item.item.url }}">{{ item.item.name }}</a></h5>
             </div>
           </div>
 
