@@ -110,8 +110,10 @@
   const variantSelect = document.getElementById('variant-select');
   const spSelect = document.getElementById('sellingPlan');
   variantSelect.addEventListener('change', populateSellingPlan);
-  $(document).ready(populateSellingPlan);
-
+  // $(document).ready(populateSellingPlan);
+document.addEventListener("DOMContentLoaded", (event) => {
+  populateSellingPlan()
+});
   function populateSellingPlan() {
       const variant = product.variants.find(v => v.id.toString() === variantSelect.value);
       if (!!variant && !!variant.selling_plan_allocations && variant.selling_plan_allocations.length > 0) {
