@@ -85,7 +85,7 @@
            {% for item in customer.metafields.custom.current_nft_s_owned.value.gifted %}
           <div class="col-lg-3 col-md-4 col-6">
             <div style="    filter: grayscale(.5);" class="innder-wrappper" style="position:relative;">
-              <img width="350" height="350" src="{{ item.item.imageUrl }}" alt="">
+              <img style="opacity:.7" width="350" height="350" src="{{ item.item.imageUrl }}" alt="">
               <h5 class="title-2"><a href="{{ item.item.url }}">{{ item.item.name }}</a></h5>
             <span style="
                   position: absolute;
@@ -96,6 +96,7 @@
                   filter: contrast(1);
                   transform: translate(-50%,-50%);
                   color:white;
+              filter:contrast(1);
               ">PENDING</span>
             </div>
           </div>
