@@ -61,8 +61,8 @@
 <script>
   
     
-    $(document).ready(function() {
-        $("a[href='#modal-10']").click(function() {
+  document.addEventListener("DOMContentLoaded",()=>{
+           $("a[href='#modal-10']").click(function() {
           $(".submit-gift").attr("data-lineid",$(this).attr("data-lineid"));
           $(".submit-gift").attr("data-image",$(this).attr("data-image"));
             $('.modal_content').css('display', 'block');
@@ -118,7 +118,7 @@
           console.log(err)
       })
     });
-    });
+  })
     
 
 </script>
