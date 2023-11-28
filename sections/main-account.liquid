@@ -60,6 +60,9 @@
       </div>
  
       <div class="row" id="acountitem">
+               <script>
+        console.log({{ customer.metafields.custom.current_nft_s_owned.value.clientItems | json}})
+      </script>
         {% for item in customer.metafields.custom.current_nft_s_owned.value.clientItems %}
                <script>
         console.log({{ item | json}})
