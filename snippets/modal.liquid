@@ -84,6 +84,7 @@
   document.addEventListener("DOMContentLoaded",()=>{
     $("#previous_gifted").on("change",(e)=>{
       console.log(e.currentTarget);
+      console.log($(this));
       var optionSelected = $(this).find("option:selected")
       console.log(optionSelected)
     })
