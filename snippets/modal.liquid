@@ -82,6 +82,9 @@
   
     
   document.addEventListener("DOMContentLoaded",()=>{
+    $("#previous_gifted").on("change",(e)=>{
+      console.log(e);
+    })
            $("a[href='#modal-10']").click(function() {
           $(".submit-gift").attr("data-lineid",$(this).attr("data-lineid"));
           $(".submit-gift").attr("data-image",$(this).attr("data-image"));
