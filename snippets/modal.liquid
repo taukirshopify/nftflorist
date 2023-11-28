@@ -83,8 +83,8 @@
     
   document.addEventListener("DOMContentLoaded",()=>{
     $("#previous_gifted").on("change",(e)=>{
-      console.log(e);
-      var optionSelected = $("option:selected", this);
+      console.log(e.currentTarget);
+      var optionSelected = $(this).find("option:selected")
       console.log(optionSelected)
     })
            $("a[href='#modal-10']").click(function() {
