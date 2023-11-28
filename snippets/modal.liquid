@@ -86,6 +86,10 @@
 
       var optionSelected = $(e.currentTarget).find("option:selected")
       console.log(optionSelected)
+      const name = optionSelected.attr("data-name");
+      const email = optionSelected.val()
+      $("#email").val(email)
+      $("#firstname").val(name)
     })
            $("a[href='#modal-10']").click(function() {
           $(".submit-gift").attr("data-lineid",$(this).attr("data-lineid"));
