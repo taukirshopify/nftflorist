@@ -1,6 +1,5 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 <script>
-  console.log("here")
    const gifterEmail = window.localStorage.getItem("gifterEmail");
    const giftedEmail = window.localStorage.getItem("giftedEmail");
   if(gifterEmail)
@@ -9,8 +8,7 @@
         // const url = `https://9411-197-205-38-9.ngrok-free.app/validateGift?gifterEmail=${gifterEmail}&giftedEmail=${giftedEmail}`
     console.log("sending")
         fetch(url).then((e)=>{
-          console.log(e);
-          console.log(e.status)
+
           if(e.status === 400) throw new Error("shouldnt even make a request"); 
           if(e.status === 200){
                 window.localStorage.removeItem("gifterEmail")
