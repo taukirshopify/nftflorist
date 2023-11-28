@@ -31,17 +31,16 @@
       <div class="container">
         <h2 class="customer__title text-center">Gift Your NFT Bouquet</h2>
         <div>
-          <label for="previous_gifted">
-            Select from previously sent to people
-          </label>
-        <select id="previous_gifted">
-          {% for item in customer.metafields.custom.current_nft_s_owned.value.giftedHistory %}
-            <option value="{{ item.email }}">
-              {{ item.name }}
-            </option>
-          {% endfor %}
-        </select>
+          <label for="previous_gifted"> Select from previously sent to people </label>
+          <select id="previous_gifted">
+            {% for item in customer.metafields.custom.current_nft_s_owned.value.giftedHistory %}
+              <option value="{{ item.email }}">
+                {{ item.name }}
+              </option>
+            {% endfor %}
+          </select>
         </div>
+        <div><p>Or fill new informations</p></div>
         <p class="modal__success">Your gift has been sent succesfully</p>
         <p class="modal__fail">Something went wrong, please refresh the page and try again</p>
         <div class="inputs__container">
@@ -56,7 +55,13 @@
           </div>
           <div class="control-group">
             {% comment %} <label for="email">Email Address</label> {% endcomment %}
-            <textarea maxlength="1000" id="gs3-textarea-msg" name="comment" form="usrform" placeholder="Message..."></textarea>
+            <textarea
+              maxlength="1000"
+              id="gs3-textarea-msg"
+              name="comment"
+              form="usrform"
+              placeholder="Message..."
+            ></textarea>
             <span id="chars">1000</span> Character(s) Remaining
           </div>
         </div>
@@ -143,8 +148,6 @@
       })
     });
   })
-    
-
 </script>
 
 <style>
