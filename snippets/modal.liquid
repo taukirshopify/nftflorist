@@ -33,10 +33,10 @@
         {% if customer.metafields.custom.current_nft_s_owned.value.giftedHistory.size %}
           <div>
             <label for="previous_gifted"> Select from previously sent to people </label>
-            <select style="padding: .75rem 4rem .75rem 1rem" id="previous_gifted">
+            <select id="previous_gifted" style="padding: .75rem 4rem .75rem 1rem" id="previous_gifted">
               <option selected disabled>Select previous client</option>
               {% for item in customer.metafields.custom.current_nft_s_owned.value.giftedHistory %}
-                <option value="{{ item.email }}">
+                <option data-name="{{ item.name }}" value="{{ item.email }}">
                   {{ item.name }}
                 </option>
               {% endfor %}
