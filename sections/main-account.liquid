@@ -139,9 +139,8 @@ border: none;
           $("#contactEmail").css("border-color","initial")
         }
 
-        const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
+        const url = `https://sendgrid.thenftflorist.com/addContact?email=${email}&name=${name}`
         // const url = `https://18eb-197-205-144-70.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
-        if(error) return;
         console.log("no error")
         return;
         fetch(url).then((e)=>{          
