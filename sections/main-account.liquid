@@ -51,6 +51,9 @@
       <div class="row"> 
         <button id="addContact">ADD CONTACT</button>
       </div>
+      <div style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;background:transparent;">
+        <div></div>
+      </div>
       <script>
         document.getElementById("addContact").addEventListener("click",()=>{
           console.log("add modal open")
@@ -80,7 +83,6 @@
               <img width="350" height="350" src="{{ item.imageUrl }}" alt="">
               <h5 class="title-2"><a href="{{ item.url }}">{{ item.name }}</a></h5>
               <a style="display:none;" data-hideonsuccess="{{ item.variantId }}" href="#" class="btn">Transfer</a>
-            {% unless item.isGift %}
               <a
                 href="#modal-10"
                 data-lineid="{{ item.adminVariantId }}"
@@ -88,6 +90,7 @@
                 class="btn link trigger"
                 >Gift
               </a>
+            {% unless item.isGift %}
             {% endunless %}
             </div>
           </div>
