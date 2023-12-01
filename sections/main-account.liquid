@@ -109,7 +109,6 @@ border: none;
       </div>
     </div>
     <script>
-      console.log({{customer.id |json}})
       $(".addContact__modal .btn-close").on("click",()=>{
         $(".addContact__modal").toggleClass("visible")
       })
@@ -127,6 +126,7 @@ border: none;
         let error = false;
         let name = $("#contactName").val()
         let email = $("#contactEmail").val()
+        let customerId = {{ customer.id }};
         if(name.length <= 0) {
           error = true;
           $("#contactName").css("border-color","red")
@@ -140,7 +140,7 @@ border: none;
           $("#contactEmail").css("border-color","initial")
         }
 
-        const url = `https://sendgrid.thenftflorist.com/addContact?email=${email}&name=${name}`
+        const url = `https://sendgrid.thenftflorist.com/addContact?email=${email}&name=${name}&customerId=${customerId}`
         // const url = `https://18eb-197-205-144-70.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
         console.log("no error")
         return;
