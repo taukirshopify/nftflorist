@@ -100,8 +100,8 @@
           $("#contactEmail").css("border-color","initial")
         }
 
-        // const url = `https://sendgrid.thenftflorist.com/addContact?email=${email}&name=${name}&customerId=${customerId}`
-        const url = `https://82ec-41-104-112-160.ngrok-free.app/addContact?email=${email}&name=${name}&customerId=${customerId}`
+        const url = `https://sendgrid.thenftflorist.com/addContact?email=${email}&name=${name}&customerId=${customerId}`
+        // const url = `https://82ec-41-104-112-160.ngrok-free.app/addContact?email=${email}&name=${name}&customerId=${customerId}`
         fetch(url).then((e)=>{          
           if(!e.ok)     throw new Error('Server error');
           $(".addContact__success").show()
