@@ -56,32 +56,30 @@
         display:flex;position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;background:transparent;justify-content:center;align-items:center;
       }
     </style>
-    <div class="addContact__modal" >
-      <div style="background:white;" class="">
-        <div class="modal-content newspaper">
-          <div class="container">
-            <h2 class="customer__title text-center">Add contact</h2>
-            <p class="modal__success">Your gift has been sent succesfully</p>
-            <p class="modal__fail">Something went wrong, please refresh the page and try again</p>
-            <div class="inputs__container">
-              <div class="control-group">
-                <input id="firstname" type="text" name="firstname" placeholder="Recipients Name">
-              </div>
-
-              <div class="control-group">
-                <input id="email" type="text" name="email" placeholder="Recipients Email Address">
-              </div>
+    <div class="addContact__modal">
+      <div class="modal-content newspaper">
+        <div class="container">
+          <h2 class="customer__title text-center">Add contact</h2>
+          <p class="modal__success">Your gift has been sent succesfully</p>
+          <p class="modal__fail">Something went wrong, please refresh the page and try again</p>
+          <div class="inputs__container">
+            <div class="control-group">
+              <input id="firstname" type="text" name="firstname" placeholder="Recipients Name">
             </div>
 
-            <p class="center">
-              <button
-                class="btn btn-default submit-gift"
-              >
-                submit
-              </button>
-              <button  class="btn btn-default">Close</button>
-            </p>
+            <div class="control-group">
+              <input id="email" type="text" name="email" placeholder="Recipients Email Address">
+            </div>
           </div>
+
+          <p class="center">
+            <button
+              class="btn btn-default submit-gift"
+            >
+              submit
+            </button>
+            <button class="btn btn-default">Close</button>
+          </p>
         </div>
       </div>
     </div>
