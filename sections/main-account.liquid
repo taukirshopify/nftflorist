@@ -140,30 +140,11 @@ border: none;
           $("#contactEmail").css("border-color","initial")
         }
 
-        const url = `https://sendgrid.thenftflorist.com/addContact?email=${email}&name=${name}&customerId=${customerId}`
-        // const url = `https://18eb-197-205-144-70.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
-        console.log("no error")
-        return;
+        // const url = `https://sendgrid.thenftflorist.com/addContact?email=${email}&name=${name}&customerId=${customerId}`
+        const url = `https://82ec-41-104-112-160.ngrok-free.app/addContact?email=${email}&name=${name}&customerId=${customerId}`
         fetch(url).then((e)=>{          
           if(!e.ok)     throw new Error('Server error');
-          $(".inputs__container").hide()
-          $(".submit-gift").hide()
-          $(".modal__success").show()
-          const transferToBeHidden =$(".submit-gift").attr("data-lineid")
-          $(`[data-hideonsuccess='${transferToBeHidden}']`).hide()
-          function reloadWithoutHash() {
-              // Check if there's a hash in the URL
-              if (window.location.hash) {
-                // Set the URL without the hash using history.replaceState
-                history.replaceState({}, document.title, window.location.pathname + window.location.search);
-              }
-              // Reload the page
-              location.reload();
-            }
-            
-            // Call the function to reload without the hash
-            reloadWithoutHash();
-          window.location.reload()
+          
         }).catch(err=>{
           $(".modal__fail").show()
           console.log(err)
