@@ -280,44 +280,6 @@
     </div>
   </div>
 </div>
-{% comment %}
-<script>
-                               (function() {
-                                 return;
-                                 console.log("this is running");
-   {%- for order in customer.orders -%}
-    console.log({{order.customer_url|json}})
-                                fetch('{{ order.customer_url }}').then(function (response) {
-  	// The API call was successful!
-  	return response.text();
-  }).then(function (html) {
-
-  	// Convert the HTML string into a document object
-  	let parser = new DOMParser();
-  	var doc = parser.parseFromString(html, 'text/html');
-                                 let elem = doc.getElementById("getdetials").innerHTML;
-                                	var img = doc.querySelector('#getdetial');
-  	console.log(img);
-
-                                 console.log(elem);
-                                 // document.getElementById("acountitem").insertAdjacentHTML("afterend",  elem );
-                                 document.getElementById("acountitem").innerHTML += elem;
-                                $(".trigger").on("click",(e)=>{
-                                  const lineItemClicked = $(e.currentTarget);
-                                  $(".submit-gift").attr("data-image",lineItemClicked.attr("data-image"))
-                                  $(".submit-gift").attr("data-lineid",lineItemClicked.attr("data-lineid"))
-                                })
-
-
-  }).catch(function (err) {
-  	// There was an error
-  	console.warn('Something went wrong.', err);
-  });
-
-                              {%  endfor %}
-                              })();
-</script>
-{% endcomment %}
 <style>
                               .innder-wrappper img{
    width:100%;
