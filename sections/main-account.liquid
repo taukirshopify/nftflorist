@@ -49,8 +49,13 @@
   <section class="proudct-wrapper">
     <div class="container">
       <div class="row"> 
-      <button>ADD CONTACT</button>
+        <button id="addContact">ADD CONTACT</button>
       </div>
+      <script>
+        document.getElementById("addContact").addEventListener("click",()=>{
+          console.log("add modal open")
+        })
+      </script>
       <div class="row">
         <div class="col-12  d-flex justify-content-center"><h2 class="customer__title">My NFT's</h2></div>
         {% comment %}
