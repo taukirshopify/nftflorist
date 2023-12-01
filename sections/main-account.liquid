@@ -122,9 +122,10 @@
 </section>
 {%- if customer.orders.size > 0 -%}
 {%- endif -%}
-      {% render "addContact-button" %}
+      
 
 <div class="customer account section-{{ section.id }}-padding container">
+  {% render "addContact-button" %}
   <div>
     <h1 class="customer__title">{{ 'customer.account.title' | t }}</h1>
     <div class="member-card">
