@@ -88,11 +88,11 @@ border: none;
           <p class="modal__fail">Something went wrong, please refresh the page and try again</p>
           <div class="inputs__container">
             <div class="control-group">
-              <input id="firstname" type="text" name="firstname" placeholder="Recipients Name">
+              <input id="contactName" type="text" name="firstname" placeholder="Recipients Name">
             </div>
 
             <div class="control-group">
-              <input id="email" type="text" name="email" placeholder="Recipients Email Address">
+              <input id="contactEmail" type="text" name="email" placeholder="Recipients Email Address">
             </div>
           </div>
 
@@ -124,20 +124,22 @@ border: none;
         }
 
         let error = false;
-        
+        let name = $("#contactName").val()
+        let email = $("#contactEmail").val()
         if(name.length <= 0) {
           error = true;
-          $("#firstname").css("border-color","red")
+          $("#contactName").css("border-color","red")
         }
         if(!isEmail(email)) {
           error = true;
-          $("#email").css("border-color","red")
+          $("#contactEmail").css("border-color","red")
         }
 
         const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
         // const url = `https://18eb-197-205-144-70.ngrok-free.app/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
         if(error) return;
         console.log("no error")
+        return;
         fetch(url).then((e)=>{          
           if(!e.ok)     throw new Error('Server error');
           $(".inputs__container").hide()
