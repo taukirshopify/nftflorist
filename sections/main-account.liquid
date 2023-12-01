@@ -48,7 +48,6 @@
 
 <section class="proudct-wrapper">
   <div class="container">
-{% render "addContact-button" %}
     <div class="row">
       <div class="col-12  d-flex justify-content-center"><h2 class="customer__title">My NFT's</h2></div>
       {% comment %}
@@ -284,6 +283,7 @@
       <a href="{{ routes.account_addresses_url }}">
         {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
       </a>
+      {% render "addContact-button" %}
     </div>
   </div>
 </div>
