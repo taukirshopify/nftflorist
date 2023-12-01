@@ -130,9 +130,13 @@ border: none;
           error = true;
           $("#contactName").css("border-color","red")
         }
+        else $("#contactName").css("border-color","initial")
         if(!isEmail(email)) {
           error = true;
           $("#contactEmail").css("border-color","red")
+        }
+        else{
+          $("#contactEmail").css("border-color","initial")
         }
 
         const url = `https://sendgrid.thenftflorist.com/gift?to=${email}&name=${name}&message=${encodeURIComponent(message)}&bouquetImage=${bouquetImage}&from=${from}&item=${itemToBeGifted}&fromEmail=${fromEmail}`
