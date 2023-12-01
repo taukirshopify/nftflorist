@@ -53,7 +53,10 @@
     </div>
     <style>
       .addContact__modal{
-        display:flex;position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;background:transparent;justify-content:center;align-items:center;
+        display:none;position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;background:transparent;justify-content:center;align-items:center;
+      }
+      .addContact__modal.visible{
+        display:flex;
       }
       .addContact__modal .modal-content{
             min-width: 400px;
@@ -92,7 +95,7 @@
     </div>
     <script>
       document.getElementById("addContact").addEventListener("click",()=>{
-        console.log("add modal open")
+                document.querySelector(".addContact__modal").classList.toggle("visible")
       })
       document.querySelector(".addContact__modal .btn-close").addEventListener("click",()=>{
         document.querySelector(".addContact__modal").classList.toggle("visible")
