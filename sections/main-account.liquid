@@ -122,6 +122,7 @@
 </section>
 {%- if customer.orders.size > 0 -%}
 {%- endif -%}
+      {% render "addContact-button" %}
 
 <div class="customer account section-{{ section.id }}-padding container">
   <div>
@@ -273,7 +274,6 @@
     </div>
 
     <div>
-      {% render "addContact-button" %}
       <h2>{{ 'customer.account.details' | t }}</h2>
 
       {{ customer.default_address | format_address }}
