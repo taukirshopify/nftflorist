@@ -71,12 +71,13 @@
         $(".addContact__modal").toggleClass("visible")
       })
       $("#addContact").on("click",()=>{
-        $(".addContact__success").hide()
-        $(".addContact__fail").hide()
+       
         $(".addContact__modal").toggleClass("visible")
       })
       
             $(".addContact__modal .submit-contact").click((e)=>{
+               $(".addContact__success").hide()
+        $(".addContact__fail").hide()
         e.preventDefault();
         function isEmail(email) {
           var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
