@@ -61,6 +61,7 @@
     background: white;
             box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
       }
+      .addContact__modal .btn-close{}
     </style>
     <div class="addContact__modal">
       <div class="modal-content newspaper">
@@ -84,7 +85,7 @@
             >
               submit
             </button>
-            <button class="btn btn-default">Close</button>
+            <button class="btn btn-default btn-close">Close</button>
           </p>
         </div>
       </div>
@@ -92,6 +93,9 @@
     <script>
       document.getElementById("addContact").addEventListener("click",()=>{
         console.log("add modal open")
+      })
+      document.querySelector(".addContact__modal .btn-close").addEventListener("click",()=>{
+        document.querySelector(".addContact__modal").classList.toggle("visible")
       })
     </script>
     <div class="row">
