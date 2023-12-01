@@ -109,6 +109,7 @@ border: none;
       </div>
     </div>
     <script>
+      console.log({{customer|json}})
       $(".addContact__modal .btn-close").on("click",()=>{
         $(".addContact__modal").toggleClass("visible")
       })
