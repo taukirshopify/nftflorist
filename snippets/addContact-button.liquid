@@ -29,6 +29,9 @@
           background:black;
           color:white;
         }
+  .addContact__success,.addContact__fail{
+    display:none;
+  }
 </style>
 <div class="addContact__modal">
   <div class="modal-content newspaper">
@@ -62,6 +65,8 @@
         $(".addContact__modal").toggleClass("visible")
       })
       $("#addContact").on("click",()=>{
+        $(".addContact__success").hide()
+        $(".addContact__fail").hide()
         $(".addContact__modal").toggleClass("visible")
       })
       
@@ -93,9 +98,9 @@
         const url = `https://82ec-41-104-112-160.ngrok-free.app/addContact?email=${email}&name=${name}&customerId=${customerId}`
         fetch(url).then((e)=>{          
           if(!e.ok)     throw new Error('Server error');
-          
+          $(".addContact__success").show()
         }).catch(err=>{
-          $(".modal__fail").show()
+          $(".addContact__fail").show()
           console.log(err)
       })
     });
