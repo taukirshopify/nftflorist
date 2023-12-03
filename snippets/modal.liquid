@@ -30,10 +30,6 @@
     <div class="modal-content newspaper">
       <div class="container">
         <h2 class="customer__title text-center">Gift Your NFT Bouquet</h2>
-        <script>
-          console.log({{ customer.metafields.custom.current_nft_s_owned.value.contacts | json}})
-        </script>
-        {% if customer.metafields.custom.current_nft_s_owned.value.contacts.size > 0 %}
           <div>
             <label for="previous_gifted"> Select from previously sent to people </label>
             <select id="previous_gifted" style="padding: .75rem 4rem .75rem 1rem" id="previous_gifted">
@@ -46,7 +42,6 @@
             </select>
           </div>
         <div><p>Or fill new informations</p></div>
-        {% endif %}
         <p class="modal__success">Your gift has been sent succesfully</p>
         <p class="modal__fail">Something went wrong, please refresh the page and try again</p>
         <div class="inputs__container">
