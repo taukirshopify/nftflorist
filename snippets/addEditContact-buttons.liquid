@@ -156,17 +156,9 @@ const handleEditContact = () => {
       $(".container-editContact .addContact__success").show();
       $("#newContactName").val("");
       $("#newContactEmail").val("");
-      $("#oldClientData option:first").prop("selected","selected")
-      fetch(window.location.href).then(response=>response.text()).then(data=>{          
-          // Create a new DOMParser object
-          const parser = new DOMParser();
-          
-          // Parse the text as HTML
-          const htmlDoc = parser.parseFromString(data, 'text/html');
-          
-          // Access the parsed document
-          console.log(htmlDoc);
-      })
+      $("#oldClientData option:first").prop("selected","selected");
+      updateSelectAfterContactOperation()
+
     })
     .catch((err) => {
       $(".container-editContact .addContact__fail").show();
@@ -201,6 +193,7 @@ const handleAddContact = () => {
       $(".container-addContact .addContact__success").show();
       $("#contactName").val("");
       $("#contactEmail").val("");
+      updateSelectAfterContactOperation()
     })
     .catch((err) => {
       $(".container-addContact .addContact__fail").show();
@@ -210,5 +203,16 @@ const handleAddContact = () => {
   function isEmail(email) {
     var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     return regex.test(email);
+  }
+  const updateSelectAfterContactOperation = ()=>{
+          fetch(window.location.href).then(response=>response.text()).then(data=>{          
+          // Create a new DOMParser object
+          const parser = new DOMParser();
+          
+          // Parse the text as HTML
+          const htmlDoc = parser.parseFromString(data, 'text/html');
+          document.querySelector("#oldClientData").innerHTML = htmlDoc.querySelector("#oldClientData").innerHTML
+          document.querySelector("#previous_gifted").innerHTML = htmlDoc.querySelector("#previous_gifted").innerHTML
+      })
   }
 </script>
