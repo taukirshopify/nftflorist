@@ -148,7 +148,7 @@ const handleEditContact = () => {
   else $("#newContactEmail").css("border-color","initial")
   
   if(error) return;
-    const url = `https://sendgrid.thenftflorist.com/addContact?oldEmail=${oldEmail}&oldName=${oldName}&customerId=${customerId}&newEmail=${newEmail}&newName=${newName}`;
+    const url = `https://sendgrid.thenftflorist.com/editContact?oldEmail=${oldEmail}&oldName=${oldName}&customerId=${customerId}&newEmail=${newEmail}&newName=${newName}`;
   // const url = `https://82ec-41-104-112-160.ngrok-free.app/addContact?email=${email}&name=${name}&customerId=${customerId}`
   fetch(url)
     .then((e) => {
