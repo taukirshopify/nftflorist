@@ -194,6 +194,7 @@ const handleAddContact = () => {
       $("#contactName").val("");
       $("#contactEmail").val("");
       updateSelectAfterContactOperation()
+      $("#editContact").show()
     })
     .catch((err) => {
       $(".container-addContact .addContact__fail").show();
