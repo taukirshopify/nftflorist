@@ -45,8 +45,9 @@
   <div class="modal-content newspaper">
     <div class="container">
       
-      <h2 class="customer__title text-center">Add contact</h2>
-      <p class="addContact__success">Your contact was added successfully</p>
+      <h2 class="customer__title text-center">Edit contact</h2>
+      <p>If one of the two contact information is still the same, please leave it empty</p>
+      <p class="addContact__success">Your contact was edited successfully</p>
       <p class="addContact__fail">Something went wrong, please refresh the page and try again</p>
       <div class="inputs__container">
         <select  style="border: 1px solid">
@@ -57,6 +58,33 @@
             <option value="{{ item.email }}" data-name="{{ data.name }}">{{ item.name }}</option>
           {% endfor %}
         </select>
+        <div class="control-group">
+          <input id="newContactName" type="text" name="firstname" placeholder="Recipients Name">
+        </div>
+        <div class="control-group">
+          <input id="newContactEmail" type="text" name="email" placeholder="Recipients Email Address">
+        </div>
+      </div>
+
+      <p class="center">
+        <button
+          class="btn btn-default submit-contact"
+        >
+          submit
+        </button>
+        <button class="btn btn-default btn-close">Close</button>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="addContact__modal">
+  <div class="modal-content newspaper">
+    <div class="container">
+      
+      <h2 class="customer__title text-center">Add contact</h2>
+      <p class="addContact__success">Your contact was added successfully</p>
+      <p class="addContact__fail">Something went wrong, please refresh the page and try again</p>
+      <div class="inputs__container">
         <div class="control-group">
           <input id="contactName" type="text" name="firstname" placeholder="Recipients Name">
         </div>
