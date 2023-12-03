@@ -127,19 +127,25 @@ const handleEditContact = () => {
 
 
   let error = false;
-  let selectedClient = $("#oldClientData option:selected").attr('data-name');
-  let name = $("#contactName").val();
-  let email = $("#contactEmail").val();
-  if (name.length <= 0) {
+  let selectedClient = $("#oldClientData option:selected");
+  const oldEmail = selectedClient.val();
+  const oldName = selectedClient.attr("data-name")
+  if(!oldName) {
+    $("#oldClientData").css("border-color","red")
     error = true;
-    $("#contactName").css("border-color", "red");
-  } else $("#contactName").css("border-color", "initial");
-  if (!isEmail(email)) {
-    error = true;
-    $("#contactEmail").css("border-color", "red");
-  } else {
-    $("#contactEmail").css("border-color", "initial");
   }
+  else {
+    $("#oldClientData").css("border-color","red")
+  }
+  let newName = $("#newContactName").val();
+  let newEmail = $("#newContactEmail").val();
+  if (newName.length <= 0 && newEmail.length <= 0) return;
+  if(newEmail.length > 0 && !isEmail(newEmail)){
+    $("#newContactEmail").css("border-color","red")
+    error = true;
+  }
+  else $("#newContactEmail").css("border-color","initial")
+  
   if(error) return;
 
 };
