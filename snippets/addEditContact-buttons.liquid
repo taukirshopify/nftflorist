@@ -120,6 +120,7 @@ $("#editContact").on("click", () => {
 });
 
 $(".addContact__modal .submit-contact").click((e) => {
+  e.preventDefault()
   if (edit) handleEditContact();
   else handleAddContact();
 });
@@ -129,11 +130,7 @@ console.log(edit);
 const handleAddContact = () => {
   $(".addContact__success").hide();
   $(".addContact__fail").hide();
-  e.preventDefault();
-  function isEmail(email) {
-    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-    return regex.test(email);
-  }
+
 
   let error = false;
   let name = $("#contactName").val();
@@ -163,5 +160,8 @@ const handleAddContact = () => {
       console.log(err);
     });
 };
-
+  function isEmail(email) {
+    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return regex.test(email);
+  }
 </script>
