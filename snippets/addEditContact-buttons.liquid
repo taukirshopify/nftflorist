@@ -102,7 +102,7 @@
 <script>
   let edit = false;
       $(".addContact__modal .btn-close").on("click",()=>{
-        if(edit) $(".addContact__modal").toggleClass("visible")
+        $(".addContact__modal").toggleClass("visible")
       })
       $("#addContact").on("click",()=>{
         $(".addContact__modal").toggleClass("visible")
