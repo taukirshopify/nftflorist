@@ -129,7 +129,11 @@
         const from = $("[data-customerid]").attr("data-customerid")
         const fromEmail = $("[data-customeremail]").attr("data-customeremail")
         const itemToBeGifted = $(".submit-gift").attr("data-lineid");
+                console.log(itemToBeGifted)
+
         if(!itemToBeGifted) return;
+        console.log(itemToBeGifted)
+        return;
         const withHttp = url => !/^https?:\/\//i.test(url) ? `http:${url}` : url;
         let bouquetImage = withHttp($(".submit-gift").attr("data-image"));
         
