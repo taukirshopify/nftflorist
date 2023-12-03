@@ -69,7 +69,7 @@
 
         <p class="center">
           <a href="#!" class="btn btn-default submit-gift">submit</a>
-          <a href="#!" class="btn btn-default">Close</a>
+          <a href="#!" class="btn btn-default btn-close-modal-send">Close</a>
         </p>
       </div>
     </div>
@@ -132,7 +132,8 @@
                 console.log(itemToBeGifted)
 
         if(!itemToBeGifted) {
-        return;  
+          $(".btn-close-modal-send").click()
+          return;  
         }
         const withHttp = url => !/^https?:\/\//i.test(url) ? `http:${url}` : url;
         let bouquetImage = withHttp($(".submit-gift").attr("data-image"));
