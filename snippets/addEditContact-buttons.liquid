@@ -156,6 +156,17 @@ const handleEditContact = () => {
       $(".container-editContact .addContact__success").show();
       $("#newContactName").val("");
       $("#newContactEmail").val("");
+      $("#oldClientData option:first").prop("selected","selected")
+      fetch(window.location.href).then(response=>response.text()).then(data=>{          
+          // Create a new DOMParser object
+          const parser = new DOMParser();
+          
+          // Parse the text as HTML
+          const htmlDoc = parser.parseFromString(data, 'text/html');
+          
+          // Access the parsed document
+          console.log(htmlDoc);
+      })
     })
     .catch((err) => {
       $(".container-editContact .addContact__fail").show();
