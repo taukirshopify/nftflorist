@@ -101,6 +101,8 @@ let edit = false;
 let customerId = {{ customer.id }}
 $(".addContact__modal .btn-close").on("click", () => {
   $(".addContact__modal").toggleClass("visible");
+  emptyAddModalData()
+  emptyEditModalData()
 });
 $("#addContact").on("click", () => {
   $(".addContact__modal").toggleClass("visible");
@@ -154,9 +156,7 @@ const handleEditContact = () => {
     .then((e) => {
       if (!e.ok) throw new Error("Server error");
       $(".container-editContact .addContact__success").show();
-      $("#newContactName").val("");
-      $("#newContactEmail").val("");
-      $("#oldClientData option:first").prop("selected","selected");
+      emptyEditModalData()
       updateSelectAfterContactOperation()
 
     })
@@ -191,8 +191,7 @@ const handleAddContact = () => {
     .then((e) => {
       if (!e.ok) throw new Error("Server error");
       $(".container-addContact .addContact__success").show();
-      $("#contactName").val("");
-      $("#contactEmail").val("");
+      emptyAddModalData()
       updateSelectAfterContactOperation()
       $("#editContact").show()
     })
@@ -204,6 +203,15 @@ const handleAddContact = () => {
   function isEmail(email) {
     var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     return regex.test(email);
+  }
+  const emptyEditModalData =()=>{
+     $("#newContactName").val("");
+      $("#newContactEmail").val("");
+      $("#oldClientData option:first").prop("selected","selected");
+  }
+  const emptyAddModalData = ()=>{
+    $("#contactName").val("");
+      $("#contactEmail").val("");
   }
   const updateSelectAfterContactOperation = ()=>{
           fetch(window.location.href).then(response=>response.text()).then(data=>{          
