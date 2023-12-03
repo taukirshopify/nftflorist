@@ -43,7 +43,7 @@
 </style>
 <div class="addContact__modal">
   <div class="modal-content newspaper">
-    <div class="container">
+    <div class="container container-addContact">
       <h2 class="customer__title text-center">Add contact</h2>
       <p class="addContact__success">Your contact was added successfully</p>
       <p class="addContact__fail">Something went wrong, please refresh the page and try again</p>
@@ -65,7 +65,7 @@
         <button class="btn btn-default btn-close">Close</button>
       </p>
     </div>
-        <div class="container" style="display:none;">
+        <div class="container container-editContact">
       
       <h2 class="customer__title text-center">Edit contact</h2>
       <p>If one of the two contact information is still the same, please leave it empty</p>
@@ -106,10 +106,13 @@
       })
       $("#addContact").on("click",()=>{
         $(".addContact__modal").toggleClass("visible")
+        $(".container-editContact").hide()
+        $(".container-addContact").show()
         edit = false;
       })
   $("#editContact").on("click",()=>{
-        $(".editContact__modal").toggleClass("visible");
+                $(".container-editContact").show()
+        $(".container-addContact").hide()
     edit = true;
       })
       
