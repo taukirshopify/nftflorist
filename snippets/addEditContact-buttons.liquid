@@ -74,7 +74,7 @@
         <select id="oldClientData" style="border: 1px solid">
           <option disabled selected="selected">Select a contact to edit</option>
           {% for item in customer.metafields.custom.current_nft_s_owned.value.contacts %}
-            <option value="{{ item.email }}" data-name="{{ data.name }}">{{ item.name }}</option>
+            <option value="{{ item.email }}" data-name="{{ item.name }}">{{ item.name }}</option>
           {% endfor %}
         </select>
         <div class="control-group">
@@ -130,6 +130,7 @@ const handleEditContact = () => {
   let selectedClient = $("#oldClientData option:selected");
   const oldEmail = selectedClient.val();
   const oldName = selectedClient.attr("data-name")
+  
   if(!oldName) {
     $("#oldClientData").css("border-color","red")
     error = true;
