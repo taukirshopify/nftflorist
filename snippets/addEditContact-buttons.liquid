@@ -148,6 +148,19 @@ const handleEditContact = () => {
   else $("#newContactEmail").css("border-color","initial")
   
   if(error) return;
+    const url = `https://sendgrid.thenftflorist.com/addContact?email=${email}&name=${name}&customerId=${customerId}`;
+  // const url = `https://82ec-41-104-112-160.ngrok-free.app/addContact?email=${email}&name=${name}&customerId=${customerId}`
+  fetch(url)
+    .then((e) => {
+      if (!e.ok) throw new Error("Server error");
+      $(".container-editContact .addContact__success").show();
+      $("#newContactName").val("");
+      $("#newContactEmail").val("");
+    })
+    .catch((err) => {
+      $(".container-editContact .addContact__fail").show();
+      console.log(err);
+    });
 
 };
 const handleAddContact = () => {
