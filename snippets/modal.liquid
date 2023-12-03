@@ -95,6 +95,8 @@
             $('.modal_content').css('display', 'block');
         })
         $('.close_btn').click(function() {
+          console.log("close");
+          console.log($("#email"))
         $("#previous_gifted option:first").prop("selected","selected")
            $("#firstname").val("")
         $("#email").val("")
