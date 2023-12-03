@@ -4,24 +4,24 @@
 </div>
 
 <style>
-        .addContact__modal,.editContact__modal{
+        .addContact__modal{
           display:flex;position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;background:transparent;justify-content:center;align-items:center;
           opacity: 0;
           transition: .3s ease-in-out;
           z-index:-1;
         }
-        .addContact__modal.visible,.editContact__modal.visible{
+        .addContact__modal.visible{
           opacity: 1;
           z-index: 1;
         }
-        .addContact__modal .modal-content,.editContact__modal .modal-content{
+        .addContact__modal .modal-content{
           max-width:600px;
               min-width: 400px;
       padding: 2rem;
       background: white;
               box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
         }
-        .addContact__modal .btn,.editContact__modal .btn{
+        .addContact__modal .btn{
               text-decoration: none;
       color: #acacac;
       border: 1px solid #000;
@@ -36,14 +36,36 @@
     display:none;
   }
 @media(max-width:450px){
-  .addContact__modal .modal-content,.editContact__modal .modal-content{
+  .addContact__modal .modal-content{
     min-width: auto;
   }
 }
 </style>
-<div class="editContact__modal">
+<div class="addContact__modal">
   <div class="modal-content newspaper">
     <div class="container">
+      <h2 class="customer__title text-center">Add contact</h2>
+      <p class="addContact__success">Your contact was added successfully</p>
+      <p class="addContact__fail">Something went wrong, please refresh the page and try again</p>
+      <div class="inputs__container">
+        <div class="control-group">
+          <input id="contactName" type="text" name="firstname" placeholder="Contact name">
+        </div>
+        <div class="control-group">
+          <input id="contactEmail" type="text" name="email" placeholder="Contact email">
+        </div>
+      </div>
+
+      <p class="center">
+        <button
+          class="btn btn-default submit-contact"
+        >
+          submit
+        </button>
+        <button class="btn btn-default btn-close">Close</button>
+      </p>
+    </div>
+        <div class="container" style="display:none;">
       
       <h2 class="customer__title text-center">Edit contact</h2>
       <p>If one of the two contact information is still the same, please leave it empty</p>
@@ -77,38 +99,10 @@
     </div>
   </div>
 </div>
-<div class="addContact__modal">
-  <div class="modal-content newspaper">
-    <div class="container">
-      
-      <h2 class="customer__title text-center">Add contact</h2>
-      <p class="addContact__success">Your contact was added successfully</p>
-      <p class="addContact__fail">Something went wrong, please refresh the page and try again</p>
-      <div class="inputs__container">
-        <div class="control-group">
-          <input id="contactName" type="text" name="firstname" placeholder="Contact name">
-        </div>
-        <div class="control-group">
-          <input id="contactEmail" type="text" name="email" placeholder="Contact email">
-        </div>
-      </div>
-
-      <p class="center">
-        <button
-          class="btn btn-default submit-contact"
-        >
-          submit
-        </button>
-        <button class="btn btn-default btn-close">Close</button>
-      </p>
-    </div>
-  </div>
-</div>
 <script>
   let edit = false;
       $(".addContact__modal .btn-close").on("click",()=>{
-        if(!edit) $(".addContact__modal").toggleClass("visible")
-        else $(".editContact__modal").toggleClass("visible");
+        if(edit) $(".addContact__modal").toggleClass("visible")
       })
       $("#addContact").on("click",()=>{
         $(".addContact__modal").toggleClass("visible")
