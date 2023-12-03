@@ -1,45 +1,45 @@
-<div >
+<div>
   <button id="addContact">ADD CONTACT</button>
   <button id="editContact">Edit contact</button>
 </div>
 
 <style>
-        .addContact__modal{
-          display:flex;position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;background:transparent;justify-content:center;align-items:center;
-          opacity: 0;
-          transition: .3s ease-in-out;
-          z-index:-1;
-        }
-        .addContact__modal.visible{
-          opacity: 1;
-          z-index: 1;
-        }
-        .addContact__modal .modal-content{
-          max-width:600px;
-              min-width: 400px;
-      padding: 2rem;
-      background: white;
-              box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
-        }
-        .addContact__modal .btn{
-              text-decoration: none;
-      color: #acacac;
-      border: 1px solid #000;
-      display: inline-block;
-      padding: 10px 16px;
-      font-size: 14px;
-  border: none;
-          background:black;
-          color:white;
-        }
-  .addContact__success,.addContact__fail{
-    display:none;
+          .addContact__modal{
+            display:flex;position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;background:transparent;justify-content:center;align-items:center;
+            opacity: 0;
+            transition: .3s ease-in-out;
+            z-index:-1;
+          }
+          .addContact__modal.visible{
+            opacity: 1;
+            z-index: 1;
+          }
+          .addContact__modal .modal-content{
+            max-width:600px;
+                min-width: 400px;
+        padding: 2rem;
+        background: white;
+                box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+          }
+          .addContact__modal .btn{
+                text-decoration: none;
+        color: #acacac;
+        border: 1px solid #000;
+        display: inline-block;
+        padding: 10px 16px;
+        font-size: 14px;
+    border: none;
+            background:black;
+            color:white;
+          }
+    .addContact__success,.addContact__fail{
+      display:none;
+    }
+  @media(max-width:450px){
+    .addContact__modal .modal-content{
+      min-width: auto;
+    }
   }
-@media(max-width:450px){
-  .addContact__modal .modal-content{
-    min-width: auto;
-  }
-}
 </style>
 <div class="addContact__modal">
   <div class="modal-content newspaper">
@@ -65,17 +65,14 @@
         <button class="btn btn-default btn-close">Close</button>
       </p>
     </div>
-        <div class="container container-editContact">
-      
+    <div class="container container-editContact">
       <h2 class="customer__title text-center">Edit contact</h2>
       <p>If one of the two contact information is still the same, please leave it empty</p>
       <p class="addContact__success">Your contact was edited successfully</p>
       <p class="addContact__fail">Something went wrong, please refresh the page and try again</p>
       <div class="inputs__container">
-        <select  style="border: 1px solid">
-          <option  disabled selected="selected">
-            Select a contact to edit
-          </option>
+        <select style="border: 1px solid">
+          <option disabled selected="selected">Select a contact to edit</option>
           {% for item in customer.metafields.custom.current_nft_s_owned.value.contacts %}
             <option value="{{ item.email }}" data-name="{{ data.name }}">{{ item.name }}</option>
           {% endfor %}
@@ -125,11 +122,28 @@ $(".addContact__modal .submit-contact").click((e) => {
   else handleAddContact();
 });
 const handleEditContact = () => {
-console.log(edit);
+  $(".container-editContact .addContact__success").hide();
+  $(".container-editContact .addContact__fail").hide();
+
+
+  let error = false;
+  let name = $("#contactName").val();
+  let email = $("#contactEmail").val();
+  if (name.length <= 0) {
+    error = true;
+    $("#contactName").css("border-color", "red");
+  } else $("#contactName").css("border-color", "initial");
+  if (!isEmail(email)) {
+    error = true;
+    $("#contactEmail").css("border-color", "red");
+  } else {
+    $("#contactEmail").css("border-color", "initial");
+  }
+
 };
 const handleAddContact = () => {
-  $(".addContact__success").hide();
-  $(".addContact__fail").hide();
+  $(".container-addContact .addContact__success").hide();
+  $(".container-addContact .addContact__fail").hide();
 
 
   let error = false;
