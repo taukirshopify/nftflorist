@@ -106,6 +106,8 @@
         fetch(url).then((e)=>{          
           if(!e.ok)     throw new Error('Server error');
           $(".addContact__success").show()
+          $("#contactName").val("")
+          $("#contactEmail").val("")
         }).catch(err=>{
           $(".addContact__fail").show()
           console.log(err)
