@@ -74,14 +74,15 @@
               <a href="{{ item.url }}">{{ item.name }}</a>
             </h5>
             <a style="display:none;" data-hideonsuccess="{{ item.variantId }}" href="#" class="btn">Transfer</a>
-            {% unless item.isGift %}
-              <a
+            <a
               href="#modal-10"
               data-lineid="{{ item.adminVariantId }}"
               data-image="{{ item.imageUrl }}"
               class="btn link trigger"
               >Gift
             </a>
+            {% unless item.isGift %}
+              
             {% endunless %}
           </div>
         </div>
