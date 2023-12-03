@@ -60,13 +60,9 @@
     </div>
 
     <div class="row" id="acountitem">
-      <script>
-        console.log({{ customer.metafields.custom.current_nft_s_owned.value | json}})
-      </script>
+
       {% for item in customer.metafields.custom.current_nft_s_owned.value.clientItems %}
-        <script>
-          console.log({{ item | json}})
-        </script>
+
         <div class="col-lg-3 col-md-4 col-6">
           <div class="innder-wrappper">
             <img width="350" height="350" src="{{ item.imageUrl }}" alt="">
