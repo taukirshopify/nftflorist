@@ -81,9 +81,7 @@
     
   document.addEventListener("DOMContentLoaded",()=>{
     $("#previous_gifted").on("change",(e)=>{
-
       var optionSelected = $(e.currentTarget).find("option:selected")
-      console.log(optionSelected)
       const name = optionSelected.attr("data-name");
       const email = optionSelected.val()
       $("#email").val(email)
@@ -129,8 +127,6 @@
         const from = $("[data-customerid]").attr("data-customerid")
         const fromEmail = $("[data-customeremail]").attr("data-customeremail")
         const itemToBeGifted = $(".submit-gift").attr("data-lineid");
-                console.log(itemToBeGifted)
-
         if(!itemToBeGifted) {
           $(".btn-close-modal-send")[0].click()
           return;  
