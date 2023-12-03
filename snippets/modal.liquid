@@ -31,14 +31,14 @@
       <div class="container">
         <h2 class="customer__title text-center">Gift Your NFT Bouquet</h2>
         <script>
-          console.log({{ customer.metafields.custom.current_nft_s_owned.value.gifted | json}})
+          console.log({{ customer.metafields.custom.current_nft_s_owned.value.contacts | json}})
         </script>
-        {% if customer.metafields.custom.current_nft_s_owned.value.gifted.size > 0 %}
+        {% if customer.metafields.custom.current_nft_s_owned.value.contacts.size > 0 %}
           <div>
             <label for="previous_gifted"> Select from previously sent to people </label>
             <select id="previous_gifted" style="padding: .75rem 4rem .75rem 1rem" id="previous_gifted">
               <option selected disabled>Select previous client</option>
-              {% for item in customer.metafields.custom.current_nft_s_owned.value.gifted %}
+              {% for item in customer.metafields.custom.current_nft_s_owned.value.contacts %}
                 <option data-name="{{ item.name }}" value="{{ item.email }}">
                   {{ item.name }}
                 </option>
