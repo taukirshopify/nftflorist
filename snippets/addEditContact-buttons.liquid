@@ -127,6 +127,7 @@ const handleEditContact = () => {
 
 
   let error = false;
+  let selectedClient = $("#oldClientData option:selected").attr('data-name');
   let name = $("#contactName").val();
   let email = $("#contactEmail").val();
   if (name.length <= 0) {
@@ -159,7 +160,7 @@ const handleAddContact = () => {
   } else {
     $("#contactEmail").css("border-color", "initial");
   }
-
+  if(error) return;
   const url = `https://sendgrid.thenftflorist.com/addContact?email=${email}&name=${name}&customerId=${customerId}`;
   // const url = `https://82ec-41-104-112-160.ngrok-free.app/addContact?email=${email}&name=${name}&customerId=${customerId}`
   fetch(url)
