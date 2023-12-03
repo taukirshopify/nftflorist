@@ -95,6 +95,9 @@
             $('.modal_content').css('display', 'block');
         })
         $('.close_btn').click(function() {
+           $("#firstname").val("")
+        $("#email").val("")
+        $("[name='comment']").val("")
             $('.modal_content').css('display', 'none');
         })
       $(".submit-gift").click((e)=>{
