@@ -1,6 +1,6 @@
 <div>
   <button id="addContact">ADD CONTACT</button>
-  <button id="editContact">Edit contact</button>
+  <button {% if customer.metafields.custom.current_nft_s_owned.value.contacts.size <= 0 %} style="display:none;" {% endif %} id="editContact">Edit contact</button>
 </div>
 
 <style>
