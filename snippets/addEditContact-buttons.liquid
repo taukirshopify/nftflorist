@@ -71,7 +71,7 @@
       <p class="addContact__success">Your contact was edited successfully</p>
       <p class="addContact__fail">Something went wrong, please refresh the page and try again</p>
       <div class="inputs__container">
-        <select style="border: 1px solid">
+        <select id="oldClientData" style="border: 1px solid">
           <option disabled selected="selected">Select a contact to edit</option>
           {% for item in customer.metafields.custom.current_nft_s_owned.value.contacts %}
             <option value="{{ item.email }}" data-name="{{ data.name }}">{{ item.name }}</option>
