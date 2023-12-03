@@ -44,14 +44,19 @@
 <div class="addContact__modal">
   <div class="modal-content newspaper">
     <div class="container">
+      
       <h2 class="customer__title text-center">Add contact</h2>
       <p class="addContact__success">Your contact was added successfully</p>
       <p class="addContact__fail">Something went wrong, please refresh the page and try again</p>
       <div class="inputs__container">
+        <select>
+          {% for item in customer.metafields.custom.current_nft_s_owned.value.contacts %}
+            <option value="{{ item.email }}" data-name="{{ data.name }}">{{ item.name }}</option>
+          {% endfor %}
+        </select>
         <div class="control-group">
           <input id="contactName" type="text" name="firstname" placeholder="Recipients Name">
         </div>
-
         <div class="control-group">
           <input id="contactEmail" type="text" name="email" placeholder="Recipients Email Address">
         </div>
