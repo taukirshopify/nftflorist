@@ -107,14 +107,15 @@
 <script>
   let edit = false;
       $(".addContact__modal .btn-close").on("click",()=>{
-        $(".addContact__modal").toggleClass("visible")
+        if(!edit) $(".addContact__modal").toggleClass("visible")
+        else $(".editContact__modal").toggleClass("visible");
       })
       $("#addContact").on("click",()=>{
         $(".addContact__modal").toggleClass("visible")
         edit = false;
       })
   $("#editContact").on("click",()=>{
-        // $(".editContact__modal").toggleClass("visible");
+        $(".editContact__modal").toggleClass("visible");
     edit = true;
       })
       
