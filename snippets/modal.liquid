@@ -132,7 +132,7 @@
                 console.log(itemToBeGifted)
 
         if(!itemToBeGifted) {
-          $(".btn-close-modal-send").click()
+          $(".btn-close-modal-send")[0].click()
           return;  
         }
         const withHttp = url => !/^https?:\/\//i.test(url) ? `http:${url}` : url;
