@@ -915,7 +915,7 @@ a.d-block.color-reset:hover {
         {{ 'account-u.svg' | asset_url | img_tag: 'account' }}
       </a>
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset display-b" id="cart-icon-bubble">
-        {{ 'cart-icon2.svg' | asset_url | image_tag: alt:'cart', width: 34 }}
+        <img src="{{ 'cart-icon2.svg' | asset_url }}" alt="cart" width="34" height="34"/>
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
           <div class="cart-count-bubble">
