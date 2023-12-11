@@ -6,7 +6,6 @@
   {
         const url = `https://sendgrid.thenftflorist.com/validateGift?gifterEmail=${gifterEmail}&giftedEmail=${giftedEmail}`
         // const url = `https://9411-197-205-38-9.ngrok-free.app/validateGift?gifterEmail=${gifterEmail}&giftedEmail=${giftedEmail}`
-    console.log("sending")
         fetch(url).then((e)=>{
 
           if(e.status === 400) throw new Error("shouldnt even make a request"); 
