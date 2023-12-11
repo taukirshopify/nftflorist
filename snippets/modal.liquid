@@ -33,7 +33,7 @@
           <div>
             <label for="previous_gifted"> Select from previously sent to people </label>
             <select id="previous_gifted" style="padding: .75rem 4rem .75rem 1rem" id="previous_gifted">
-              <option selected disabled>Select previous client</option>
+              <option selected disabled>Select existing contact</option>
               {% for item in customer.metafields.custom.current_nft_s_owned.value.contacts %}
                 <option data-name="{{ item.name }}" value="{{ item.email }}">
                   {{ item.name }}
