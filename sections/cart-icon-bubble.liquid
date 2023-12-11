@@ -1,10 +1,13 @@
-{%- liquid
+{% comment %}{%- liquid
   if cart == empty
     render 'icon-cart-empty'
   else
     render 'icon-cart'
   endif
 -%}
+{% endcomment %}
+        <img src="{{ 'cart-icon2.svg' | asset_url }}" alt="cart" width="34" height="34"/>
+
 <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
 {%- if cart != empty -%}
   <div class="cart-count-bubble">
