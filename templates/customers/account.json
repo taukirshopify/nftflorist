@@ -1,1 +1,24 @@
-{"sections":{"main":{"type":"main-account","settings":{"padding_top":36,"padding_bottom":36}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-account",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "dd7c211b-ef78-4594-bf32-1660976609d1": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div stlye=\"margin-left: auto; margin-right: auto;\"><a href=\"\">Contact Support<\/a><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dd7c211b-ef78-4594-bf32-1660976609d1"
+  ]
+}
