@@ -200,21 +200,28 @@
           "settings": {
             "collection": "get-well-soon"
           }
+        },
+        "69ed710b-dcfb-4cb6-b530-a96b8a2667b2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "good-luck"
+          }
         }
       },
       "block_order": [
         "template--18791163101492__51873ffc-b29f-413e-be9d-10fe1ad3b6d1-featured_collection-1",
         "template--18791163101492__51873ffc-b29f-413e-be9d-10fe1ad3b6d1-featured_collection-2",
-        "template--18791163101492__51873ffc-b29f-413e-be9d-10fe1ad3b6d1-featured_collection-3"
+        "template--18791163101492__51873ffc-b29f-413e-be9d-10fe1ad3b6d1-featured_collection-3",
+        "69ed710b-dcfb-4cb6-b530-a96b8a2667b2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
