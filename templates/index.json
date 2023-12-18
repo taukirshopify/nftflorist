@@ -180,40 +180,6 @@
         "section_title": "Bouquets for Occasions"
       }
     },
-    "3c140cd6-dbae-4acf-b36d-328b7c39644d": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "nft-bouquets",
-        "products_to_show": 9,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 8,
-        "padding_bottom": 36
-      }
-    },
-    "66985c85-0701-4b2c-bd90-ccf91ed57dc1": {
-      "type": "image-box",
-      "settings": {
-        "image_box_full": "shopify:\/\/shop_images\/111image-section-3-1.jpg",
-        "section_title": "ARTRKL Curated Bouquets"
-      }
-    },
     "51873ffc-b29f-413e-be9d-10fe1ad3b6d1": {
       "type": "collection-list",
       "blocks": {
@@ -252,6 +218,13 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "66985c85-0701-4b2c-bd90-ccf91ed57dc1": {
+      "type": "image-box",
+      "settings": {
+        "image_box_full": "shopify:\/\/shop_images\/111image-section-3-1.jpg",
+        "section_title": "ARTRKL Curated Bouquets"
       }
     },
     "06b15bb5-6b70-41b0-bc84-6df21b633c66": {
@@ -373,9 +346,8 @@
     "8c5d975d-6ea6-4165-83d3-b596523d27b0",
     "47bb4380-d5cb-414c-9f07-722601ee3888",
     "26004ae3-0f37-435a-a87d-af3215c021b9",
-    "3c140cd6-dbae-4acf-b36d-328b7c39644d",
-    "66985c85-0701-4b2c-bd90-ccf91ed57dc1",
     "51873ffc-b29f-413e-be9d-10fe1ad3b6d1",
+    "66985c85-0701-4b2c-bd90-ccf91ed57dc1",
     "06b15bb5-6b70-41b0-bc84-6df21b633c66",
     "eef1d430-61e3-4142-bc50-c21d1699e0bd",
     "a5a41073-12f8-4249-bd2e-5430d81d78fa",
