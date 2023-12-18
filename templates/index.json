@@ -29,7 +29,6 @@
         "template--18791163101492__d08e2bd5-d8ed-4353-98b2-22a6b65772f6-1684505431bac765bc-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Flower4.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -47,7 +46,6 @@
         "template--18791163101492__d08e2bd5-d8ed-4353-98b2-22a6b65772f6-1684505431bac765bc-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Flower5.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -65,7 +63,6 @@
         "2d193d49-43f1-492e-b755-33bdae786871": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Flower8.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -83,7 +80,6 @@
         "62747cf5-fe62-4661-a25e-78c49e8bdb52": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Flower11.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -101,7 +97,6 @@
         "0df3092c-e25c-492e-881d-8b919f392fc6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Flower6.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -159,7 +154,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "nft-bouquets",
+        "collection": "classic",
         "products_to_show": 9,
         "columns_desktop": 3,
         "full_width": true,
