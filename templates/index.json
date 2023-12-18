@@ -206,13 +206,27 @@
           "settings": {
             "collection": "good-luck"
           }
+        },
+        "808a07c7-e42d-44bd-b3c3-f9e732045116": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "happy-anniversary"
+          }
+        },
+        "b3fff91a-6298-42d8-afa0-14096068ec7f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "happy-birthday"
+          }
         }
       },
       "block_order": [
         "template--18791163101492__51873ffc-b29f-413e-be9d-10fe1ad3b6d1-featured_collection-1",
         "template--18791163101492__51873ffc-b29f-413e-be9d-10fe1ad3b6d1-featured_collection-2",
         "template--18791163101492__51873ffc-b29f-413e-be9d-10fe1ad3b6d1-featured_collection-3",
-        "69ed710b-dcfb-4cb6-b530-a96b8a2667b2"
+        "69ed710b-dcfb-4cb6-b530-a96b8a2667b2",
+        "808a07c7-e42d-44bd-b3c3-f9e732045116",
+        "b3fff91a-6298-42d8-afa0-14096068ec7f"
       ],
       "settings": {
         "title": "",
