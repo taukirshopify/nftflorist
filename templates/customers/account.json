@@ -1,5 +1,14 @@
 {
   "sections": {
+    "custom_liquid_zJKxxC": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div><a style=\"font-size: 2rem; text-align: center; text-decoration: underline; color: #822523;\" href=\"\/pages\/request-nft-wallet-transfer\">Request NFT Transfer Out<\/a><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-account",
       "settings": {
@@ -10,7 +19,7 @@
     "dd7c211b-ef78-4594-bf32-1660976609d1": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div><a style=\"font-size: 2rem; text-align: center; text-decoration: underline; color: #822523;\" href=\"\/pages\/request-nft-wallet-transfer\">Request NFT Transfer Out<\/a><a style=\"font-size: 2rem; text-align: center; color: #727272;\" href=\"mailto:contact@thenftflorist.com\">Contact Us: <ul>contact@thenftflorist.com<\/ul><\/a><\/div>",
+        "custom_liquid": "<div><a style=\"font-size: 2rem; text-align: center; color: #727272;\" href=\"mailto:contact@thenftflorist.com\">Contact Us: <ul>contact@thenftflorist.com<\/ul><\/a><\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -18,6 +27,7 @@
     }
   },
   "order": [
+    "custom_liquid_zJKxxC",
     "main",
     "dd7c211b-ef78-4594-bf32-1660976609d1"
   ]
