@@ -151,12 +151,10 @@
                 {%- endif -%}
                 <li class="grid__item">
                   {% assign first_available_product = '' %}
-                  {% for product in collection.products %}
                     {% if product.available %}
                       {% assign first_available_product = product %}
                       {% break %}
                     {% endif %}
-                  {% endfor %}
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
