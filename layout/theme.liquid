@@ -4,7 +4,6 @@
     {% assign firstAvailableProduct = collection.products | where: "available", true | first %}
     {% if firstAvailableProduct %}
     <script>
-      console.log({{ firstAvailableProduct | json }})
       window.location.href = "{{ firstAvailableProduct.url }}"
     </script>
     {% endif %}
