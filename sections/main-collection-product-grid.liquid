@@ -144,24 +144,7 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
-              {% assign first_available_product = '' %}
-              {% for product in collection.products %}
-                {% if product.available %}
-                  {% assign first_available_product = product %}
-                  {% break %}
-                {% endif %}
-              {% endfor %}
-              <script>
-                function redirectToProduct(product){
-                  const productUrl = product.url;
-                  window.location.href = productUrl;
-                }
-                const firstAvailableProduct = {
-                  url: '{{ first_available_product.url }}',
-                  title: '{{ first_available_product.title }}'
-                }
-                redirectToProduct(firstAvailableProduct)
-              </script>
+            
               {%- for product in collection.products -%}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
