@@ -5,7 +5,7 @@
     {% if firstAvailableProduct %}
     <script>
       console.log({{ firstAvailableProduct | json }})
-      window.location.href = {{ firstAvailableProduct.url }}
+      window.location.href = "{{ firstAvailableProduct.url }}"
     </script>
     {% endif %}
     <meta charset="utf-8">
