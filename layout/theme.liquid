@@ -2,7 +2,7 @@
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
     {% assign firstAvailableProduct = collection.products | where: "available", true | first %}
-    {% if firstAvailableProduct %}
+    {% if template == "collection" and firstAvailableProduct %}
     <script>
       window.location.href = "{{ firstAvailableProduct.url }}"
     </script>
