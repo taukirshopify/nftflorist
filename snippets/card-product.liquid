@@ -17,19 +17,7 @@
   Usage:
   {% render 'card-product', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
-<script>
-  console.log("{{ first_available_product.url }}")
-  
-  function redirectToProduct(product){
-    const productUrl = product.url;
-    window.location.href = productUrl;
-  }
-  const firstAvailableProduct = {
-    url: '{{ first_available_product.url }}',
-    title: '{{ first_available_product.title }}'
-  }
-  redirectToProduct(firstAvailableProduct)
-</script>
+
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
 {%- if card_product and card_product != empty -%}
