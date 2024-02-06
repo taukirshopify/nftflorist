@@ -150,6 +150,13 @@
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
                 <li class="grid__item">
+                  {% assign first_available_product = '' %}
+                  {% for product in collection.products %}
+                    {% if product.available %}
+                      {% assign first_available_product = product %}
+                      {% break %}
+                    {% endif %}
+                  {% endfor %}
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
@@ -158,7 +165,8 @@
                     show_rating: section.settings.show_rating,
                     lazy_load: lazy_load,
                     show_quick_add: section.settings.enable_quick_add,
-                    section_id: section.id
+                    section_id: section.id,
+                    first_available_product: first_available_product
                   %}
                 </li>
               {%- endfor -%}
