@@ -16,6 +16,60 @@
             "collection": "beethovens-5th"
           }
         },
+        "featured_collection_FHL8En": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-swedish-delight"
+          }
+        },
+        "featured_collection_mPGXzz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-rio"
+          }
+        },
+        "featured_collection_4gCkb8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-king-tut"
+          }
+        },
+        "featured_collection_QraR3f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-moonlight-sonata"
+          }
+        },
+        "featured_collection_KyRdQG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "euphoria-of-pink-carnations"
+          }
+        },
+        "featured_collection_phncdL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-rustic-peach-harvest"
+          }
+        },
+        "featured_collection_GM4RJM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-gift-of-zen"
+          }
+        },
+        "featured_collection_jKzNYC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-tranquility"
+          }
+        },
+        "featured_collection_XNUtRH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-vincent-van-gogh"
+          }
+        },
         "featured_collection_D9A3f3": {
           "type": "featured_collection",
           "settings": {
@@ -25,14 +79,44 @@
         "featured_collection_hKpdiw": {
           "type": "featured_collection",
           "settings": {
+            "collection": "the-summer-serenade"
+          }
+        },
+        "featured_collection_yBGzbn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-cherry-blossom-dreams"
+          }
+        },
+        "featured_collection_TfPJiK": {
+          "type": "featured_collection",
+          "settings": {
             "collection": "the-color-of-love"
+          }
+        },
+        "featured_collection_HiCPU8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-splendor-of-versailles"
           }
         }
       },
       "block_order": [
         "featured_collection_9UFwhr",
+        "featured_collection_FHL8En",
+        "featured_collection_mPGXzz",
+        "featured_collection_4gCkb8",
+        "featured_collection_QraR3f",
+        "featured_collection_KyRdQG",
+        "featured_collection_phncdL",
+        "featured_collection_GM4RJM",
+        "featured_collection_jKzNYC",
+        "featured_collection_XNUtRH",
         "featured_collection_D9A3f3",
-        "featured_collection_hKpdiw"
+        "featured_collection_hKpdiw",
+        "featured_collection_yBGzbn",
+        "featured_collection_TfPJiK",
+        "featured_collection_HiCPU8"
       ],
       "settings": {
         "title": "",
