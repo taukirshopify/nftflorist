@@ -165,6 +165,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "bss-b2b-675957e4b2a6": {
+        "type": "shopify:\/\/apps\/bss-b2b-wholesale-solution\/blocks\/config-header\/451233f2-9631-4c49-8b6f-057e4ebcde7f",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
