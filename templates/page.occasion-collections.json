@@ -1,0 +1,272 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "collection_list_8HWHNh": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_9UFwhr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beethovens-5th"
+          }
+        },
+        "featured_collection_FHL8En": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-swedish-delight"
+          }
+        },
+        "featured_collection_mPGXzz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-rio"
+          }
+        },
+        "featured_collection_4gCkb8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-king-tut"
+          }
+        },
+        "featured_collection_QraR3f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-moonlight-sonata"
+          }
+        },
+        "featured_collection_KyRdQG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "euphoria-of-pink-carnations"
+          }
+        },
+        "featured_collection_phncdL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-rustic-peach-harvest"
+          }
+        },
+        "featured_collection_GM4RJM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-gift-of-zen"
+          }
+        },
+        "featured_collection_jKzNYC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-tranquility"
+          }
+        },
+        "featured_collection_XNUtRH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-vincent-van-gogh"
+          }
+        },
+        "featured_collection_D9A3f3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-best-friends-forever"
+          }
+        },
+        "featured_collection_hKpdiw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-summer-serenade"
+          }
+        },
+        "featured_collection_yBGzbn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-cherry-blossom-dreams"
+          }
+        },
+        "featured_collection_TfPJiK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-color-of-love"
+          }
+        },
+        "featured_collection_HiCPU8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-splendor-of-versailles"
+          }
+        },
+        "featured_collection_tTtbad": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-one-true-love"
+          }
+        },
+        "featured_collection_YbzXkY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spring-sonata-roses"
+          }
+        },
+        "featured_collection_XHLEkH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-east-hampton"
+          }
+        },
+        "featured_collection_36eMyf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-paradiso"
+          }
+        },
+        "featured_collection_fz3tKD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-starlight-daisies"
+          }
+        },
+        "featured_collection_QApQyJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-three-wishes-granted"
+          }
+        },
+        "featured_collection_bX9NcG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-good-karma"
+          }
+        },
+        "featured_collection_EwbzKY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "love-is-in-the-air"
+          }
+        },
+        "featured_collection_PzYW67": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-you-are-always-my-valentine"
+          }
+        },
+        "featured_collection_XNCDqe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-enchanted-garden"
+          }
+        },
+        "featured_collection_ypA4HE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-claires-des-lunes"
+          }
+        },
+        "featured_collection_pReY3e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-astronomical-twelve-dozen-roses"
+          }
+        },
+        "featured_collection_Nf4cLx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-hawaiian-breeze"
+          }
+        },
+        "featured_collection_77TfkT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-love-on-the-beach"
+          }
+        },
+        "featured_collection_hzCBft": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-rue-du-faubourg-saint-honore-roses"
+          }
+        },
+        "featured_collection_HnRwwT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-swan-lake"
+          }
+        },
+        "featured_collection_TkGGPT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-revels-bolero"
+          }
+        },
+        "featured_collection_8AKFaw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-gold-and-silver-ball"
+          }
+        },
+        "featured_collection_hD4Ajz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-millennium-star"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_9UFwhr",
+        "featured_collection_FHL8En",
+        "featured_collection_mPGXzz",
+        "featured_collection_4gCkb8",
+        "featured_collection_QraR3f",
+        "featured_collection_KyRdQG",
+        "featured_collection_phncdL",
+        "featured_collection_GM4RJM",
+        "featured_collection_jKzNYC",
+        "featured_collection_XNUtRH",
+        "featured_collection_D9A3f3",
+        "featured_collection_hKpdiw",
+        "featured_collection_yBGzbn",
+        "featured_collection_TfPJiK",
+        "featured_collection_HiCPU8",
+        "featured_collection_tTtbad",
+        "featured_collection_YbzXkY",
+        "featured_collection_XHLEkH",
+        "featured_collection_36eMyf",
+        "featured_collection_fz3tKD",
+        "featured_collection_QApQyJ",
+        "featured_collection_bX9NcG",
+        "featured_collection_EwbzKY",
+        "featured_collection_PzYW67",
+        "featured_collection_XNCDqe",
+        "featured_collection_ypA4HE",
+        "featured_collection_pReY3e",
+        "featured_collection_Nf4cLx",
+        "featured_collection_77TfkT",
+        "featured_collection_hzCBft",
+        "featured_collection_HnRwwT",
+        "featured_collection_TkGGPT",
+        "featured_collection_8AKFaw",
+        "featured_collection_hD4Ajz"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collection_list_8HWHNh"
+  ]
+}
