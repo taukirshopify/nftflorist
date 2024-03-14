@@ -40,18 +40,6 @@
             "collection": "the-moonlight-sonata"
           }
         },
-        "featured_collection_KyRdQG": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "euphoria-of-pink-carnations"
-          }
-        },
-        "featured_collection_phncdL": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-rustic-peach-harvest"
-          }
-        },
         "featured_collection_GM4RJM": {
           "type": "featured_collection",
           "settings": {
@@ -148,12 +136,6 @@
             "collection": "love-is-in-the-air"
           }
         },
-        "featured_collection_PzYW67": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-you-are-always-my-valentine"
-          }
-        },
         "featured_collection_XNCDqe": {
           "type": "featured_collection",
           "settings": {
@@ -182,12 +164,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "the-love-on-the-beach"
-          }
-        },
-        "featured_collection_hzCBft": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-rue-du-faubourg-saint-honore-roses"
           }
         },
         "featured_collection_HnRwwT": {
@@ -221,8 +197,6 @@
         "featured_collection_mPGXzz",
         "featured_collection_4gCkb8",
         "featured_collection_QraR3f",
-        "featured_collection_KyRdQG",
-        "featured_collection_phncdL",
         "featured_collection_GM4RJM",
         "featured_collection_jKzNYC",
         "featured_collection_XNUtRH",
@@ -239,13 +213,11 @@
         "featured_collection_QApQyJ",
         "featured_collection_bX9NcG",
         "featured_collection_EwbzKY",
-        "featured_collection_PzYW67",
         "featured_collection_XNCDqe",
         "featured_collection_ypA4HE",
         "featured_collection_pReY3e",
         "featured_collection_Nf4cLx",
         "featured_collection_77TfkT",
-        "featured_collection_hzCBft",
         "featured_collection_HnRwwT",
         "featured_collection_TkGGPT",
         "featured_collection_8AKFaw",
