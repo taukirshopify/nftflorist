@@ -13,49 +13,56 @@
         "featured_collection_9UFwhr": {
           "type": "featured_collection",
           "settings": {
-            "collection": "love-is-in-the-air-get-well-soon"
+            "collection": "love-is-in-the-air-good-luck"
           }
         },
         "featured_collection_FHL8En": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-claires-des-lunes-get-well-soon"
+            "collection": "the-astronomical-twelve-dozen-roses-bouquet-good-luck"
+          }
+        },
+        "featured_collection_WTfPrx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-claires-des-lunes-good-luck"
           }
         },
         "featured_collection_mPGXzz": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-enchanted-garden-get-well-soon"
+            "collection": "the-enchanted-garden-good-luck"
           }
         },
         "featured_collection_4gCkb8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-euphoria-of-pink-carnations-get-well-soon"
+            "collection": "the-euphoria-of-pink-carnations-good-luck"
           }
         },
         "featured_collection_QraR3f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-paradiso-get-well-soon"
+            "collection": "the-paradiso-good-luck"
           }
         },
         "featured_collection_GM4RJM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-vincent-van-gogh-get-well-soon-edition-1"
+            "collection": "the-vincent-van-gogh-good-luck"
           }
         },
         "featured_collection_D9A3f3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-you-are-always-my-valentine-get-well-soon"
+            "collection": "the-you-are-always-my-valentine-good-luck"
           }
         }
       },
       "block_order": [
         "featured_collection_9UFwhr",
         "featured_collection_FHL8En",
+        "featured_collection_WTfPrx",
         "featured_collection_mPGXzz",
         "featured_collection_4gCkb8",
         "featured_collection_QraR3f",
