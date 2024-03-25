@@ -13,49 +13,55 @@
         "featured_collection_9UFwhr": {
           "type": "featured_collection",
           "settings": {
-            "collection": "love-is-in-the-air-good-luck"
+            "collection": "love-is-in-the-air-happy-birthday"
           }
         },
         "featured_collection_FHL8En": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-astronomical-twelve-dozen-roses-bouquet-good-luck"
+            "collection": "spring-sonata-roses-happy-birthday"
           }
         },
         "featured_collection_WTfPrx": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-claires-des-lunes-good-luck"
+            "collection": "the-astronomical-twelve-dozen-roses-bouquet-happy-birthday"
           }
         },
         "featured_collection_mPGXzz": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-enchanted-garden-good-luck"
+            "collection": "the-claires-des-lunes-happy-birthday"
           }
         },
         "featured_collection_4gCkb8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-euphoria-of-pink-carnations-good-luck"
+            "collection": "the-enchanted-garden-happy-birthday"
           }
         },
         "featured_collection_QraR3f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-paradiso-good-luck"
+            "collection": "the-euphoria-of-pink-carnations-happy-birthday"
           }
         },
         "featured_collection_GM4RJM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-vincent-van-gogh-good-luck"
+            "collection": "the-paradiso-happy-birthday"
           }
         },
         "featured_collection_D9A3f3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-you-are-always-my-valentine-good-luck"
+            "collection": "the-rue-du-faubourg-saint-honore-roses-happy-birthday"
+          }
+        },
+        "featured_collection_LfWEyr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-you-are-always-my-valentine-happy-birthday"
           }
         }
       },
@@ -67,7 +73,8 @@
         "featured_collection_4gCkb8",
         "featured_collection_QraR3f",
         "featured_collection_GM4RJM",
-        "featured_collection_D9A3f3"
+        "featured_collection_D9A3f3",
+        "featured_collection_LfWEyr"
       ],
       "settings": {
         "title": "",
