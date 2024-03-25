@@ -37,19 +37,13 @@
         "featured_collection_QraR3f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-paradiso-get-well-soon"
+            "collection": "the-summer-serenade-congratulations"
           }
         },
-        "featured_collection_GM4RJM": {
+        "featured_collection_xhfKxM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-vincent-van-gogh-get-well-soon-edition-1"
-          }
-        },
-        "featured_collection_D9A3f3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-you-are-always-my-valentine-get-well-soon"
+            "collection": "the-tranquility-congratulations"
           }
         }
       },
@@ -59,8 +53,7 @@
         "featured_collection_mPGXzz",
         "featured_collection_4gCkb8",
         "featured_collection_QraR3f",
-        "featured_collection_GM4RJM",
-        "featured_collection_D9A3f3"
+        "featured_collection_xhfKxM"
       ],
       "settings": {
         "title": "",
