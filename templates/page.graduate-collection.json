@@ -13,37 +13,37 @@
         "featured_collection_9UFwhr": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-astronomical-twelve-dozen-roses-congratulations"
+            "collection": "the-astronomical-twelve-dozen-roses-congratulations-graduate"
           }
         },
         "featured_collection_FHL8En": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-cherry-blossom-dreams-congratulations"
+            "collection": "the-cherry-blossom-dreams-congratulations-graduate"
           }
         },
         "featured_collection_mPGXzz": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-moonlight-sonata-congratulations"
+            "collection": "the-moonlight-sonata-congratulations-graduate"
           }
         },
         "featured_collection_4gCkb8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-rustic-peach-harvest-bouquet-congratulations"
-          }
-        },
-        "featured_collection_QraR3f": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-summer-serenade-congratulations"
+            "collection": "the-rustic-peach-harvest-bouquet-congratulations-graduate"
           }
         },
         "featured_collection_xhfKxM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-tranquility-congratulations"
+            "collection": "the-summer-serenade-congratulations-graduate"
+          }
+        },
+        "featured_collection_cjW8Pn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-tranquility-congratulations-graduate"
           }
         }
       },
@@ -52,8 +52,8 @@
         "featured_collection_FHL8En",
         "featured_collection_mPGXzz",
         "featured_collection_4gCkb8",
-        "featured_collection_QraR3f",
-        "featured_collection_xhfKxM"
+        "featured_collection_xhfKxM",
+        "featured_collection_cjW8Pn"
       ],
       "settings": {
         "title": "",
