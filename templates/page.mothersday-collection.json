@@ -13,54 +13,40 @@
         "featured_collection_9UFwhr": {
           "type": "featured_collection",
           "settings": {
-            "collection": "love-is-in-the-air-get-well-soon"
+            "collection": "spring-sonata-roses-happy-mothers-day"
+          }
+        },
+        "featured_collection_qwbP94": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-enchanted-garden-happy-mothers-day"
+          }
+        },
+        "featured_collection_TJby8j": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-euphoria-of-pink-carnations-happy-mothers-day"
           }
         },
         "featured_collection_FHL8En": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-claires-des-lunes-get-well-soon"
+            "collection": "the-paradiso-happy-mothers-day"
           }
         },
         "featured_collection_mPGXzz": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-enchanted-garden-get-well-soon"
-          }
-        },
-        "featured_collection_4gCkb8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-euphoria-of-pink-carnations-get-well-soon"
-          }
-        },
-        "featured_collection_QraR3f": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-paradiso-get-well-soon"
-          }
-        },
-        "featured_collection_GM4RJM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-vincent-van-gogh-get-well-soon-edition-1"
-          }
-        },
-        "featured_collection_D9A3f3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-you-are-always-my-valentine-get-well-soon"
+            "collection": "love-is-in-the-air-happy-mothers-day"
           }
         }
       },
       "block_order": [
         "featured_collection_9UFwhr",
+        "featured_collection_qwbP94",
+        "featured_collection_TJby8j",
         "featured_collection_FHL8En",
-        "featured_collection_mPGXzz",
-        "featured_collection_4gCkb8",
-        "featured_collection_QraR3f",
-        "featured_collection_GM4RJM",
-        "featured_collection_D9A3f3"
+        "featured_collection_mPGXzz"
       ],
       "settings": {
         "title": "",
