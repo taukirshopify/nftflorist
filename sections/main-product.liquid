@@ -81,6 +81,8 @@
               </p>
             {%- when 'title' -%}
               <div class="product__title gs3-prodtitle" {{ block.shopify_attributes }}>
+                {% assign nftTitle = product.title | split: 'Series' %}
+                <h1>{{ nftTitle[0] }}</h1>
                 <h1>{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
                   <h2 class="h1">
