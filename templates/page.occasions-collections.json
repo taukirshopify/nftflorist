@@ -13,37 +13,49 @@
         "featured_collection_9UFwhr": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-astronomical-twelve-dozen-roses-congratulations"
+            "collection": "congratulations"
           }
         },
         "featured_collection_FHL8En": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-cherry-blossom-dreams-congratulations"
+            "collection": "congratulations-graduate"
           }
         },
         "featured_collection_mPGXzz": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-moonlight-sonata-congratulations"
+            "collection": "fathers-day"
           }
         },
         "featured_collection_4gCkb8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-rustic-peach-harvest-bouquet-congratulations"
+            "collection": "mothers-day-1"
           }
         },
         "featured_collection_QraR3f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-summer-serenade-congratulations"
+            "collection": "happy-anniversary"
           }
         },
         "featured_collection_xhfKxM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-tranquility-congratulations"
+            "collection": "happy-birthday"
+          }
+        },
+        "featured_collection_gypnAw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "good-luck"
+          }
+        },
+        "featured_collection_LabdDe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "get-well-soon"
           }
         }
       },
@@ -53,7 +65,9 @@
         "featured_collection_mPGXzz",
         "featured_collection_4gCkb8",
         "featured_collection_QraR3f",
-        "featured_collection_xhfKxM"
+        "featured_collection_xhfKxM",
+        "featured_collection_gypnAw",
+        "featured_collection_LabdDe"
       ],
       "settings": {
         "title": "",
