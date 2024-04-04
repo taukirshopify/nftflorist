@@ -6,9 +6,25 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_box_XDVb7c": {
+      "type": "image-box",
+      "settings": {
+        "image_box_full": "shopify:\/\/shop_images\/The_East_Hampton_Series_1_Edition_91_of_500_7778.jpg",
+        "section_title": "Happy Birthday"
+      }
+    },
+    "image_box_bk7Jd3": {
+      "type": "image-box",
+      "settings": {
+        "image_box_full": "shopify:\/\/shop_images\/The_One_True_Love_Series_1_Edition_41_of_500_7777.jpg",
+        "section_title": "Happy Anniversary"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_box_XDVb7c",
+    "image_box_bk7Jd3"
   ]
 }
